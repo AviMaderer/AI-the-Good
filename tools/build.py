@@ -433,11 +433,13 @@ PANEL_JS = r"""
     inH.value = o.headline; inT.value = o.text; count(); showIntro();
   };
   const count = () => { $('count').textContent = words(inT.value) + ' words'; };
-  const keep = () => { opts[i].headline = inH.value; opts[i].text = inT.value; ls.set(DRAFT_KEY, JSON.stringify({ i, opts })); };
+  // Typing saves the boxes into the current option; Previous/Next only switch options.
+  const save = () => ls.set(DRAFT_KEY, JSON.stringify({ i, opts }));
+  const keep = () => { opts[i].headline = inH.value; opts[i].text = inT.value; save(); };
   inH.addEventListener('input', () => { keep(); showIntro(); });
   inT.addEventListener('input', () => { keep(); count(); showIntro(); });
-  $('prev').addEventListener('click', () => { i = (i - 1 + opts.length) % opts.length; keep(); draw(); });
-  $('next').addEventListener('click', () => { i = (i + 1) % opts.length; keep(); draw(); });
+  $('prev').addEventListener('click', () => { i = (i - 1 + opts.length) % opts.length; save(); draw(); });
+  $('next').addEventListener('click', () => { i = (i + 1) % opts.length; save(); draw(); });
 
   const mode = (which, note, kind) => {
     tok.hidden = which !== 'tok'; edit.hidden = which !== 'edit'; done.hidden = which !== 'done';
