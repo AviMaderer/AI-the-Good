@@ -29,7 +29,12 @@
         "text": "TEST intro option 5 (one-liner)."
       }
     ],
-    "final": null
+    "final": {
+      "headline": "TEST OPTION TWO",
+      "text": "TEST intro option 2 (doom-vs-evidence). Placeholder text for a release-flow test.",
+      "angle": "doom-vs-evidence",
+      "committed_at": "2026-10-05T07:29:15.208Z"
+    }
   },
   "stories": [
     {
