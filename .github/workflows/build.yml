@@ -1,0 +1,67 @@
+# Rebuilds the site whenever an edition file changes (including when Avi presses Commit on a
+# preview page, which writes intro.final and so releases the edition). GitHub Pages then
+# publishes the built pages from main.
+name: Build editions
+
+on:
+  push:
+    branches: [main]
+    paths: ["data/weeks/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Playwright and Chromium
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Build changed editions
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          if [ "${{ github.event_name }}" = "push" ] && git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            files=$(git diff --name-only "$BEFORE" "$GITHUB_SHA" -- 'data/weeks/*.json')
+          else
+            files=$(ls data/weeks/*.json 2>/dev/null || true)
+          fi
+          built=0
+          for f in $files; do
+            [ -f "$f" ] || continue
+            python tools/build.py "$f"
+            built=1
+          done
+          [ "$built" = 1 ] || echo "No edition files to build."
+
+      - name: Commit the built site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit -m "Build site (${GITHUB_SHA::7})"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          exit 1

@@ -1,0 +1,25 @@
+{
+  "site_name": "AI the Good",
+  "byline": "Real deployments, positive impact!",
+  "publisher": "Future of Purpose",
+  "publisher_url": "futureofpurpose.substack.com",
+  "site_url": "https://avimaderer.github.io/AI-the-Good/",
+  "repo": "AviMaderer/AI-the-Good",
+  "branch": "main",
+  "release_weekday": "Thursday",
+  "timezone": "Asia/Jerusalem",
+  "hashtag": "#AIforGood",
+  "dedication_contact": "",
+  "openers": [
+    "Most AI headlines are about fear. I like to share the evidence of AI already doing good. Here’s one:",
+    "I keep a running list of AI that is already helping people, with the numbers to back it up. This one made the list:",
+    "Not a promise, not a prototype. Here’s AI that is already working for people:",
+    "I try to share AI stories with real results behind them. This one checks out:",
+    "Amid all the noise about AI, here’s something it is quietly getting right:",
+    "I’d rather share what AI is actually doing for people than what it might do someday. Here’s a good example:",
+    "Here’s a deployed, measured result I wanted to pass along:",
+    "Every so often I find an AI story where the evidence is as good as the headline. This is one:",
+    "Worth a minute: a verified example of AI making life better for real people.",
+    "I share these because the good news about AI rarely makes the front page. Here’s one:"
+  ]
+}
