@@ -168,7 +168,7 @@ def bullet_html(text):
     return f"<b>{E(text[:i])}</b>{E(text[i:])}"
 
 def card_html(cfg, ed):
-    """The roundup card (1080x1350): CONTENT_RULES.md section 5. Layout per assets/card-reference.png."""
+    """The roundup card (1080x1350). Fixed design, specified in CONTENT_RULES.md section 5: keep the two in step."""
     d = dt.date.fromisoformat(ed["edition"])
     name = cfg["site_name"]
     title = E(name[:-4]) + "<mark>Good</mark>" if name.endswith("Good") else E(name)

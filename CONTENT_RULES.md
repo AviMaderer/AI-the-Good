@@ -87,9 +87,33 @@ Rules for all options: same voice as section 3, evergreen wording (no "week" or 
 
 The build renders `<RELEASE_DATE>/card.png` (1080 x 1350) from the stories with `"card": true`. Choose 3 or 4 stories with the most striking numbers across different domains, and use 4 whenever 4 qualify.
 
-- Match `assets/card-reference.png` exactly for layout, fonts and colors.
+**The design is fixed.** `tools/build.py` (`card_html`) draws it exactly as below. Never change the layout, colors, fonts or sizes; a run only supplies the content.
+
 - Content: header "FUTURE OF PURPOSE" and the release date; title "AI the Good" with the highlight on "Good"; byline "Real deployments, positive impact!"; one bullet per card story from its `bullet` field, with the text before the first comma in bold; footer `futureofpurpose.substack.com`.
 - If a bullet is longer than 78 characters, fix the bullet text. Do not shrink the font.
+
+Colors:
+
+| Element | Color |
+|---|---|
+| Background (flat, no pattern) | deep teal `#16302F` |
+| Title "AI the", bullet text | pale teal `#D4E4E0` |
+| Highlight behind "Good" | amber `#E3A75E`, with "Good" in deep teal `#16302F` |
+| Bold lede in each bullet | white `#FFFFFF` |
+| Bullet dots, short accent bar | amber `#E3A75E` |
+| Header, byline, footer text | sage `#A9C4BF` |
+| Divider lines under the header and above the footer | sage `#A9C4BF` at 35% opacity |
+
+Fonts: Rubik (500 and 700) for the header, title, byline and footer; Assistant (400 and 700) for the bullets. Both are in `assets/fonts/`.
+
+Layout, top to bottom (padding 84 px top, 88 px sides, 76 px bottom):
+
+1. **Header row:** "FUTURE OF PURPOSE" on the left and the release date on the right in the form `OCTOBER 8, 2026`; Rubik 500, 26 px, all capitals, letter-spacing 0.16 em. Then a 2 px divider line 30 px below.
+2. **Title:** "AI the Good", 64 px below the divider; Rubik 700, 132 px, letter-spacing -0.025 em. "Good" sits on an amber block with rounded corners (12 px radius, 0.14 em padding on each side).
+3. **Byline:** "Real deployments, positive impact!", 30 px below the title; Rubik 500, 40 px.
+4. **Accent bar:** amber, 140 x 8 px with rounded ends, 48 px below the byline.
+5. **Bullets:** start 56 px below the bar, 36 px apart; Assistant 400, 42 px, line height 1.28. Each has an 18 px amber dot on the left with the text indented 44 px. The text before the first comma is Assistant 700 in white; the rest is regular in pale teal. With no comma, the whole bullet is bold.
+6. **Footer:** pinned to the bottom, with a 2 px divider above it and 30 px of space between; `futureofpurpose.substack.com` in Rubik 500, 30 px, letter-spacing 0.03 em.
 
 ## 6. Logs, build and publish
 
