@@ -29,7 +29,12 @@
         "text": "TEST intro option 5 (one-liner)."
       }
     ],
-    "final": null
+    "final": {
+      "headline": "TEST OPTION ONE",
+      "text": "TEST intro option 1 (pattern). Placeholder text for a release-flow test. And then some text",
+      "angle": "question",
+      "committed_at": "2026-10-05T09:08:52.155Z"
+    }
   },
   "stories": [
     {
