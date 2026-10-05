@@ -1,0 +1,30 @@
+{
+  "edition": "2026-10-08",
+  "intro": {
+    "options": [],
+    "final": null
+  },
+  "stories": [
+    {
+      "key": "uk-autonomous-skin-triage",
+      "added": "2026-10-05",
+      "tag": "Cancer care",
+      "theme": "skin-cancer-detection",
+      "institution": "Chelsea & Westminster Hospital NHS Foundation Trust autonomous AI skin cancer triage (EADV 2026)",
+      "teaser": "AI triage frees specialist time for 8,500 skin appointments",
+      "headline": "AI clears benign skin referrals, freeing time for 8,500 more UK appointments",
+      "why": "Real-world study of 8,391 patients at 2 UK hospitals over 16 months, EADV Congress 2026",
+      "bullet": "8,500 more skin appointments, as AI cleared benign referrals at 2 UK hospitals",
+      "texts": [
+        "An autonomous AI triaged 8,391 urgent skin cancer referrals at two UK hospitals over 16 months. It discharged 25 to 31% of patients with benign lesions without clinician review, saving an estimated 2,851 hours of specialist time: enough for more than 8,500 extra face-to-face appointments.\n\nSensitivity for invasive melanoma, SCC and BCC was above 98%.\n\n#AIforGood",
+        "Waiting to hear whether a mole is cancer is hard. At two UK hospitals, an AI reviews images of referred skin lesions and can discharge people with benign ones without waiting for a specialist.\n\nOver 16 months that freed enough dermatologist time for more than 8,500 extra appointments, so specialists can focus on the patients who need them most.\n\n#AIforGood",
+        "What if the wait for a skin cancer check could get shorter for everyone? In a real-world study at two UK hospitals, an autonomous AI discharged a quarter to a third of urgent referrals with benign lesions, freeing 2,851 hours of specialist time across 8,391 patients.\n\nSix missed cases were later picked up through monitoring, with no harm reported.\n\n#AIforGood"
+      ],
+      "source": "https://medicalxpress.com/news/2026-09-autonomous-ai-capacity-thousands-dermatology.html",
+      "source_name": "European Academy of Dermatology and Venereology via Medical Xpress, Sep 30, 2026",
+      "site": "medicalxpress.com",
+      "og_title": "Autonomous AI could create capacity for thousands more dermatology appointments, real-world study finds",
+      "og_image": "https://scx1.b-cdn.net/csz/news/800a/2022/skin-moles.jpg"
+    }
+  ]
+}

@@ -69,3 +69,4 @@ date,edition,key,institution,theme,source
 2026-10-01,,,CU Anschutz SAVE-O2 trial (O2matic PRO100),oxygen-titration,
 2026-10-03,,,Tri-Service General Hospital AI-ECG alert trial,cardiac-diagnostics,
 2026-10-04,,,China AI stroke decision-support cluster trial (77 hospitals),stroke-secondary-prevention,
+2026-10-05,2026-10-08,uk-autonomous-skin-triage,Chelsea & Westminster Hospital NHS Foundation Trust autonomous AI skin cancer triage (EADV 2026),skin-cancer-detection,https://medicalxpress.com/news/2026-09-autonomous-ai-capacity-thousands-dermatology.html
