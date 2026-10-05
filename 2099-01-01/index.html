@@ -107,6 +107,23 @@ footer a{color:var(--ink)}
 <body><div class="wrap">
 
 
+<section class="panel" id="roundup" aria-labelledby="roundup-h" hidden>
+  <h2 id="roundup-h">Roundup post</h2>
+  <div class="grp">
+    <label class="flabel" for="post">For Facebook and LinkedIn</label>
+    <textarea class="field" id="post" rows="9" readonly>TEST OPTION ONE
+
+TEST intro option 1 (pattern). Placeholder text for a release-flow test. And then some text
+
+https://avimaderer.github.io/AI-the-Good/2099-01-01/
+</textarea>
+    <div class="actions">
+      <button type="button" class="btn primary" id="copy-post">Copy post</button>
+      <a class="btn" id="card-dl" href="card.png" download="ai-the-good-2099-01-01.png">Download card.png</a>
+    </div>
+    <p class="msg" id="done-msg" aria-live="polite"></p>
+  </div>
+</section>
 <header>
   <a class="brand" href="../archive/"><svg width="24" height="24" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#E3A75E"/><path d="M24 8C25.6 18.6 29.4 22.4 40 24C29.4 25.6 25.6 29.4 24 40C22.4 29.4 18.6 25.6 8 24C18.6 22.4 22.4 18.6 24 8Z" fill="#16302F"/><circle cx="36" cy="12" r="3" fill="#16302F"/></svg>AI the Good</a>
   <h1>AI the Good</h1>
@@ -336,5 +353,18 @@ cards.forEach((card, idx) => {
     await copy(); say('Sharing works on phones. Text copied: download the image and paste the text.');
   });
 });
+
+(() => {
+  let token = null; try { token = localStorage.getItem('aitg-gh-token'); } catch {}
+  if (!token) return;
+  const $ = id => document.getElementById(id);
+  $('roundup').hidden = false;
+  $('copy-post').addEventListener('click', async () => {
+    const t = $('post'), msg = $('done-msg'); let ok = false;
+    try { await navigator.clipboard.writeText(t.value); ok = true; } catch { t.select(); try { ok = document.execCommand('copy'); } catch {} }
+    msg.textContent = ok ? 'Post copied. Paste it into Facebook or LinkedIn with the card.' : 'Select the text and copy it.';
+    msg.className = 'msg ' + (ok ? 'ok' : 'err');
+  });
+})();
 </script>
 </body></html>

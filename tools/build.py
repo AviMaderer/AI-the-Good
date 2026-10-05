@@ -623,6 +623,39 @@ PANEL_HTML = """
   </div>
 </section>"""
 
+# Owner-only roundup on released pages: hidden unless this browser holds the Commit token.
+ROUNDUP_HTML = """
+<section class="panel" id="roundup" aria-labelledby="roundup-h" hidden>
+  <h2 id="roundup-h">Roundup post</h2>
+  <div class="grp">
+    <label class="flabel" for="post">For Facebook and LinkedIn</label>
+    <textarea class="field" id="post" rows="9" readonly>__POST__</textarea>
+    <div class="actions">
+      <button type="button" class="btn primary" id="copy-post">Copy post</button>
+__CARD_LINK__
+    </div>
+    <p class="msg" id="done-msg" aria-live="polite"></p>
+  </div>
+</section>"""
+
+CARD_LINK = '      <a class="btn" id="card-dl" href="card.png" download="__CARD_NAME__">Download card.png</a>'
+ROUNDUP_HTML = ROUNDUP_HTML.replace("__CARD_LINK__", CARD_LINK)
+
+ROUNDUP_JS = r"""
+(() => {
+  let token = null; try { token = localStorage.getItem('aitg-gh-token'); } catch {}
+  if (!token) return;
+  const $ = id => document.getElementById(id);
+  $('roundup').hidden = false;
+  $('copy-post').addEventListener('click', async () => {
+    const t = $('post'), msg = $('done-msg'); let ok = false;
+    try { await navigator.clipboard.writeText(t.value); ok = true; } catch { t.select(); try { ok = document.execCommand('copy'); } catch {} }
+    msg.textContent = ok ? 'Post copied. Paste it into Facebook or LinkedIn with the card.' : 'Select the text and copy it.';
+    msg.className = 'msg ' + (ok ? 'ok' : 'err');
+  });
+})();
+"""
+
 def head(cfg, title, desc, url, prefix):
     img = cfg["site_url"] + "assets/og-card.png"
     return f'''<!doctype html>
@@ -657,6 +690,11 @@ def edition_page(cfg, ed, ded):
             panel_js = f"const ED = {json.dumps(ed_js, ensure_ascii=False)};{PANEL_JS}"
         else:
             note += ' The intro options and the Commit panel appear after the release-day run.</p>'
+    else:
+        panel = ROUNDUP_HTML.replace("__POST__", E(social_post(cfg, ed))).replace("__CARD_NAME__", f"ai-the-good-{date}.png")
+        if not any(s.get("card") for s in stories):
+            panel = panel.replace(CARD_LINK.replace("__CARD_NAME__", f"ai-the-good-{date}.png"), "")
+        panel_js = ROUNDUP_JS
     return f'''{head(cfg, title, desc, cfg["site_url"] + date + "/", "../")}
 <body><div class="wrap">
 {note}
