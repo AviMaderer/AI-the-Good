@@ -105,42 +105,8 @@ footer{display:grid;gap:10px;color:var(--muted);font-size:15px}
 footer a{color:var(--ink)}
 </style></head>
 <body><div class="wrap">
-<p class="preview-note">Preview: not released yet. Only people with this link can see it. Choose or edit the intro, then press Commit to release it.</p>
 
-<section class="panel" id="panel" aria-labelledby="panel-h" hidden>
-  <h2 id="panel-h">Your intro</h2>
-  <div class="grp" id="tok">
-    <p class="msg" id="tok-msg" aria-live="polite"></p>
-    <label class="flabel" for="tok-in">GitHub token</label>
-    <input class="field" id="tok-in" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="github_pat_…">
-    <button type="button" class="btn primary" id="tok-save">Paste token</button>
-  </div>
-  <div class="grp" id="edit">
-    <div class="nav">
-      <button type="button" class="btn" id="prev" aria-label="Previous option">&#8249; Previous</button>
-      <span class="pos" id="pos" aria-live="polite"></span>
-      <button type="button" class="btn" id="next" aria-label="Next option">Next &#8250;</button>
-    </div>
-    <label class="flabel" for="in-h"><span>Headline</span><span>saved in capitals</span></label>
-    <input class="field" id="in-h" type="text" autocomplete="off">
-    <label class="flabel" for="in-t"><span>Text</span><span id="count"></span></label>
-    <textarea class="field" id="in-t" rows="8" spellcheck="true"></textarea>
-    <button type="button" class="btn primary" id="commit">Commit intro and release</button>
-    <p class="msg" id="msg" aria-live="polite"></p>
-    <button type="button" class="linkbtn" id="forget">Forget token on this device</button>
-  </div>
-  <div class="grp" id="done">
-    <p class="msg ok">Committed. GitHub is rebuilding the site now; the edition goes live in a few minutes.</p>
-    <a class="linkbtn" id="commit-link" target="_blank" rel="noopener" hidden>View the commit on GitHub</a>
-    <label class="flabel" for="post">Roundup post for Facebook and LinkedIn</label>
-    <textarea class="field" id="post" rows="9" readonly></textarea>
-    <div class="actions">
-      <button type="button" class="btn primary" id="copy-post">Copy post</button>
-      <a class="btn" id="card-dl" href="card.png" download="ai-the-good-2099-01-01.png">Download card.png</a>
-    </div>
-    <p class="msg" id="done-msg" aria-live="polite"></p>
-  </div>
-</section>
+
 <header>
   <a class="brand" href="../archive/"><svg width="24" height="24" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#E3A75E"/><path d="M24 8C25.6 18.6 29.4 22.4 40 24C29.4 25.6 25.6 29.4 24 40C22.4 29.4 18.6 25.6 8 24C18.6 22.4 22.4 18.6 24 8Z" fill="#16302F"/><circle cx="36" cy="12" r="3" fill="#16302F"/></svg>AI the Good</a>
   <h1>AI the Good</h1>
@@ -148,13 +114,13 @@ footer a{color:var(--ink)}
   <p class="date">1 January 2099 · 3 stories</p>
   
 </header>
-<section class="intro" aria-label="Intro"><p class="intro-k">Draft intro: not committed yet</p><h2 class="intro-h" id="intro-h">TEST OPTION ONE</h2><div class="intro-t" id="intro-t"><p>TEST intro option 1 (pattern). Placeholder text for a release-flow test.</p></div></section>
+<section class="intro" aria-label="Intro"><h2 class="intro-h" id="intro-h">TEST OPTION TWO</h2><div class="intro-t" id="intro-t"><p>TEST intro option 2 (doom-vs-evidence). Placeholder text for a release-flow test.</p></div></section>
 <details class="heads"><summary>All 3 headlines</summary><ul><li><a href="#test-story-1" class="jump">TEST placeholder story 1, not real</a></li><li><a href="#test-story-2" class="jump">TEST placeholder story 2, not real</a></li><li><a href="#test-story-3" class="jump">TEST placeholder story 3, not real</a></li></ul></details>
 <p class="sec">The stories</p>
 <div class="list" id="list">
 <details class="story" id="test-story-1" data-key="test-story-1">
   <summary>
-    <span class="top">Test<span class="badge card">On card</span></span>
+    <span class="top">Test</span>
     <h2>TEST placeholder story 1: not a real result</h2>
     <p class="why">TEST: placeholder text for a release-flow test, not a real study</p>
     <span class="more-cue">Open to share &#8250;</span>
@@ -195,7 +161,7 @@ footer a{color:var(--ink)}
 </details>
 <details class="story" id="test-story-2" data-key="test-story-2">
   <summary>
-    <span class="top">Test<span class="badge card">On card</span></span>
+    <span class="top">Test</span>
     <h2>TEST placeholder story 2: not a real result</h2>
     <p class="why">TEST: placeholder text for a release-flow test, not a real study</p>
     <span class="more-cue">Open to share &#8250;</span>
@@ -236,7 +202,7 @@ footer a{color:var(--ink)}
 </details>
 <details class="story" id="test-story-3" data-key="test-story-3">
   <summary>
-    <span class="top">Test<span class="badge card">On card</span></span>
+    <span class="top">Test</span>
     <h2>TEST placeholder story 3: not a real result</h2>
     <p class="why">TEST: placeholder text for a release-flow test, not a real study</p>
     <span class="more-cue">Open to share &#8250;</span>
@@ -370,118 +336,5 @@ cards.forEach((card, idx) => {
     await copy(); say('Sharing works on phones. Text copied: download the image and paste the text.');
   });
 });
-const ED = {"date": "2099-01-01", "repo": "AviMaderer/AI-the-Good", "branch": "main", "url": "https://avimaderer.github.io/AI-the-Good/2099-01-01/", "options": [{"angle": "pattern", "headline": "TEST OPTION ONE", "text": "TEST intro option 1 (pattern). Placeholder text for a release-flow test."}, {"angle": "doom-vs-evidence", "headline": "TEST OPTION TWO", "text": "TEST intro option 2 (doom-vs-evidence). Placeholder text for a release-flow test."}, {"angle": "purpose", "headline": "TEST OPTION THREE", "text": "TEST intro option 3 (purpose). Placeholder text for a release-flow test."}, {"angle": "question", "headline": "TEST OPTION FOUR", "text": "TEST intro option 4 (question). Placeholder text for a release-flow test?"}, {"angle": "one-liner", "headline": "TEST OPTION FIVE", "text": "TEST intro option 5 (one-liner)."}]};
-(() => {
-  const $ = id => document.getElementById(id);
-  const TOKEN_KEY = 'aitg-gh-token', DRAFT_KEY = 'aitg-draft-' + ED.date;
-  const ls = { get(k){ try { return localStorage.getItem(k); } catch { return null; } },
-               set(k, v){ try { localStorage.setItem(k, v); return true; } catch { return false; } },
-               del(k){ try { localStorage.removeItem(k); } catch {} } };
-  const opts = ED.options.map(o => ({ angle: o.angle || '', headline: o.headline, text: o.text }));
-  let i = 0;
-  try { const d = JSON.parse(ls.get(DRAFT_KEY) || 'null'); if (d && d.opts && d.opts.length === opts.length) { d.opts.forEach((o, n) => Object.assign(opts[n], { headline: o.headline, text: o.text })); i = Math.min(d.i || 0, opts.length - 1); } } catch {}
-  const tok = $('tok'), edit = $('edit'), done = $('done');
-  const inH = $('in-h'), inT = $('in-t'), msg = $('msg'), tokMsg = $('tok-msg');
-  const say = (el, text, kind) => { el.textContent = text; el.className = 'msg' + (kind ? ' ' + kind : ''); };
-  const words = t => (t.trim().match(/\S+/g) || []).length;
-
-  // Live preview of the intro block above the stories.
-  const showIntro = () => {
-    $('intro-h').textContent = inH.value.trim().toUpperCase();
-    const t = $('intro-t'); t.textContent = '';
-    inT.value.split(/\n\s*\n/).filter(p => p.trim()).forEach(p => { const e = document.createElement('p'); e.textContent = p.trim(); t.appendChild(e); });
-  };
-  const draw = () => {
-    const o = opts[i];
-    $('pos').innerHTML = ''; $('pos').append('Option ' + (i + 1) + ' of ' + opts.length);
-    const b = document.createElement('b'); b.textContent = o.angle.replace(/-/g, ' '); $('pos').appendChild(b);
-    inH.value = o.headline; inT.value = o.text; count(); showIntro();
-  };
-  const count = () => { $('count').textContent = words(inT.value) + ' words'; };
-  const keep = () => { opts[i].headline = inH.value; opts[i].text = inT.value; ls.set(DRAFT_KEY, JSON.stringify({ i, opts })); };
-  inH.addEventListener('input', () => { keep(); showIntro(); });
-  inT.addEventListener('input', () => { keep(); count(); showIntro(); });
-  $('prev').addEventListener('click', () => { i = (i - 1 + opts.length) % opts.length; keep(); draw(); });
-  $('next').addEventListener('click', () => { i = (i + 1) % opts.length; keep(); draw(); });
-
-  const mode = (which, note, kind) => {
-    tok.hidden = which !== 'tok'; edit.hidden = which !== 'edit'; done.hidden = which !== 'done';
-    if (which === 'tok') { say(tokMsg, note || 'Paste your GitHub token to choose and commit the intro. It is kept only in this browser.', kind); $('tok-in').value = ''; }
-  };
-
-  // ---- GitHub contents API ----
-  const API = 'https://api.github.com/repos/' + ED.repo + '/contents/data/weeks/' + ED.date + '.json';
-  const b64decode = b => new TextDecoder().decode(Uint8Array.from(atob(b.replace(/\s/g, '')), c => c.charCodeAt(0)));
-  const b64encode = s => { const u = new TextEncoder().encode(s); let bin = ''; for (let k = 0; k < u.length; k += 0x8000) bin += String.fromCharCode(...u.subarray(k, k + 0x8000)); return btoa(bin); };
-  class GHError extends Error { constructor(status, text){ super(text); this.status = status; } }
-  const gh = async (method, body) => {
-    const token = ls.get(TOKEN_KEY);
-    if (!token) throw new GHError(401, 'no token');
-    let r;
-    try {
-      r = await fetch(API + (method === 'GET' ? '?ref=' + enc(ED.branch) : ''), {
-        method, cache: 'no-store',
-        headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28',
-                   ...(body ? { 'Content-Type': 'application/json' } : {}) },
-        body: body ? JSON.stringify(body) : undefined });
-    } catch { throw new GHError(0, 'network'); }
-    let j = {}; try { j = await r.json(); } catch {}
-    if (!r.ok) throw new GHError(r.status, j.message || r.statusText);
-    return j;
-  };
-  const explain = e => {
-    if (e.status === 401) { ls.del(TOKEN_KEY); return ['tok', e.message === 'no token' ? '' : 'GitHub rejected the token: it has expired or been revoked. Paste a new one.', 'err']; }
-    if (e.status === 403) return ['tok', 'GitHub refused (' + e.message + '). The token needs Contents: Read and write on ' + ED.repo + '. Paste a token that has it.', 'err'];
-    if (e.status === 404) return ['tok', 'GitHub could not find data/weeks/' + ED.date + '.json in ' + ED.repo + '. Make sure the token has access to that repository, then paste it again.', 'err'];
-    if (e.status === 0) return ['edit', 'Could not reach GitHub. Check your connection and try again.', 'err'];
-    return ['edit', 'GitHub returned an error (' + e.status + ': ' + e.message + '). Nothing was committed. Try again.', 'err'];
-  };
-  const fail = e => { const [w, text, kind] = explain(e); if (w === 'tok') mode('tok', text, kind); else say(msg, text, kind); };
-
-  $('tok-save').addEventListener('click', async () => {
-    const v = $('tok-in').value.trim();
-    if (!v) { say(tokMsg, 'Paste the token first.', 'err'); return; }
-    if (!ls.set(TOKEN_KEY, v)) { say(tokMsg, 'This browser is blocking local storage, so the token cannot be kept. Allow site data for this page and try again.', 'err'); return; }
-    say(tokMsg, 'Checking the token with GitHub…');
-    try { await gh('GET'); mode('edit'); draw(); say(msg, 'Token saved in this browser.', 'ok'); }
-    catch (e) { fail(e); }
-  });
-  $('tok-in').addEventListener('keydown', e => { if (e.key === 'Enter') $('tok-save').click(); });
-  $('forget').addEventListener('click', () => { ls.del(TOKEN_KEY); mode('tok', 'Token removed from this browser.'); });
-
-  $('commit').addEventListener('click', async () => {
-    const headline = inH.value.trim().toUpperCase(), text = inT.value.trim();
-    if (!headline || !text) { say(msg, 'The headline and the text both need something in them.', 'err'); return; }
-    const btn = $('commit'); btn.disabled = true; say(msg, 'Committing to GitHub…');
-    const final = { headline, text, angle: opts[i].angle, committed_at: new Date().toISOString() };
-    try {
-      let res;
-      for (let attempt = 0; ; attempt++) {
-        const cur = await gh('GET');
-        const data = JSON.parse(b64decode(cur.content));
-        data.intro = data.intro || {}; data.intro.final = final;
-        try {
-          res = await gh('PUT', { message: 'Intro ' + ED.date + ': release', branch: ED.branch, sha: cur.sha,
-                                  content: b64encode(JSON.stringify(data, null, 2) + '\n') });
-          break;
-        } catch (e) { if ((e.status === 409 || e.status === 422) && attempt === 0) continue; throw e; }
-      }
-      ls.del(DRAFT_KEY);
-      const post = headline + '\n\n' + text + '\n\n' + ED.url + '\n';
-      $('post').value = post;
-      const link = $('commit-link'); if (res && res.commit && res.commit.html_url) { link.href = res.commit.html_url; link.hidden = false; }
-      mode('done');
-    } catch (e) { fail(e); }
-    finally { btn.disabled = false; }
-  });
-  $('copy-post').addEventListener('click', async () => {
-    const t = $('post'); let ok = false;
-    try { await navigator.clipboard.writeText(t.value); ok = true; } catch { t.select(); try { ok = document.execCommand('copy'); } catch {} }
-    say($('done-msg'), ok ? 'Post copied. Paste it into Facebook or LinkedIn with the card.' : 'Select the text and copy it.', ok ? 'ok' : 'err');
-  });
-
-  $('panel').hidden = false;
-  if (ls.get(TOKEN_KEY)) { mode('edit'); draw(); } else { mode('tok'); showIntro(); draw(); }
-})();
 </script>
 </body></html>
