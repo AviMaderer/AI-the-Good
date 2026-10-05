@@ -752,7 +752,10 @@ def main(edition_file):
     (ROOT / "index.html").write_text(redirect_page(cfg, rel[0] if rel else None), encoding="utf-8")
     (ROOT / "archive").mkdir(exist_ok=True)
     (ROOT / "archive/index.html").write_text(archive_page(cfg), encoding="utf-8")
-    log_stories(ed)
+    if ed.get("test"):
+        print("Test edition: not added to data/stories-log.csv.")
+    else:
+        log_stories(ed)
     page = f"{cfg['site_url']}{date}/"
     n_card = sum(1 for s in ed["stories"] if s.get("card"))
     if released(ed):
