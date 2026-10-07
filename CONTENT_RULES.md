@@ -9,7 +9,7 @@ The scheduled task follows this file. Edit it to change how stories are chosen o
 - One **edition per cycle**, named by the date of its release weekday in Israel time (`release_weekday` in `data/config.json`, default Thursday): `data/weeks/<RELEASE_DATE>.json`, published at `<site_url><RELEASE_DATE>/`.
 - Stories are **gathered every day, including Saturday**, into the **upcoming edition**. Until it is released, its page is an unlinked preview (only Avi has the link).
 - **Which edition to add to:** on the release weekday, today's edition. On any other day, the next release weekday's edition. Create the week file if it does not exist.
-- **Normal runs:** add **0-2 new stories** and rebuild. Email Avi a short note.
+- **Normal runs:** add **up to 3 new stories** and rebuild. Email Avi a short note.
 - **Release-day run:** add final stories (aim for 5 or more in the edition where they clear the bar; at least 3 to be worth releasing, and if there are fewer, say so in the email), choose the card stories, write the intro options, rebuild and push. This run does **not** release the edition.
 - **An edition is released only when Avi commits his intro** (section 4). Never release it yourself, and never publish it without his committed intro. If he has not committed, it stays an unreleased preview and every later email starts with a reminder line.
 - After the release-day run an edition is frozen: new stories go into the next edition, even while the frozen one waits for Avi. Never add to an edition once it is frozen or released.
@@ -25,15 +25,17 @@ The scheduled task follows this file. Edit it to change how stories are chosen o
 ## 2. Choosing stories
 
 - Search across **all** source groups in `data/sources.md`. Use WebSearch, site-restricted searches, and the sources' own news pages. Look back several days, not only the last 24 hours.
+- **Monday runs (Israel time) also do a weekly deep check:** the newest online-first articles of Nature Medicine, NEJM AI, The Lancet Digital Health, JAMA Network Open and npj Digital Medicine, and the newsrooms of major hospitals and universities, looking for deployed or measured AI outcomes. If a page is blocked, use the institution's own page for the same finding. Anything found goes through the same tests below.
+- **Roundups and aggregator articles are leads, not sources** (listicles, "top AI stories" round-ups, newsletters, aggregator sites). For each item named in one, find the primary source (the journal, institution or organization) and judge the story there. The primary source is the one you verify and cite in `source`.
 - Every story must:
   - show **AI having a positive, real-world effect on people or the planet**, as something **already deployed or already measured**. No funding announcements, pledges, "could one day" claims, competitions, prototypes, or pilots with no outcome data;
   - name a **specific application and a named institution or organization**, and include **at least one concrete number** (people reached, accuracy, time or cost saved, lives affected) where one exists;
   - rest on **peer-reviewed results or a named institution's own verified reporting**. Skip PR without outcomes and anything that is only a vendor's claim;
-  - be **recent**: prefer the last 4 weeks. A strong older story is acceptable only if it is clearly verified, and its age must be flagged in the email;
+  - be **recent**: prefer the newest, but accept stories published within the last 3 months. Always show the publication date in `source_name`, and flag anything published more than 4 weeks ago in the double-check list;
   - be **verified at the source**: open the article itself and check every number, name, date and quote against it. Never rely on a search snippet. If the page is blocked (PubMed, PMC, reCAPTCHA walls, paywalls), find the same finding on the institution's or journal's own page. If you cannot verify it, drop the story;
   - be positive on its own evidence: skip studies whose main result was null or negative, and flag in the double-check list if the study authors work for the company that makes the AI tool.
 - Aim for a **mix of domains** across the edition: medicine and diagnostics, public health, safety and emergency response, accessibility, agriculture and food, education, science, environment and conservation, poverty and financial inclusion, homelessness services, elder care, mental health. The quality bar beats the mix: never include a weaker story just to cover a domain.
-- **Theme saturation:** if a theme (for example diabetic-eye screening, breast-cancer second readers, brain-computer interfaces, sepsis alerts, or a specific model such as WeatherNext) already has two stories in the log, a further one must be a clearly different application. Say why in the double-check list.
+- **Theme limit:** at most 2 stories per theme within one edition (a theme is the `theme` slug, for example `diabetic-eye-screening`, `brain-computer-interface`, `sepsis-alerts`, or a specific model such as `weathernext`). A theme already in the log is allowed again if the institution, application or country is clearly different; say why in the double-check list.
 - No more than 2 stories from the same outlet per edition. Prefer free-to-read sources.
 - Skip political and partisan topics, and skip stories about the AI industry itself (data centers, funding, tax revenue, energy costs). This series is about AI applications that help people.
 
@@ -46,7 +48,7 @@ Voice: plain-spoken and direct, full sentences, no clichés or hype, light use o
 | `key` | short lowercase slug, unique within the edition (e.g. `mayo-redmod`) |
 | `added` | today's date, YYYY-MM-DD |
 | `tag` | domain, 1-2 words (e.g. `Cancer care`, `Wildlife`) |
-| `theme` | short lowercase slug for the log and the saturation check (e.g. `stroke-detection`) |
+| `theme` | short lowercase slug for the log and the theme limit (e.g. `stroke-detection`) |
 | `institution` | the named institution(s) and program, e.g. `Mayo Clinic REDMOD` |
 | `teaser` | max ~70 characters, for the headline list |
 | `headline` | max ~80 characters, plain and specific, naming the result |
@@ -55,7 +57,7 @@ Voice: plain-spoken and direct, full sentences, no clichés or hype, light use o
 | `card` | `true` on the 3-4 stories chosen for the card (set on the release-day run); otherwise omit |
 | `texts` | **three versions** of the post, each 40-70 words, short paragraphs: (1) number-led and factual, (2) human: who benefits and how, (3) opens with a question or a hook. Do NOT add an opening line (the page adds a rotating one). Do not use the words "week" or "weekly". Quotes only if copied exactly from the source. Each ends with the hashtag line `#AIforGood`. |
 | `source` | article URL (the page you actually fetched, never a google.com/url redirect) |
-| `source_name` | publisher and date, e.g. `Nature Medicine, Sep 22, 2026` |
+| `source_name` | publisher and publication date, always both, e.g. `Nature Medicine, Sep 22, 2026` |
 | `site` | publisher domain, e.g. `nature.com` |
 | `source_lang` | only for non-English sources: the language code, e.g. `"he"` |
 | `og_title` | the article's own title (its og:title) |
@@ -128,7 +130,7 @@ When Avi presses Commit on the preview page, a GitHub Actions workflow rebuilds 
 
 Always put the preview page link at the top. If an earlier edition is still waiting for Avi's intro, the second line says so, with its link. Write all URLs as plain text. Subjects are in all capitals.
 
-**Normal run** subject: `AI THE GOOD <DATE>: N STORIES ADDED TO <RELEASE_DATE> EDITION` (when N is 0: `AI THE GOOD <DATE>: NOTHING NEW`). Body: the preview link, the running story count, each new story's headline, source link and one line on how it was verified, and anything to double-check (an older story, a vendor-authored study, a theme already covered, a thin source, a missing preview image).
+**Normal run** subject: `AI THE GOOD <DATE>: N STORIES ADDED TO <RELEASE_DATE> EDITION` (when N is 0: `AI THE GOOD <DATE>: NOTHING NEW`). Body: the preview link, the running story count, each new story's headline, source link and one line on how it was verified, and anything to double-check (a story published more than 4 weeks ago, a vendor-authored study, a theme already in the log and why it is allowed, a thin source, a missing preview image).
 
 **Release-day run** subject: `AI THE GOOD EDITION <RELEASE_DATE>: READY FOR YOUR INTRO`. Body: the preview link ("choose or edit your intro, then press Commit"), the number of stories, the 3-4 card bullets, each new story as above, and anything to double-check.
 
