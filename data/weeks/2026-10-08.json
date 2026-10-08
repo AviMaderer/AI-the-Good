@@ -1,7 +1,33 @@
 {
   "edition": "2026-10-08",
   "intro": {
-    "options": [],
+    "options": [
+      {
+        "angle": "doom-vs-evidence",
+        "headline": "LESS FEAR, MORE EVIDENCE",
+        "text": "Most AI headlines are about risk, jobs and runaway machines. The story below is quieter and more useful. At two UK hospitals, an AI tool helped sort urgent skin cancer referrals, clearing benign cases and freeing specialist time for more than 8,500 extra appointments. It is one measured result, with its limits stated plainly. That kind of evidence deserves more attention than the next prediction."
+      },
+      {
+        "angle": "purpose",
+        "headline": "TIME GIVEN BACK TO CARE",
+        "text": "The best use of AI is not replacing the people who care for us. It is giving them back the time to do it. At two UK hospitals, an AI tool cleared benign skin referrals so dermatologists could offer more than 8,500 extra appointments to the patients who need them most. The purpose stays human. The technology clears the path."
+      },
+      {
+        "angle": "question",
+        "headline": "WHERE WOULD THE TIME GO?",
+        "text": "If a tool could take routine checks off a specialist's desk, where would you want that time to go? At two UK hospitals, an AI tool cleared benign skin referrals and freed enough dermatologist time for more than 8,500 extra appointments over 16 months. The result below is real and measured. The harder question is what we choose to do with the time it gives back."
+      },
+      {
+        "angle": "pattern",
+        "headline": "THE QUIET WORK OF TRIAGE",
+        "text": "The most useful AI in medicine is often the least dramatic. It does not take the spotlight or the final call. It sorts, so that people with real problems reach a specialist sooner. The story below shows that in practice: at two UK hospitals, AI triage of skin referrals freed time for more than 8,500 extra appointments, with its misses reported openly."
+      },
+      {
+        "angle": "one-liner",
+        "headline": "AI THAT MAKES ROOM",
+        "text": "At two UK hospitals, AI cleared benign skin referrals and made room for more than 8,500 extra specialist appointments."
+      }
+    ],
     "final": null
   },
   "stories": [
