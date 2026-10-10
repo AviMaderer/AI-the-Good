@@ -1,0 +1,30 @@
+{
+  "edition": "2026-10-15",
+  "intro": {
+    "options": [],
+    "final": null
+  },
+  "stories": [
+    {
+      "key": "gothenburg-ai-stroke",
+      "added": "2026-10-10",
+      "tag": "Stroke care",
+      "theme": "stroke-detection",
+      "institution": "Sahlgrenska University Hospital / University of Gothenburg, Brainomix 360 Stroke (Västra Götaland region)",
+      "teaser": "AI scan reads speed stroke clot removal by 12 minutes in Sweden",
+      "headline": "AI stroke scan analysis cut time to clot removal by 12 minutes in western Sweden",
+      "why": "Register study of 970 thrombectomy patients, 2021-2024, European Stroke Journal",
+      "bullet": "12 minutes faster to stroke clot removal, after AI scan reads across a region",
+      "texts": [
+        "After western Sweden's Västra Götaland region introduced an AI tool that analyses stroke brain scans, the median time from CT scan to the start of clot removal fell from 47 to 35 minutes.\n\nResearchers at Sahlgrenska University Hospital and the University of Gothenburg tracked 970 thrombectomy patients over three years. The results are in the European Stroke Journal.\n\n#AIforGood",
+        "In a stroke, time matters. In western Sweden, doctors now get AI-supported analysis of brain scans within about six minutes, helping them decide quickly who needs a blocked artery cleared.\n\nAfter the region adopted the tool, patients reached clot removal about 12 minutes sooner, with the clearest gains at the region's local primary stroke centres.\n\n#AIforGood",
+        "How much is 12 minutes worth to a stroke patient waiting for a blocked artery to be cleared? Researchers in Gothenburg tracked 970 thrombectomy patients before and after their region adopted AI-supported scan analysis.\n\nThe median time from CT scan to the start of the procedure fell from 47 to 35 minutes.\n\n#AIforGood"
+      ],
+      "source": "https://academic.oup.com/esj/article/11/8/aakag098/8767346",
+      "source_name": "European Stroke Journal, Aug 20, 2026",
+      "site": "academic.oup.com",
+      "og_title": "Implementation of an AI-supported decision-making tool in a high-volume stroke system with routine perfusion imaging",
+      "og_image": ""
+    }
+  ]
+}

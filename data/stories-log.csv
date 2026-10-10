@@ -70,3 +70,4 @@ date,edition,key,institution,theme,source
 2026-10-03,,,Tri-Service General Hospital AI-ECG alert trial,cardiac-diagnostics,
 2026-10-04,,,China AI stroke decision-support cluster trial (77 hospitals),stroke-secondary-prevention,
 2026-10-05,2026-10-08,uk-autonomous-skin-triage,Chelsea & Westminster Hospital NHS Foundation Trust autonomous AI skin cancer triage (EADV 2026),skin-cancer-detection,https://medicalxpress.com/news/2026-09-autonomous-ai-capacity-thousands-dermatology.html
+2026-10-10,2026-10-15,gothenburg-ai-stroke,"Sahlgrenska University Hospital / University of Gothenburg, Brainomix 360 Stroke (Västra Götaland region)",stroke-detection,https://academic.oup.com/esj/article/11/8/aakag098/8767346
