@@ -29,7 +29,12 @@
         "text": "Here is AI already working for people, with the numbers to show it."
       }
     ],
-    "final": null
+    "final": {
+      "headline": "THE OTHER AI HEADLINES",
+      "text": "Most AI headlines are about what might go wrong. The results below are about what is already going right: more cancers caught early, faster stroke care, methane leaks found from space and fixed, fewer road crashes. Each one comes from a named institution, with numbers you can check at the source.",
+      "angle": "doom-vs-evidence",
+      "committed_at": "2026-10-12T09:50:44.885Z"
+    }
   },
   "stories": [
     {
