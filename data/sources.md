@@ -47,6 +47,8 @@ Rules: no more than 2 stories from the same outlet per edition. Prefer free-to-r
 - The New Humanitarian (thenewhumanitarian.org)
 - Gates Foundation stories, outcomes only (gatesfoundation.org/ideas)
 - J-PAL and CEGA evaluations (povertyactionlab.org, cega.berkeley.edu)
+- California Policy Lab (capolicylab.org)
+- Wadhwani AI (wadhwaniai.org)
 
 ## Conservation, climate and agriculture organizations
 - WWF (worldwildlife.org)
@@ -57,6 +59,9 @@ Rules: no more than 2 stories from the same outlet per edition. Prefer free-to-r
 - UNEP and the International Methane Emissions Observatory (unep.org)
 - CGIAR and its centers (cgiar.org)
 - Digital Green (digitalgreen.org)
+- Google Flood Hub and its impact reports (sites.research.google/floods)
+- WMO impact and Early Warnings for All reports (wmo.int)
+- Global Fishing Watch (globalfishingwatch.org)
 - FAO (fao.org/newsroom)
 - Mongabay (mongabay.com)
 

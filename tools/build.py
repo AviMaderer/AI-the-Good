@@ -43,7 +43,10 @@ def load(edition_file):
     assert date == path.stem, f"edition date '{date}' does not match the file name {path.name}"
     release = dt.date.fromisoformat(date)
     weekday = cfg.get("release_weekday", "Thursday")
-    assert release.strftime("%A") == weekday, f"{date} is a {release:%A}; editions are named by their {weekday}"
+    if ed.get("off_cycle"):
+        print(f"Off-cycle edition: {date} is a {release:%A}, not a {weekday}.")
+    else:
+        assert release.strftime("%A") == weekday, f"{date} is a {release:%A}; editions are named by their {weekday}"
     ed["edition"] = date
     assert ed.get("stories"), "the edition has no stories"
     keys = set()
