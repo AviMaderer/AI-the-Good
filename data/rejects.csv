@@ -40,3 +40,24 @@ date,title_or_url,reason
 2026-10-12,npj Digit Med: AI opportunistic osteoporosis screening on chest radiographs (Korea),Retrospective validation; savings simulated
 2026-10-12,npj Digit Med: DeepAD infant motion screening for cerebral palsy (China),Retrospective model validation on archived videos
 2026-10-12,npj Digit Med: MSK digital transitional care and readmissions,Rule-based symptom monitoring; not AI
+2026-10-12,"SAVE-O2 autonomous oxygen titration trial (CU Anschutz, JAMA Intern Med, Aug 3 2026)","Not AI: institution describes an automated pulse-oximetry controller, no machine learning"
+2026-10-12,University of Utah LUKE Arm / BIOS first home trial (Sep 18 2026),No measured outcomes yet; qualitative reports only; lead researcher is BIOS chief scientist
+2026-10-12,"Optasia AI microlending (Semafor, Jul 22 2026)",All outcome figures are the company's own claims
+2026-10-12,Johns Hopkins / Sweetch AI diabetes prevention RCT (JAMA),Published Oct 27 2025; outside 3-month window
+2026-10-12,Lurie Children's cochlear implant outcome predictor,Retrospective prediction model; reported Jan 2026; outside window
+2026-10-12,Anyang Model AI emergency care (Scientific Reports),Published Jul 6 2026; outside 3-month window
+2026-10-12,"Jacaranda Health PROMPTS (NPR, Sep 17 2026)",Reach and operational figures only; no measured outcomes in window
+2026-10-12,Guizhou AI fetal ultrasound quality control (BMC Medicine),Published Mar 6 2026; outside window
+2026-10-12,"Dubai Health Little Falcon rapid genome sequencing (Nature Medicine, Aug 24 2026)",Not AI: rapid sequencing program; no AI or ML in the paper
+2026-10-12,"Maastricht / ILO GPT-4o physician RCT (npj Digit Med, Sep 9 2026)","Clinical vignettes under controlled conditions, not real patients"
+2026-10-12,Imperial College AI-ECG heart failure and aortic stenosis (ESC 2026),Retrospective accuracy only; NHS testing ongoing with no outcomes
+2026-10-12,Lancaster / Imperial / ZSL acoustic blast-fishing detection (Aug 17 2026),Measures the harm only; not used for enforcement; no deployed outcome
+2026-10-12,Google DeepMind / Fab AI Sierra Leone tutor RCT,Published Jun 9 2026; outside window; vendor-reported
+2026-10-12,Cornell / UC Berkeley Kenya malnutrition forecasting,Deployment announced Apr 2026; no measured outcome in window
+2026-10-12,"The Ocean Cleanup ADIS (Environ Res Commun, Jul 3 2026)",Published before window; monitoring study by developer staff
+2026-10-12,EarthRanger wildlife platform,No primary source in window with a measured outcome
+2026-10-12,"ALERTCalifornia AI cameras (Governor's office, Sep 14 2026)","Cumulative 900-fires claim with no period, in a political press release; not newly measured"
+2026-10-12,"Android Earthquake Alerts Turkey study (Nat Commun, Aug 11 2026)","Detector is threshold-based, not machine learning"
+2026-10-12,NBER: AI calling tool for deaf delivery workers,Working paper issued Jun 2026; outside window; not peer-reviewed
+2026-10-12,"CSIR Meerkat radar, Kruger (SABC, Oct 5 2026)",Effect on poaching not quantified yet
+2026-10-12,Tamil Nadu AI elephant rail alerts,"Jul 7 2026, outside window; source is an official's social-media post"

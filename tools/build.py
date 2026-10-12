@@ -165,7 +165,10 @@ h1{{margin:22px 0 0;font:700 86px/1.06 Rubik;color:{PALE};letter-spacing:-.015em
 <div class="t">{E(s["tag"])}</div><h1>{E(s["headline"])}</h1><div class="r"></div></div></body></html>'''
 
 def bullet_html(text):
-    i = text.find(",")
+    # The lede ends at the first comma that is not a thousands separator (8,500 stays whole).
+    import re
+    m = re.search(r",(?!\d)", text)
+    i = m.start() if m else -1
     if i < 0:
         return f"<b>{E(text)}</b>"
     return f"<b>{E(text[:i])}</b>{E(text[i:])}"

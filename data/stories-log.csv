@@ -26,7 +26,7 @@ date,edition,key,institution,theme,source
 2026-09-17,,,Korea University Guro/SNU Bundang/JLK stroke LVO CT AI,stroke-detection,
 2026-09-17,,,University of Miami Parkinson's decline prediction AI,parkinsons-prediction,
 2026-09-17,,,Mitchell School District/Amira Learning reading tutor,reading-tutor,
-2026-09-18,,,Feinstein Institutes/Northwell double neural bypass,brain-computer-interface,
+2026-09-18,2026-10-12,feinstein-neural-bypass,Feinstein Institutes/Northwell double neural bypass,brain-computer-interface,https://www.nature.com/articles/s41591-026-04498-0
 2026-09-18,,,ALERTCalifornia/UC San Diego wildfire camera network,wildfire-detection,
 2026-09-18,,,Confluence Health ambient AI scribe,clinical-documentation,
 2026-09-19,,,OSF HealthCare Rapid AI stroke detection,stroke-detection,
@@ -36,7 +36,7 @@ date,edition,key,institution,theme,source
 2026-09-20,,,"Maastricht University/ILO GPT-4o physician trial (Indonesia, Kenya)",clinical-decision-support,
 2026-09-20,,,Cornell/UC Berkeley malnutrition forecasting (Kenya NDMA),malnutrition-forecasting,
 2026-09-20,,,Dartmouth Therabot,mental-health-chatbot,
-2026-09-20,,,UNEP IMEO Methane Alert and Response System,methane-detection,
+2026-09-20,2026-10-12,unep-methane-alerts,UNEP IMEO Methane Alert and Response System,methane-detection,https://www.unep.org/news-and-stories/press-release/ai-helping-un-detect-methane-emissions-and-spark-real-reductions
 2026-09-21,,,Imperial College London/ZSL acoustic blast-fishing detection,reef-protection,
 2026-09-21,,,Google DeepMind/Fab AI Sierra Leone Gemini tutor,ai-tutoring,
 2026-09-21,,,Dubai Health Little Falcon rapid genome sequencing,rapid-genomic-diagnosis,
@@ -55,19 +55,20 @@ date,edition,key,institution,theme,source
 2026-09-26,,,African AVE Collaborative (Global Health Labs/CHAI) cervical screening,cervical-cancer-screening,
 2026-09-26,,,Optasia AI microlending,financial-inclusion,
 2026-09-26,,,Washington State University/Google SpeciesNet,wildlife-camera-traps,
-2026-09-27,,,OHSU Knight Cancer Institute Galleri PATHFINDER 2,multi-cancer-detection,
+2026-09-27,2026-10-12,galleri-pathfinder2,OHSU Knight Cancer Institute Galleri PATHFINDER 2,multi-cancer-detection,https://www.nature.com/articles/s41591-026-04618-w
 2026-09-27,,,University of Utah LUKE Arm/BIOS nerve interface,neural-prosthetics,
 2026-09-27,,,Anthropic Claude Fermat's Last Theorem formalization,math-formalization,
 2026-09-27,,,Stanford Octopi malaria microscope,malaria-diagnosis,
 2026-09-28,,,Imperial College London AI-ECG heart failure and aortic stenosis,cardiac-diagnostics,
 2026-09-28,,,Limbic cognitive layer for CBT chatbots,mental-health-chatbot,
 2026-09-28,,,Emory Winship Cancer Institute trial-eligibility screening,trial-recruitment,
-2026-09-29,,,Mayo Clinic AI-guided cardiac ultrasound for aortic stenosis,cardiac-diagnostics,
+2026-09-29,2026-10-12,mayo-ai-heart-ultrasound,Mayo Clinic AI-guided cardiac ultrasound for aortic stenosis,cardiac-diagnostics,https://jamanetwork.com/journals/jama/fullarticle/10.1001/jamacardio.2026.3829
 2026-09-29,,,LA County DHS/California Policy Lab Homelessness Prevention Unit,homelessness-prevention,
 2026-09-30,,,Geisinger ML colonoscopy outreach,colorectal-screening,
 2026-09-30,,,Kaiser Permanente Northwest AI MRI noise reduction,mri-acceleration,
 2026-10-01,,,CU Anschutz SAVE-O2 trial (O2matic PRO100),oxygen-titration,
 2026-10-03,,,Tri-Service General Hospital AI-ECG alert trial,cardiac-diagnostics,
 2026-10-04,,,China AI stroke decision-support cluster trial (77 hospitals),stroke-secondary-prevention,
-2026-10-05,2026-10-08,uk-autonomous-skin-triage,Chelsea & Westminster Hospital NHS Foundation Trust autonomous AI skin cancer triage (EADV 2026),skin-cancer-detection,https://medicalxpress.com/news/2026-09-autonomous-ai-capacity-thousands-dermatology.html
-2026-10-10,2026-10-15,gothenburg-ai-stroke,"Sahlgrenska University Hospital / University of Gothenburg, Brainomix 360 Stroke (Västra Götaland region)",stroke-detection,https://academic.oup.com/esj/article/11/8/aakag098/8767346
+2026-10-05,2026-10-12,uk-autonomous-skin-triage,Chelsea & Westminster Hospital NHS Foundation Trust autonomous AI skin cancer triage (EADV 2026),skin-cancer-detection,https://medicalxpress.com/news/2026-09-autonomous-ai-capacity-thousands-dermatology.html
+2026-10-10,2026-10-12,gothenburg-ai-stroke,"Sahlgrenska University Hospital / University of Gothenburg, Brainomix 360 Stroke (Västra Götaland region)",stroke-detection,https://academic.oup.com/esj/article/11/8/aakag098/8767346
+2026-10-12,2026-10-12,iihs-waymo-crashes,Insurance Institute for Highway Safety (IIHS) study of Waymo driverless vehicles,autonomous-driving-safety,https://www.iihs.org/news/detail/waymos-driverless-cars-crash-less-often-than-people

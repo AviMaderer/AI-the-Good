@@ -1,0 +1,185 @@
+{
+  "edition": "2026-10-12",
+  "off_cycle": true,
+  "intro": {
+    "options": [
+      {
+        "angle": "pattern",
+        "headline": "AI THAT DOES THE CHECKING",
+        "text": "Look at what the AI below actually does. It reads a skin photo, a blood sample, a heart scan, a stroke scan, satellite data, the road. In each case it does the first, repetitive look, so people with the expertise can spend their time where it counts. That is the common thread: not replacing judgement, but getting it to the right place sooner."
+      },
+      {
+        "angle": "doom-vs-evidence",
+        "headline": "THE OTHER AI HEADLINES",
+        "text": "Most AI headlines are about what might go wrong. The results below are about what is already going right: more cancers caught early, faster stroke care, methane leaks found from space and fixed, fewer road crashes. Each one comes from a named institution, with numbers you can check at the source."
+      },
+      {
+        "angle": "purpose",
+        "headline": "TOOLS THAT SERVE PEOPLE",
+        "text": "Behind every number below is a person: a patient waiting on a skin check, a man feeling his hand again, a driver getting home safely. The best uses of AI are not about machines taking over. They help doctors, scientists and communities do more of the work they care about, and give people more of their lives back."
+      },
+      {
+        "angle": "question",
+        "headline": "WHERE SHOULD AI LOOK NEXT?",
+        "text": "These stories have one thing in common: AI takes on a first look that people could not do at scale, and experts act on what it finds. Skin lesions, blood tests, heart scans, methane plumes, city streets. If you could point a tool like this at one problem in your community, which would you choose?"
+      },
+      {
+        "angle": "one-liner",
+        "headline": "RESULTS, NOT PROMISES",
+        "text": "Here is AI already working for people, with the numbers to show it."
+      }
+    ],
+    "final": null
+  },
+  "stories": [
+    {
+      "key": "uk-autonomous-skin-triage",
+      "added": "2026-10-05",
+      "tag": "Cancer care",
+      "theme": "skin-cancer-detection",
+      "institution": "Chelsea & Westminster Hospital NHS Foundation Trust autonomous AI skin cancer triage (EADV 2026)",
+      "teaser": "AI triage frees specialist time for 8,500 skin appointments",
+      "headline": "AI clears benign skin referrals, freeing time for 8,500 more UK appointments",
+      "why": "Real-world study of 8,391 patients at 2 UK hospitals over 16 months; EADV Congress 2026 poster, not yet a journal paper",
+      "bullet": "Freed time for 8,500 skin appointments, as AI cleared benign referrals",
+      "texts": [
+        "An autonomous AI triaged 8,391 urgent skin cancer referrals at two UK hospitals over 16 months. It discharged 25 to 31% of patients with benign lesions without clinician review, saving an estimated 2,851 hours of specialist time, enough for more than 8,500 extra face-to-face appointments.\n\nSensitivity for invasive melanoma, SCC and BCC was above 98%.\n\n#AIforGood",
+        "Waiting to hear whether a mole is cancer is hard. At two UK hospitals, an AI reviews images of referred skin lesions and can discharge people with benign ones without waiting for a specialist.\n\nOver 16 months that freed enough dermatologist time for more than 8,500 extra appointments, so specialists can focus on the patients who need them most.\n\n#AIforGood",
+        "What if the wait for a skin cancer check could get shorter for everyone? In a real-world study at two UK hospitals, an autonomous AI discharged a quarter to a third of urgent referrals with benign lesions, freeing 2,851 hours of specialist time across 8,391 patients.\n\nSensitivity for the main skin cancers was above 98%, and the hospitals kept monitoring for missed cases.\n\n#AIforGood"
+      ],
+      "source": "https://medicalxpress.com/news/2026-09-autonomous-ai-capacity-thousands-dermatology.html",
+      "source_name": "EADV press release via Medical Xpress, Sep 30, 2026",
+      "site": "medicalxpress.com",
+      "og_title": "Autonomous AI could create capacity for thousands more dermatology appointments, real-world study finds",
+      "og_image": "https://scx1.b-cdn.net/csz/news/800a/2022/skin-moles.jpg",
+      "card": true
+    },
+    {
+      "key": "gothenburg-ai-stroke",
+      "added": "2026-10-10",
+      "tag": "Stroke care",
+      "theme": "stroke-detection",
+      "institution": "Sahlgrenska University Hospital / University of Gothenburg, Brainomix 360 Stroke (Västra Götaland region)",
+      "teaser": "AI scan reads speed stroke clot removal by 12 minutes in Sweden",
+      "headline": "AI stroke scan analysis cut time to clot removal by 12 minutes in western Sweden",
+      "why": "Before-and-after register study of 970 clot-removal patients, European Stroke Journal",
+      "bullet": "12 minutes faster to stroke clot removal, after AI scan reads across a region",
+      "texts": [
+        "After western Sweden's Västra Götaland region introduced an AI tool that analyses stroke brain scans, the median time from CT scan to the start of clot removal fell from 47 to 35 minutes.\n\nResearchers at Sahlgrenska University Hospital and the University of Gothenburg tracked 970 thrombectomy patients over three years. The results are in the European Stroke Journal.\n\n#AIforGood",
+        "In a stroke, time matters. In western Sweden, doctors now get AI-supported analysis of brain scans within about six minutes, helping them decide quickly who needs a blocked artery cleared.\n\nAfter the region adopted the tool, patients reached clot removal about 12 minutes sooner, with the clearest gains at the region's local primary stroke centres.\n\n#AIforGood",
+        "How much is 12 minutes worth to a stroke patient waiting for a blocked artery to be cleared? Researchers in Gothenburg tracked 970 thrombectomy patients before and after their region adopted AI-supported scan analysis.\n\nThe median time from CT scan to the start of the procedure fell from 47 to 35 minutes.\n\n#AIforGood"
+      ],
+      "source": "https://academic.oup.com/esj/article/11/8/aakag098/8767346",
+      "source_name": "European Stroke Journal, Aug 20, 2026",
+      "site": "academic.oup.com",
+      "og_title": "Implementation of an AI-supported decision-making tool in a high-volume stroke system with routine perfusion imaging",
+      "og_image": ""
+    },
+    {
+      "key": "galleri-pathfinder2",
+      "added": "2026-10-12",
+      "tag": "Cancer care",
+      "theme": "multi-cancer-detection",
+      "institution": "OHSU Knight Cancer Institute / GRAIL, Galleri test (PATHFINDER 2)",
+      "teaser": "A blood test added to screening found 6.5 times more cancers",
+      "headline": "Blood test read by machine learning finds 6.5 times more cancers through screening",
+      "why": "Prospective study of 35,878 adults aged 50+, Nature Medicine; designed and funded by GRAIL",
+      "bullet": "6.5x more cancers caught by screening, in a blood test study of 35,878 adults",
+      "card": true,
+      "texts": [
+        "6.5 times more cancers found through screening.\n\nIn the PATHFINDER 2 study of 35,878 adults aged 50 and over, adding the Galleri blood test to recommended screening caught far more cancers. More than half of those it found first were at stage I or II, and it pointed to the cancer's origin correctly 91.3% of the time.\n\n#AIforGood",
+        "Most cancers have no routine screening test, and 70% of the cancers this blood test found were of those kinds.\n\nFor 35,878 adults in the PATHFINDER 2 study, led in part by OHSU's Knight Cancer Institute, one blood draw read by a machine-learning algorithm caught cancers that standard screening would have missed, many of them early.\n\n#AIforGood",
+        "What if one blood draw could check for many cancers at once?\n\nIn a study of 35,878 adults, the Galleri test, which uses machine learning to read DNA fragments in the blood, found 6.5 times more cancers than recommended screening alone. Of people told they had a cancer signal, 60% did have cancer.\n\n#AIforGood"
+      ],
+      "source": "https://www.nature.com/articles/s41591-026-04618-w",
+      "source_name": "Nature Medicine, Sep 22, 2026",
+      "site": "nature.com",
+      "og_title": "Performance and safety of a multi-cancer early detection test: the PATHFINDER 2 study",
+      "og_image": ""
+    },
+    {
+      "key": "mayo-ai-heart-ultrasound",
+      "added": "2026-10-12",
+      "tag": "Heart health",
+      "theme": "cardiac-diagnostics",
+      "institution": "Mayo Clinic, AI-guided focused cardiac ultrasound for aortic stenosis",
+      "teaser": "With AI guidance, novices screened hearts for a dangerous valve disease",
+      "headline": "With 4 hours of training and AI, novices screened 1,302 hearts for valve disease",
+      "why": "Prospective test of 1,302 novice-acquired scans, JAMA Cardiology; Mayo has a financial interest",
+      "texts": [
+        "4 hours of training. 1,302 heart scans. 93% sensitivity.\n\nAt Mayo Clinic, nine staff with no ultrasound experience used AI guidance to capture handheld heart images. A deep learning algorithm then read them for aortic stenosis, a narrowing heart valve, with 93% sensitivity and 96% specificity. Almost 97% of scans were good enough to analyse.\n\n#AIforGood",
+        "Aortic stenosis often goes unnoticed until it causes real harm, and expert heart scans are scarce.\n\nMayo Clinic showed that people with no ultrasound background, after four hours of training, could capture usable heart images with AI guidance. The AI then flagged likely disease, and experts reviewed only those scans and the few it could not read.\n\n#AIforGood",
+        "Could someone with no medical training screen your heart?\n\nIn a Mayo Clinic study, nine novices guided by AI captured 1,302 handheld heart ultrasounds. A deep learning algorithm read them for aortic stenosis and caught 93% of moderate or worse cases, with experts reviewing about one in ten scans.\n\n#AIforGood"
+      ],
+      "source": "https://jamanetwork.com/journals/jama/fullarticle/10.1001/jamacardio.2026.3829",
+      "source_name": "JAMA Cardiology, Aug 28, 2026",
+      "site": "jamanetwork.com",
+      "og_title": "Artificial Intelligence-Enabled Acquisition and Interpretation for Screening Aortic Stenosis",
+      "og_image": ""
+    },
+    {
+      "key": "feinstein-neural-bypass",
+      "added": "2026-10-12",
+      "tag": "Paralysis",
+      "theme": "brain-computer-interface",
+      "institution": "Feinstein Institutes for Medical Research / Northwell Health, double neural bypass",
+      "teaser": "Brain implants and AI gave a man with tetraplegia back his grip",
+      "headline": "Brain implants and AI restored grip and touch for a man with complete tetraplegia",
+      "why": "Single-participant clinical study over about 35 weeks, Nature Medicine",
+      "texts": [
+        "84.6% decoding accuracy, held for five months without retraining.\n\nAt the Feinstein Institutes, brain implants and machine learning turned a paralysed man's intentions into hand movements, and routed touch back to his brain. An AI agent kept his grip force in a safe range in 87% of attempts, against 27% without it.\n\n#AIforGood",
+        "For a man with complete tetraplegia, picking up an object safely was out of reach.\n\nWith brain implants, a machine-learning decoder and an AI that tunes his grip, he can grasp again, and feel touch on his wrist. The Feinstein Institutes team reports the decoder stayed accurate for five months without being retrained.\n\n#AIforGood",
+        "What does it take to feel your hand again after paralysis?\n\nIn a Nature Medicine study, Feinstein Institutes researchers linked brain implants to muscle stimulation through AI, and sent touch signals back to the brain. The man could tell when he touched an object every time with feedback on, against chance without it.\n\n#AIforGood"
+      ],
+      "source": "https://www.nature.com/articles/s41591-026-04498-0",
+      "source_name": "Nature Medicine, Jul 16, 2026",
+      "site": "nature.com",
+      "og_title": "A neuroprosthesis for restoring hand movement and sensation in a person with complete tetraplegia",
+      "og_image": ""
+    },
+    {
+      "key": "unep-methane-alerts",
+      "added": "2026-10-12",
+      "tag": "Climate",
+      "theme": "methane-detection",
+      "institution": "UNEP International Methane Emissions Observatory, Methane Alert and Response System (MARS)",
+      "teaser": "AI-flagged methane leaks led to more than 40 fixes",
+      "headline": "AI-sorted satellite data led to more than 40 methane leak fixes worldwide",
+      "why": "UNEP's own report on its global alert system, operational since 2024",
+      "bullet": "Over 40 methane leaks tackled, after AI sifted data from 30+ satellites",
+      "card": true,
+      "texts": [
+        "More than 40 methane mitigation actions since 2024.\n\nThe UN Environment Programme's alert system uses AI to pick methane plumes out of data from more than 30 satellites. Experts check each one, then alert governments and companies. UNEP estimates the sources it helped address had emitted 1.2 million tonnes of methane.\n\n#AIforGood",
+        "Methane leaks from oil and gas sites are invisible to the eye and warm the planet fast.\n\nUNEP's alert system uses AI to spot them from space, so its analysts can review 12 to 15 times more data and warn the operators. More than 40 times, those alerts have led to action.\n\n#AIforGood",
+        "How do you find a gas leak from orbit?\n\nThe UN's Methane Alert and Response System lets AI sift readings from more than 30 satellites, catching 80 to 85% of confirmed plumes before expert review. Since 2024 it has led to more than 40 mitigation actions, with a climate benefit UNEP compares to removing almost 24 million gasoline cars for a year.\n\n#AIforGood"
+      ],
+      "source": "https://www.unep.org/news-and-stories/press-release/ai-helping-un-detect-methane-emissions-and-spark-real-reductions",
+      "source_name": "UN Environment Programme, Jul 15, 2026",
+      "site": "unep.org",
+      "og_title": "AI helping UN detect methane emissions and spark real reductions in climate-warming gas",
+      "og_image": ""
+    },
+    {
+      "key": "iihs-waymo-crashes",
+      "added": "2026-10-12",
+      "tag": "Road safety",
+      "theme": "autonomous-driving-safety",
+      "institution": "Insurance Institute for Highway Safety (IIHS) study of Waymo driverless vehicles",
+      "teaser": "Driverless cars had 68% fewer police-reportable crashes per mile",
+      "headline": "Driverless Waymo cars crashed 68% less often per mile than human drivers",
+      "why": "Independent IIHS analysis of about 50 million driverless miles in 4 US cities",
+      "bullet": "68% fewer crashes per mile, for driverless cars across 50 million miles",
+      "card": true,
+      "texts": [
+        "68% fewer police-reportable crashes per mile.\n\nThe Insurance Institute for Highway Safety compared about 50 million miles driven by Waymo's driverless cars with human drivers in the same US cities. Injury crashes were 81% lower, and single-vehicle crashes 85% lower.\n\n#AIforGood",
+        "Every crash avoided is someone who gets home safely.\n\nAn independent analysis by the Insurance Institute for Highway Safety found Waymo's driverless cars were involved in far fewer police-reportable crashes per mile than people in the same cities, with 81% fewer injury crashes. Results varied by city, and the institute calls the evidence encouraging.\n\n#AIforGood",
+        "Are self-driving cars safer than people?\n\nThe Insurance Institute for Highway Safety looked at about 50 million driverless miles in Phoenix, San Francisco, Los Angeles and Austin. Overall, Waymo's cars were involved in 68% fewer police-reportable crashes per mile than human drivers, though Austin's small sample showed no gain.\n\n#AIforGood"
+      ],
+      "source": "https://www.iihs.org/news/detail/waymos-driverless-cars-crash-less-often-than-people",
+      "source_name": "Insurance Institute for Highway Safety, Jul 23, 2026",
+      "site": "iihs.org",
+      "og_title": "Waymo's driverless cars crash less often than people",
+      "og_image": ""
+    }
+  ]
+}

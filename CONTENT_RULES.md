@@ -119,7 +119,7 @@ Layout, top to bottom (padding 84 px top, 88 px sides, 76 px bottom):
 2. **Title:** "AI the Good", 64 px below the divider; Rubik 700, 132 px, letter-spacing -0.025 em. "Good" sits on an amber block with rounded corners (12 px radius, 0.14 em padding on each side).
 3. **Byline:** "Real deployments, positive impact!", 30 px below the title; Rubik 500, 40 px.
 4. **Accent bar:** amber, 140 x 8 px with rounded ends, 48 px below the byline.
-5. **Bullets:** start 56 px below the bar, 36 px apart; Assistant 400, 42 px, line height 1.28. Each has an 18 px amber dot on the left with the text indented 44 px. The text before the first comma is Assistant 700 in white; the rest is regular in pale teal. With no comma, the whole bullet is bold.
+5. **Bullets:** start 56 px below the bar, 36 px apart; Assistant 400, 42 px, line height 1.28. Each has an 18 px amber dot on the left with the text indented 44 px. The text before the first comma is Assistant 700 in white; the rest is regular in pale teal. A comma inside a number (8,500) does not end the bold part. With no comma, the whole bullet is bold.
 6. **Footer:** pinned to the bottom, with a 2 px divider above it and 30 px of space between; `futureofpurpose.substack.com` in Rubik 500, 30 px, letter-spacing 0.03 em.
 
 ## 6. Logs, build and publish
