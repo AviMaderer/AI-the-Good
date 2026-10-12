@@ -51,8 +51,7 @@
       "source_name": "EADV press release via Medical Xpress, Sep 30, 2026",
       "site": "medicalxpress.com",
       "og_title": "Autonomous AI could create capacity for thousands more dermatology appointments, real-world study finds",
-      "og_image": "https://scx1.b-cdn.net/csz/news/800a/2022/skin-moles.jpg",
-      "card": true
+      "og_image": "https://scx1.b-cdn.net/csz/news/800a/2022/skin-moles.jpg"
     },
     {
       "key": "gothenburg-ai-stroke",
@@ -115,7 +114,9 @@
       "source_name": "JAMA Cardiology, Aug 28, 2026",
       "site": "jamanetwork.com",
       "og_title": "Artificial Intelligence-Enabled Acquisition and Interpretation for Screening Aortic Stenosis",
-      "og_image": ""
+      "og_image": "",
+      "card": true,
+      "bullet": "93% of significant valve disease caught, in heart scans by AI-guided novices"
     },
     {
       "key": "feinstein-neural-bypass",
