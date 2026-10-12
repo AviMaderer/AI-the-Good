@@ -36,3 +36,7 @@ date,title_or_url,reason
 2026-10-11,Johns Hopkins autonomous AI diabetic retinopathy screening and eye-care follow-up,Repeat: Johns Hopkins Wilmer diabetic-eye AI already in log (2026-09-22); exploratory analysis
 2026-10-11,Danish AI-assisted diabetic retinopathy screening validation in primary care,Accuracy validation only (183 patients); no deployment outcomes
 2026-10-11,AI fracture detection in emergency radiography (reviews),Reviews and retrospective accuracy only; no new deployment outcome
+2026-10-12,Google AMIE / Beth Israel Deaconess urgent care study (The Lancet),Vendor research prototype; 98-patient feasibility study
+2026-10-12,npj Digit Med: AI opportunistic osteoporosis screening on chest radiographs (Korea),Retrospective validation; savings simulated
+2026-10-12,npj Digit Med: DeepAD infant motion screening for cerebral palsy (China),Retrospective model validation on archived videos
+2026-10-12,npj Digit Med: MSK digital transitional care and readmissions,Rule-based symptom monitoring; not AI
