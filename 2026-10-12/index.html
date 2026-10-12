@@ -105,35 +105,18 @@ footer{display:grid;gap:10px;color:var(--muted);font-size:15px}
 footer a{color:var(--ink)}
 </style></head>
 <body><div class="wrap">
-<p class="preview-note">Preview: not released yet. Only people with this link can see it. Choose or edit the intro, then press Commit to release it.</p>
 
-<section class="panel" id="panel" aria-labelledby="panel-h" hidden>
-  <h2 id="panel-h">Your intro</h2>
-  <div class="grp" id="tok">
-    <p class="msg" id="tok-msg" aria-live="polite"></p>
-    <label class="flabel" for="tok-in">GitHub token</label>
-    <input class="field" id="tok-in" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="github_pat_…">
-    <button type="button" class="btn primary" id="tok-save">Paste token</button>
-  </div>
-  <div class="grp" id="edit">
-    <div class="nav">
-      <button type="button" class="btn" id="prev" aria-label="Previous option">&#8249; Previous</button>
-      <span class="pos" id="pos" aria-live="polite"></span>
-      <button type="button" class="btn" id="next" aria-label="Next option">Next &#8250;</button>
-    </div>
-    <label class="flabel" for="in-h"><span>Headline</span><span>saved in capitals</span></label>
-    <input class="field" id="in-h" type="text" autocomplete="off">
-    <label class="flabel" for="in-t"><span>Text</span><span id="count"></span></label>
-    <textarea class="field" id="in-t" rows="8" spellcheck="true"></textarea>
-    <button type="button" class="btn primary" id="commit">Commit intro and release</button>
-    <p class="msg" id="msg" aria-live="polite"></p>
-    <button type="button" class="linkbtn" id="forget">Forget token on this device</button>
-  </div>
-  <div class="grp" id="done">
-    <p class="msg ok">Committed. GitHub is rebuilding the site now; the edition goes live in a few minutes.</p>
-    <a class="linkbtn" id="commit-link" target="_blank" rel="noopener" hidden>View the commit on GitHub</a>
-    <label class="flabel" for="post">Roundup post for Facebook and LinkedIn</label>
-    <textarea class="field" id="post" rows="9" readonly></textarea>
+
+<section class="panel" id="roundup" aria-labelledby="roundup-h" hidden>
+  <h2 id="roundup-h">Roundup post</h2>
+  <div class="grp">
+    <label class="flabel" for="post">For Facebook and LinkedIn</label>
+    <textarea class="field" id="post" rows="9" readonly>THE OTHER AI HEADLINES
+
+Most AI headlines are about what might go wrong. The results below are about what is already going right: more cancers caught early, faster stroke care, methane leaks found from space and fixed, fewer road crashes. Each one comes from a named institution, with numbers you can check at the source.
+
+https://avimaderer.github.io/AI-the-Good/2026-10-12/
+</textarea>
     <div class="actions">
       <button type="button" class="btn primary" id="copy-post">Copy post</button>
       <a class="btn" id="card-dl" href="card.png" download="ai-the-good-2026-10-12.png">Download card.png</a>
@@ -148,7 +131,7 @@ footer a{color:var(--ink)}
   <p class="date">12 October 2026 · 7 stories</p>
   
 </header>
-<section class="intro" aria-label="Intro"><p class="intro-k">Draft intro: not committed yet</p><h2 class="intro-h" id="intro-h">AI THAT DOES THE CHECKING</h2><div class="intro-t" id="intro-t"><p>Look at what the AI below actually does. It reads a skin photo, a blood sample, a heart scan, a stroke scan, satellite data, the road. In each case it does the first, repetitive look, so people with the expertise can spend their time where it counts. That is the common thread: not replacing judgement, but getting it to the right place sooner.</p></div></section>
+<section class="intro" aria-label="Intro"><h2 class="intro-h" id="intro-h">THE OTHER AI HEADLINES</h2><div class="intro-t" id="intro-t"><p>Most AI headlines are about what might go wrong. The results below are about what is already going right: more cancers caught early, faster stroke care, methane leaks found from space and fixed, fewer road crashes. Each one comes from a named institution, with numbers you can check at the source.</p></div></section>
 <details class="heads"><summary>All 7 headlines</summary><ul><li><a href="#uk-autonomous-skin-triage" class="jump">AI triage frees specialist time for 8,500 skin appointments</a></li><li><a href="#gothenburg-ai-stroke" class="jump">AI scan reads speed stroke clot removal by 12 minutes in Sweden</a></li><li><a href="#galleri-pathfinder2" class="jump">A blood test added to screening found 6.5 times more cancers</a></li><li><a href="#mayo-ai-heart-ultrasound" class="jump">With AI guidance, novices screened hearts for a dangerous valve disease</a></li><li><a href="#feinstein-neural-bypass" class="jump">Brain implants and AI gave a man with tetraplegia back his grip</a></li><li><a href="#unep-methane-alerts" class="jump">AI-flagged methane leaks led to more than 40 fixes</a></li><li><a href="#iihs-waymo-crashes" class="jump">Driverless cars had 68% fewer police-reportable crashes per mile</a></li></ul></details>
 <p class="sec">The stories</p>
 <div class="list" id="list">
@@ -236,7 +219,7 @@ footer a{color:var(--ink)}
 </details>
 <details class="story" id="galleri-pathfinder2" data-key="galleri-pathfinder2">
   <summary>
-    <span class="top">Cancer care<span class="badge card">On card</span></span>
+    <span class="top">Cancer care</span>
     <h2>Blood test read by machine learning finds 6.5 times more cancers through screening</h2>
     <p class="why">Prospective study of 35,878 adults aged 50+, Nature Medicine; designed and funded by GRAIL</p>
     <span class="more-cue">Open to share &#8250;</span>
@@ -277,7 +260,7 @@ footer a{color:var(--ink)}
 </details>
 <details class="story" id="mayo-ai-heart-ultrasound" data-key="mayo-ai-heart-ultrasound">
   <summary>
-    <span class="top">Heart health<span class="badge card">On card</span></span>
+    <span class="top">Heart health</span>
     <h2>With 4 hours of training and AI, novices screened 1,302 hearts for valve disease</h2>
     <p class="why">Prospective test of 1,302 novice-acquired scans, JAMA Cardiology; Mayo has a financial interest</p>
     <span class="more-cue">Open to share &#8250;</span>
@@ -359,7 +342,7 @@ footer a{color:var(--ink)}
 </details>
 <details class="story" id="unep-methane-alerts" data-key="unep-methane-alerts">
   <summary>
-    <span class="top">Climate<span class="badge card">On card</span></span>
+    <span class="top">Climate</span>
     <h2>AI-sorted satellite data led to more than 40 methane leak fixes worldwide</h2>
     <p class="why">UNEP&#x27;s own report on its global alert system, operational since 2024</p>
     <span class="more-cue">Open to share &#8250;</span>
@@ -400,7 +383,7 @@ footer a{color:var(--ink)}
 </details>
 <details class="story" id="iihs-waymo-crashes" data-key="iihs-waymo-crashes">
   <summary>
-    <span class="top">Road safety<span class="badge card">On card</span></span>
+    <span class="top">Road safety</span>
     <h2>Driverless Waymo cars crashed 68% less often per mile than human drivers</h2>
     <p class="why">Independent IIHS analysis of about 50 million driverless miles in 4 US cities</p>
     <span class="more-cue">Open to share &#8250;</span>
@@ -534,120 +517,18 @@ cards.forEach((card, idx) => {
     await copy(); say('Sharing works on phones. Text copied: download the image and paste the text.');
   });
 });
-const ED = {"date": "2026-10-12", "repo": "AviMaderer/AI-the-Good", "branch": "main", "url": "https://avimaderer.github.io/AI-the-Good/2026-10-12/", "options": [{"angle": "pattern", "headline": "AI THAT DOES THE CHECKING", "text": "Look at what the AI below actually does. It reads a skin photo, a blood sample, a heart scan, a stroke scan, satellite data, the road. In each case it does the first, repetitive look, so people with the expertise can spend their time where it counts. That is the common thread: not replacing judgement, but getting it to the right place sooner."}, {"angle": "doom-vs-evidence", "headline": "THE OTHER AI HEADLINES", "text": "Most AI headlines are about what might go wrong. The results below are about what is already going right: more cancers caught early, faster stroke care, methane leaks found from space and fixed, fewer road crashes. Each one comes from a named institution, with numbers you can check at the source."}, {"angle": "purpose", "headline": "TOOLS THAT SERVE PEOPLE", "text": "Behind every number below is a person: a patient waiting on a skin check, a man feeling his hand again, a driver getting home safely. The best uses of AI are not about machines taking over. They help doctors, scientists and communities do more of the work they care about, and give people more of their lives back."}, {"angle": "question", "headline": "WHERE SHOULD AI LOOK NEXT?", "text": "These stories have one thing in common: AI takes on a first look that people could not do at scale, and experts act on what it finds. Skin lesions, blood tests, heart scans, methane plumes, city streets. If you could point a tool like this at one problem in your community, which would you choose?"}, {"angle": "one-liner", "headline": "RESULTS, NOT PROMISES", "text": "Here is AI already working for people, with the numbers to show it."}]};
+
 (() => {
+  let token = null; try { token = localStorage.getItem('aitg-gh-token'); } catch {}
+  if (!token) return;
   const $ = id => document.getElementById(id);
-  const TOKEN_KEY = 'aitg-gh-token', DRAFT_KEY = 'aitg-draft-' + ED.date;
-  const ls = { get(k){ try { return localStorage.getItem(k); } catch { return null; } },
-               set(k, v){ try { localStorage.setItem(k, v); return true; } catch { return false; } },
-               del(k){ try { localStorage.removeItem(k); } catch {} } };
-  const opts = ED.options.map(o => ({ angle: o.angle || '', headline: o.headline, text: o.text }));
-  let i = 0;
-  try { const d = JSON.parse(ls.get(DRAFT_KEY) || 'null'); if (d && d.opts && d.opts.length === opts.length) { d.opts.forEach((o, n) => Object.assign(opts[n], { headline: o.headline, text: o.text })); i = Math.min(d.i || 0, opts.length - 1); } } catch {}
-  const tok = $('tok'), edit = $('edit'), done = $('done');
-  const inH = $('in-h'), inT = $('in-t'), msg = $('msg'), tokMsg = $('tok-msg');
-  const say = (el, text, kind) => { el.textContent = text; el.className = 'msg' + (kind ? ' ' + kind : ''); };
-  const words = t => (t.trim().match(/\S+/g) || []).length;
-
-  // Live preview of the intro block above the stories.
-  const showIntro = () => {
-    $('intro-h').textContent = inH.value.trim().toUpperCase();
-    const t = $('intro-t'); t.textContent = '';
-    inT.value.split(/\n\s*\n/).filter(p => p.trim()).forEach(p => { const e = document.createElement('p'); e.textContent = p.trim(); t.appendChild(e); });
-  };
-  const draw = () => {
-    const o = opts[i];
-    $('pos').innerHTML = ''; $('pos').append('Option ' + (i + 1) + ' of ' + opts.length);
-    const b = document.createElement('b'); b.textContent = o.angle.replace(/-/g, ' '); $('pos').appendChild(b);
-    inH.value = o.headline; inT.value = o.text; count(); showIntro();
-  };
-  const count = () => { $('count').textContent = words(inT.value) + ' words'; };
-  // Typing saves the boxes into the current option; Previous/Next only switch options.
-  const save = () => ls.set(DRAFT_KEY, JSON.stringify({ i, opts }));
-  const keep = () => { opts[i].headline = inH.value; opts[i].text = inT.value; save(); };
-  inH.addEventListener('input', () => { keep(); showIntro(); });
-  inT.addEventListener('input', () => { keep(); count(); showIntro(); });
-  $('prev').addEventListener('click', () => { i = (i - 1 + opts.length) % opts.length; save(); draw(); });
-  $('next').addEventListener('click', () => { i = (i + 1) % opts.length; save(); draw(); });
-
-  const mode = (which, note, kind) => {
-    tok.hidden = which !== 'tok'; edit.hidden = which !== 'edit'; done.hidden = which !== 'done';
-    if (which === 'tok') { say(tokMsg, note || 'Paste your GitHub token to choose and commit the intro. It is kept only in this browser.', kind); $('tok-in').value = ''; }
-  };
-
-  // ---- GitHub contents API ----
-  const API = 'https://api.github.com/repos/' + ED.repo + '/contents/data/weeks/' + ED.date + '.json';
-  const b64decode = b => new TextDecoder().decode(Uint8Array.from(atob(b.replace(/\s/g, '')), c => c.charCodeAt(0)));
-  const b64encode = s => { const u = new TextEncoder().encode(s); let bin = ''; for (let k = 0; k < u.length; k += 0x8000) bin += String.fromCharCode(...u.subarray(k, k + 0x8000)); return btoa(bin); };
-  class GHError extends Error { constructor(status, text){ super(text); this.status = status; } }
-  const gh = async (method, body) => {
-    const token = ls.get(TOKEN_KEY);
-    if (!token) throw new GHError(401, 'no token');
-    let r;
-    try {
-      r = await fetch(API + (method === 'GET' ? '?ref=' + enc(ED.branch) : ''), {
-        method, cache: 'no-store',
-        headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28',
-                   ...(body ? { 'Content-Type': 'application/json' } : {}) },
-        body: body ? JSON.stringify(body) : undefined });
-    } catch { throw new GHError(0, 'network'); }
-    let j = {}; try { j = await r.json(); } catch {}
-    if (!r.ok) throw new GHError(r.status, j.message || r.statusText);
-    return j;
-  };
-  const explain = e => {
-    if (e.status === 401) { ls.del(TOKEN_KEY); return ['tok', e.message === 'no token' ? '' : 'GitHub rejected the token: it has expired or been revoked. Paste a new one.', 'err']; }
-    if (e.status === 403) return ['tok', 'GitHub refused (' + e.message + '). The token needs Contents: Read and write on ' + ED.repo + '. Paste a token that has it.', 'err'];
-    if (e.status === 404) return ['tok', 'GitHub could not find data/weeks/' + ED.date + '.json in ' + ED.repo + '. Make sure the token has access to that repository, then paste it again.', 'err'];
-    if (e.status === 0) return ['edit', 'Could not reach GitHub. Check your connection and try again.', 'err'];
-    return ['edit', 'GitHub returned an error (' + e.status + ': ' + e.message + '). Nothing was committed. Try again.', 'err'];
-  };
-  const fail = e => { const [w, text, kind] = explain(e); if (w === 'tok') mode('tok', text, kind); else say(msg, text, kind); };
-
-  $('tok-save').addEventListener('click', async () => {
-    const v = $('tok-in').value.trim();
-    if (!v) { say(tokMsg, 'Paste the token first.', 'err'); return; }
-    if (!ls.set(TOKEN_KEY, v)) { say(tokMsg, 'This browser is blocking local storage, so the token cannot be kept. Allow site data for this page and try again.', 'err'); return; }
-    say(tokMsg, 'Checking the token with GitHub…');
-    try { await gh('GET'); mode('edit'); draw(); say(msg, 'Token saved in this browser.', 'ok'); }
-    catch (e) { fail(e); }
-  });
-  $('tok-in').addEventListener('keydown', e => { if (e.key === 'Enter') $('tok-save').click(); });
-  $('forget').addEventListener('click', () => { ls.del(TOKEN_KEY); mode('tok', 'Token removed from this browser.'); });
-
-  $('commit').addEventListener('click', async () => {
-    const headline = inH.value.trim().toUpperCase(), text = inT.value.trim();
-    if (!headline || !text) { say(msg, 'The headline and the text both need something in them.', 'err'); return; }
-    const btn = $('commit'); btn.disabled = true; say(msg, 'Committing to GitHub…');
-    const final = { headline, text, angle: opts[i].angle, committed_at: new Date().toISOString() };
-    try {
-      let res;
-      for (let attempt = 0; ; attempt++) {
-        const cur = await gh('GET');
-        const data = JSON.parse(b64decode(cur.content));
-        data.intro = data.intro || {}; data.intro.final = final;
-        try {
-          res = await gh('PUT', { message: 'Intro ' + ED.date + ': release', branch: ED.branch, sha: cur.sha,
-                                  content: b64encode(JSON.stringify(data, null, 2) + '\n') });
-          break;
-        } catch (e) { if ((e.status === 409 || e.status === 422) && attempt === 0) continue; throw e; }
-      }
-      ls.del(DRAFT_KEY);
-      const post = headline + '\n\n' + text + '\n\n' + ED.url + '\n';
-      $('post').value = post;
-      const link = $('commit-link'); if (res && res.commit && res.commit.html_url) { link.href = res.commit.html_url; link.hidden = false; }
-      mode('done');
-    } catch (e) { fail(e); }
-    finally { btn.disabled = false; }
-  });
+  $('roundup').hidden = false;
   $('copy-post').addEventListener('click', async () => {
-    const t = $('post'); let ok = false;
+    const t = $('post'), msg = $('done-msg'); let ok = false;
     try { await navigator.clipboard.writeText(t.value); ok = true; } catch { t.select(); try { ok = document.execCommand('copy'); } catch {} }
-    say($('done-msg'), ok ? 'Post copied. Paste it into Facebook or LinkedIn with the card.' : 'Select the text and copy it.', ok ? 'ok' : 'err');
+    msg.textContent = ok ? 'Post copied. Paste it into Facebook or LinkedIn with the card.' : 'Select the text and copy it.';
+    msg.className = 'msg ' + (ok ? 'ok' : 'err');
   });
-
-  $('panel').hidden = false;
-  if (ls.get(TOKEN_KEY)) { mode('edit'); draw(); } else { mode('tok'); showIntro(); draw(); }
 })();
 </script>
 </body></html>
