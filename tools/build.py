@@ -762,17 +762,33 @@ def archive_page(cfg):
 LOG_COLS = ["date", "edition", "key", "institution", "theme", "source"]
 
 def log_stories(ed):
+    """Add the edition's stories to data/stories-log.csv, never logging one story twice.
+
+    A story is already logged if a row has the same source URL, or the same edition and key.
+    Rows that duplicate an earlier row on either of those (for example a carry-over row filled
+    in after the build had already logged the story) are dropped; the first row is kept.
+    """
     p = ROOT / "data/stories-log.csv"
-    if not p.exists():
-        p.write_text(",".join(LOG_COLS) + "\n", encoding="utf-8")
-    rows = list(csv.DictReader(open(p, encoding="utf-8")))
-    have_src = {r.get("source") for r in rows if r.get("source")}
-    have_key = {(r.get("edition"), r.get("key")) for r in rows}
-    with open(p, "a", encoding="utf-8", newline="") as f:
-        w = csv.writer(f)
-        for s in ed["stories"]:
-            if s["source"] not in have_src and (ed["edition"], s["key"]) not in have_key:
-                w.writerow([s["added"], ed["edition"], s["key"], s.get("institution", ""), s.get("theme", ""), s["source"]])
+    rows = list(csv.DictReader(open(p, encoding="utf-8"))) if p.exists() else []
+    out, seen_src, seen_key = [], set(), set()
+    def add(r):
+        src, key = (r.get("source") or "").strip(), (r.get("edition") or "", r.get("key") or "")
+        if (src and src in seen_src) or (key[1] and key in seen_key):
+            return
+        if src:
+            seen_src.add(src)
+        if key[1]:
+            seen_key.add(key)
+        out.append({c: r.get(c, "") for c in LOG_COLS})
+    for r in rows:
+        add(r)
+    for st in ed["stories"]:
+        add(dict(date=st["added"], edition=ed["edition"], key=st["key"], institution=st.get("institution", ""),
+                 theme=st.get("theme", ""), source=st["source"]))
+    with open(p, "w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=LOG_COLS)
+        w.writeheader()
+        w.writerows(out)
 
 def main(edition_file):
     cfg, ed, ded = load(edition_file)
