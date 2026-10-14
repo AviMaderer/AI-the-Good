@@ -1,0 +1,51 @@
+{
+  "edition": "2026-10-15",
+  "intro": {
+    "options": [],
+    "final": null
+  },
+  "stories": [
+    {
+      "key": "retina4ird-shanghai",
+      "added": "2026-10-14",
+      "tag": "Eye care",
+      "theme": "rare-disease-diagnosis",
+      "institution": "Shanghai General Hospital / Shanghai Jiao Tong University, Retina4IRD (Chinese eye centres)",
+      "teaser": "AI helps eye doctors find the genetic cause of rare retinal disease",
+      "headline": "AI lifted accuracy of eye specialists' gene shortlists from 67% to 89%",
+      "why": "Randomized trial of 295 patients at Chinese eye centres, Nature Medicine",
+      "bullet": "88.5% right gene shortlists with AI, up from 67% for eye specialists alone",
+      "texts": [
+        "In a randomized trial of 295 patients with suspected inherited retinal disease, eye specialists using the Retina4IRD AI tool put the genetic diagnosis later confirmed by sequencing in their top five suggestions 88.5% of the time, versus 67.3% without it.\n\nTheir first choice was right 37.8% of the time with AI, against 22.4% without. The results are in Nature Medicine.\n\n#AIforGood",
+        "Inherited retinal diseases are rare, and pinning down the gene behind them is hard even for specialists. At leading eye centres in China, specialists who used an AI decision-support tool were far more likely to shortlist the right genetic diagnosis before sequencing confirmed it.\n\nThe tool supports the doctors' judgment. It does not replace it.\n\n#AIforGood",
+        "How often does an expert's shortlist contain the right answer? For rare inherited eye diseases, specialists working alone got the confirmed genetic diagnosis into their top five 67% of the time.\n\nWith the Retina4IRD AI assistant, that rose to 88.5%, in a randomized trial led by Shanghai General Hospital.\n\n#AIforGood"
+      ],
+      "source": "https://www.nature.com/articles/s41591-026-04545-w",
+      "source_name": "Nature Medicine, Jul 24, 2026",
+      "site": "nature.com",
+      "og_title": "AI-based clinician decision support system for diagnosis of inherited retinal diseases: a multicenter, randomized trial",
+      "og_image": ""
+    },
+    {
+      "key": "warddeken-camera-trap-ai",
+      "added": "2026-10-14",
+      "tag": "Wildlife",
+      "theme": "wildlife-camera-traps",
+      "institution": "Warddeken Land Management / Charles Darwin University / CSIRO (MegaDetector)",
+      "teaser": "Rangers cut camera-trap review from six months to two with AI",
+      "headline": "AI cut Indigenous rangers' wildlife image backlog by 81% in northern Australia",
+      "why": "925,088 images cut to 172,290; Conservation Science and Practice, 2026",
+      "bullet": "81% fewer images to check, as Indigenous rangers used AI on camera traps",
+      "texts": [
+        "Indigenous rangers in Australia's Warddeken Indigenous Protected Area used the MegaDetector AI model on 1,572 hours of camera-trap footage. Images needing review fell from 925,088 to 172,290, an 81.4% cut, and processing time dropped from six months to two.\n\nThe work, with Charles Darwin University and CSIRO, is published in Conservation Science and Practice.\n\n#AIforGood",
+        "Rangers from Warddeken Land Management monitor wildlife in northern Australia with camera traps. Sorting the images used to take six months. With an AI model flagging which images contain animals, it now takes about two, and the rangers still check what it finds.\n\n\"People are still part of the verification,\" says Dr Cara Penton.\n\n#AIforGood",
+        "What would you do with four extra months? Indigenous rangers in northern Australia used an AI model to sort camera-trap images of wildlife, cutting the pile they had to check by 81.4% and the processing time from six months to two.\n\nRangers and elders shape how the tool is used, and people still verify the results.\n\n#AIforGood"
+      ],
+      "source": "https://phys.org/news/2026-10-rangers-reimagine-ai-wildlife.html",
+      "source_name": "Charles Darwin University via Phys.org, Oct 13, 2026",
+      "site": "phys.org",
+      "og_title": "Rangers reimagine AI in wildlife monitoring",
+      "og_image": "https://scx1.b-cdn.net/csz/news/800a/2026/rangers-reimagine-ai-i.jpg"
+    }
+  ]
+}
