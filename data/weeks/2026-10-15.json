@@ -1,7 +1,33 @@
 {
   "edition": "2026-10-15",
   "intro": {
-    "options": [],
+    "options": [
+      {
+        "angle": "pattern",
+        "headline": "AI NARROWS, PEOPLE DECIDE",
+        "text": "Both stories below share a quiet design choice. In Chinese eye clinics, AI suggests a shortlist of likely genetic diagnoses and specialists make the call. In northern Australia, AI sorts hundreds of thousands of camera-trap images and Indigenous rangers check what it finds. In each case the machine narrows the field, people keep the judgment, and the results improve."
+      },
+      {
+        "angle": "purpose",
+        "headline": "MORE TIME FOR WHAT MATTERS",
+        "text": "Good tools give people back the part of their work that needs them most. Indigenous rangers in northern Australia now spend two months, not six, sorting wildlife images, with elders guiding how the tool is used. Eye specialists in China find the right genetic diagnosis more often with an AI assistant at their side. The purpose stays human. The tool makes room for it."
+      },
+      {
+        "angle": "doom-vs-evidence",
+        "headline": "THE QUIETER AI STORY",
+        "text": "The loudest AI headlines are about risk. The stories below are about measured results: a randomized trial in which eye specialists with an AI assistant shortlisted the right genetic diagnosis 88.5% of the time, up from 67.3%, and a ranger program that cut its image backlog by 81%. Neither is dramatic. Both are real."
+      },
+      {
+        "angle": "question",
+        "headline": "WHAT WOULD YOU HAND OFF?",
+        "text": "If a tool could take the sorting off your desk and leave you the decisions, what would you do with the time? Rangers in northern Australia cut four months from their wildlife monitoring that way. Eye specialists in China got better at naming rare genetic diseases. What part of your work would you hand off, and what would you keep?"
+      },
+      {
+        "angle": "one-liner",
+        "headline": "SORTING FOR EXPERTS",
+        "text": "AI did the sorting and experts made the calls, and both rare eye disease diagnosis and wildlife monitoring got better."
+      }
+    ],
     "final": null
   },
   "stories": [
