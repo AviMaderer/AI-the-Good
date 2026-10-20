@@ -4,28 +4,28 @@
     "options": [
       {
         "angle": "pattern",
-        "headline": "AI NARROWS, PEOPLE DECIDE",
-        "text": "Both stories below share a quiet design choice. In Chinese eye clinics, AI suggests a shortlist of likely genetic diagnoses and specialists make the call. In northern Australia, AI sorts hundreds of thousands of camera-trap images and Indigenous rangers check what it finds. In each case the machine narrows the field, people keep the judgment, and the results improve."
+        "headline": "AI THAT GIVES BACK TIME",
+        "text": "Look at what the stories below have in common: time. Ambulances in Anyang arriving three minutes sooner. MRI scans at Kaiser Permanente 15 minutes shorter, with waits cut by up to 60%. Two lost hikers found in under five hours. Rangers sorting wildlife images in two months instead of six. In each case people stayed in charge, and AI gave them time back."
       },
       {
         "angle": "purpose",
-        "headline": "MORE TIME FOR WHAT MATTERS",
-        "text": "Good tools give people back the part of their work that needs them most. Indigenous rangers in northern Australia now spend two months, not six, sorting wildlife images, with elders guiding how the tool is used. Eye specialists in China find the right genetic diagnosis more often with an AI assistant at their side. The purpose stays human. The tool makes room for it."
+        "headline": "TIME FOR WHAT MATTERS",
+        "text": "Purpose lives in the moments that matter: reaching a patient in time, finding the lost, knowing what is wrong. The stories below show AI clearing space for those moments, from faster emergency responses in China to shorter MRI waits in the US and better genetic answers for rare eye disease. The tools serve the people. The purpose stays theirs."
       },
       {
         "angle": "doom-vs-evidence",
-        "headline": "THE QUIETER AI STORY",
-        "text": "The loudest AI headlines are about risk. The stories below are about measured results: a randomized trial in which eye specialists with an AI assistant shortlisted the right genetic diagnosis 88.5% of the time, up from 67.3%, and a ranger program that cut its image backlog by 81%. Neither is dramatic. Both are real."
+        "headline": "MEASURED, NOT PROMISED",
+        "text": "For every headline about what AI might do to us, there is quieter evidence of what it is already doing for us. In the stories below, the results are counted: cardiac arrest patients whose circulation was restored rose from 18% to 31% in Anyang, MRI waits fell by up to 60%, and eye specialists shortlisted the right genetic diagnosis more often. Measured, not promised."
       },
       {
         "angle": "question",
-        "headline": "WHAT WOULD YOU HAND OFF?",
-        "text": "If a tool could take the sorting off your desk and leave you the decisions, what would you do with the time? Rangers in northern Australia cut four months from their wildlife monitoring that way. Eye specialists in China got better at naming rare genetic diseases. What part of your work would you hand off, and what would you keep?"
+        "headline": "WHAT WOULD YOU DO WITH THE TIME?",
+        "text": "If AI gave you back minutes, hours or months, what would you do with them? Emergency crews in China reach patients faster. MRI scans at Kaiser Permanente take a third less time. Rangers in northern Australia spend two months, not six, sorting wildlife photos. The stories below show the time is real. The question is how we choose to use it."
       },
       {
         "angle": "one-liner",
-        "headline": "SORTING FOR EXPERTS",
-        "text": "AI did the sorting and experts made the calls, and both rare eye disease diagnosis and wildlife monitoring got better."
+        "headline": "MINUTES THAT MATTER",
+        "text": "From ambulances to MRI machines to mountain rescues, the AI in these stories saves minutes where minutes matter most."
       }
     ],
     "final": null
@@ -72,6 +72,69 @@
       "site": "phys.org",
       "og_title": "Rangers reimagine AI in wildlife monitoring",
       "og_image": "https://scx1.b-cdn.net/csz/news/800a/2026/rangers-reimagine-ai-i.jpg"
+    },
+    {
+      "key": "kaiser-nw-ai-mri",
+      "added": "2026-10-20",
+      "tag": "Radiology",
+      "theme": "mri-acceleration",
+      "institution": "Kaiser Permanente Northwest AI MRI noise reduction",
+      "teaser": "AI shortens MRI scans and cuts waits by up to 60%",
+      "headline": "AI noise reduction cut MRI scans from 45 to 30 minutes at Kaiser Permanente",
+      "why": "Kaiser Permanente's own reporting from its Northwest region, Jun 24, 2026",
+      "bullet": "Up to 60% shorter MRI waits, as AI cut scans from 45 to 30 minutes",
+      "texts": [
+        "Kaiser Permanente's Northwest region uses an FDA-cleared AI tool that reduces image noise in MRI scans. Scans that took about 45 minutes now take about 30, with the image quality radiologists need.\n\nKaiser Permanente reports that MRI wait times fell by up to 60%.\n\n#AIforGood",
+        "Waiting for an MRI is stressful, and lying still in the scanner for 45 minutes is hard. At Kaiser Permanente in the Northwest, an AI tool that cleans up image noise has cut scans to about 30 minutes, and MRI waits by up to 60%.\n\nThe health system monitors image quality, repeat scans and radiologist workflow as it goes.\n\n#AIforGood",
+        "What if an MRI took 15 fewer minutes? Kaiser Permanente's Northwest region found out. An FDA-cleared AI tool that reduces image noise shortened scans from about 45 minutes to about 30, with the image quality radiologists need.\n\nMRI wait times dropped by up to 60%.\n\n#AIforGood"
+      ],
+      "source": "https://about.kaiserpermanente.org/news/ai-cuts-mri-wait-times-by-60-percent",
+      "source_name": "Kaiser Permanente, Jun 24, 2026",
+      "site": "about.kaiserpermanente.org",
+      "og_title": "AI Cut MRI Wait Times Up to 60%",
+      "og_image": ""
+    },
+    {
+      "key": "frnsw-ai-drone-rescue",
+      "added": "2026-10-20",
+      "tag": "Search and rescue",
+      "theme": "search-and-rescue-drones",
+      "institution": "Fire and Rescue NSW AI drone hiker rescue",
+      "teaser": "Firefighters' AI drone finds two lost hikers in Kosciuszko",
+      "headline": "AI drone found two lost hikers in Kosciuszko National Park in under five hours",
+      "why": "Live rescue on Jun 23, 2026, reported by iTWire with Fire and Rescue NSW",
+      "bullet": "Two lost hikers found in under 5 hours, by a firefighters' AI drone",
+      "texts": [
+        "Two hikers in their early 20s went missing on the Dead Horse Gap track in Kosciuszko National Park on the evening of 23 June. A Fire and Rescue NSW drone flew a grid search, its AI software spotted the pair, and its thermal camera confirmed the find.\n\nThey were found less than five hours after being reported overdue.\n\n#AIforGood",
+        "Two young hikers lost off a mountain track flashed a red phone light at a drone overhead. Its AI software had already picked them out.\n\nThe drone's spotlight then guided police and SES volunteers to them, and both had only mild exposure. Fire and Rescue NSW says the technology probably cut the search by several days.\n\n#AIforGood",
+        "How long does it take to find two people lost off a mountain track? For a Fire and Rescue NSW drone with AI detection, less than five hours.\n\nIt spotted the hikers about 500 metres off their track in Kosciuszko National Park, in what the service called a first-of-its-kind mission.\n\n#AIforGood"
+      ],
+      "source": "https://itwire.com/business-it-news/business-technology/ai-assisted-drone-helps-rescue-lost-kosciuszko-hikers-in-nsw-first",
+      "source_name": "iTWire, Jun 30, 2026",
+      "site": "itwire.com",
+      "og_title": "AI-assisted drone helps rescue lost Kosciuszko hikers in NSW first",
+      "og_image": ""
+    },
+    {
+      "key": "anyang-ai-emergency-care",
+      "added": "2026-10-20",
+      "tag": "Emergency care",
+      "theme": "emergency-care",
+      "institution": "Anyang Model AI emergency care (Henan Province)",
+      "teaser": "Faster ambulances and more hearts restarted in Anyang, China",
+      "headline": "AI-enabled emergency system linked to more cardiac arrest recoveries in China",
+      "why": "Before-and-after study of 1,208 emergency cases, Scientific Reports",
+      "bullet": "31% of cardiac arrests regained a pulse, up from 18%, with AI emergency care",
+      "texts": [
+        "Three counties in Anyang, China, home to about 2.1 million people, linked ambulances, hospitals and AI decision support into one emergency system. Across 1,208 cases, median response time fell from 9.8 to 6.7 minutes, and pre-hospital heart attack identification rose from 65% to 90%.\n\nRestored circulation after cardiac arrest rose from 18% to 31%.\n\n#AIforGood",
+        "In a cardiac arrest, minutes matter. In Anyang, China, an emergency system with AI that flags heart attacks on ECGs and warns of patients at risk of deterioration was followed by faster responses, especially in rural areas, where response times fell by 4.2 minutes.\n\nMore patients had their circulation restored: 31%, up from 18%.\n\n#AIforGood",
+        "What changes when an emergency team can spot a heart attack on an ECG before reaching hospital? In Anyang, China, AI-assisted emergency care was followed by a rise in pre-hospital heart attack identification from 65% to 90%.\n\nRestored circulation after cardiac arrest rose from 18% to 31%.\n\n#AIforGood"
+      ],
+      "source": "https://www.nature.com/articles/s41598-026-61073-w",
+      "source_name": "Scientific Reports, Jul 6, 2026",
+      "site": "nature.com",
+      "og_title": "Implementation of an ai-enabled multimodal emergency care system is associated with improved sudden cardiac death rescue outcomes in anyang",
+      "og_image": ""
     }
   ]
 }

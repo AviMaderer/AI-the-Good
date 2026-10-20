@@ -1,7 +1,7 @@
 date,edition,key,institution,theme,source
 2026-09-14,,,RWJBarnabas Health/Rutgers Epic Deterioration Index,sepsis-alerts,
 2026-09-14,,,Google Flood Hub,flood-forecasting,
-2026-09-14,,,Fire and Rescue NSW AI drone hiker rescue,search-and-rescue-drones,
+2026-09-14,2026-10-22,frnsw-ai-drone-rescue,Fire and Rescue NSW AI drone hiker rescue,search-and-rescue-drones,https://itwire.com/business-it-news/business-technology/ai-assisted-drone-helps-rescue-lost-kosciuszko-hikers-in-nsw-first
 2026-09-14,,,UCLA Health bioprinted tumor organoid AI,cancer-drug-testing,
 2026-09-14,,,Westlake University/Arc Institute AI virtual cell,virtual-cell-modeling,
 2026-09-14,,,Pano AI wildfire cameras,wildfire-detection,
@@ -46,7 +46,7 @@ date,edition,key,institution,theme,source
 2026-09-23,,,UCSF (Edward Chang lab) avatar BCI,brain-computer-interface,
 2026-09-23,,,Johns Hopkins/Sweetch Health diabetes prevention coaching,diabetes-prevention,
 2026-09-23,,,Lurie Children's Hospital cochlear implant outcome predictor,hearing-outcomes,
-2026-09-24,,,Anyang Model AI emergency care (Henan Province),emergency-care,
+2026-09-24,2026-10-22,anyang-ai-emergency-care,Anyang Model AI emergency care (Henan Province),emergency-care,https://www.nature.com/articles/s41598-026-61073-w
 2026-09-24,,,Jacaranda Health PROMPTS,maternal-health,
 2026-09-24,,,Guizhou Province fetal ultrasound quality control,prenatal-ultrasound,
 2026-09-25,,,TomorrowNow Suitable Planting Window (Kenya),weathernext,
@@ -65,7 +65,7 @@ date,edition,key,institution,theme,source
 2026-09-29,2026-10-12,mayo-ai-heart-ultrasound,Mayo Clinic AI-guided cardiac ultrasound for aortic stenosis,cardiac-diagnostics,https://jamanetwork.com/journals/jama/fullarticle/10.1001/jamacardio.2026.3829
 2026-09-29,,,LA County DHS/California Policy Lab Homelessness Prevention Unit,homelessness-prevention,
 2026-09-30,,,Geisinger ML colonoscopy outreach,colorectal-screening,
-2026-09-30,,,Kaiser Permanente Northwest AI MRI noise reduction,mri-acceleration,
+2026-09-30,2026-10-22,kaiser-nw-ai-mri,Kaiser Permanente Northwest AI MRI noise reduction,mri-acceleration,https://about.kaiserpermanente.org/news/ai-cuts-mri-wait-times-by-60-percent
 2026-10-01,,,CU Anschutz SAVE-O2 trial (O2matic PRO100),oxygen-titration,
 2026-10-03,,,Tri-Service General Hospital AI-ECG alert trial,cardiac-diagnostics,
 2026-10-04,,,China AI stroke decision-support cluster trial (77 hospitals),stroke-secondary-prevention,
