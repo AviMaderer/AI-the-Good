@@ -50,7 +50,8 @@
       "source_name": "Nature Medicine, Jul 24, 2026",
       "site": "nature.com",
       "og_title": "AI-based clinician decision support system for diagnosis of inherited retinal diseases: a multicenter, randomized trial",
-      "og_image": ""
+      "og_image": "",
+      "card": true
     },
     {
       "key": "warddeken-camera-trap-ai",
@@ -71,7 +72,8 @@
       "source_name": "Charles Darwin University via Phys.org, Oct 13, 2026",
       "site": "phys.org",
       "og_title": "Rangers reimagine AI in wildlife monitoring",
-      "og_image": "https://scx1.b-cdn.net/csz/news/800a/2026/rangers-reimagine-ai-i.jpg"
+      "og_image": "https://scx1.b-cdn.net/csz/news/800a/2026/rangers-reimagine-ai-i.jpg",
+      "card": true
     },
     {
       "key": "kaiser-nw-ai-mri",
@@ -92,7 +94,8 @@
       "source_name": "Kaiser Permanente, Jun 24, 2026",
       "site": "about.kaiserpermanente.org",
       "og_title": "AI Cut MRI Wait Times Up to 60%",
-      "og_image": ""
+      "og_image": "",
+      "card": false
     },
     {
       "key": "frnsw-ai-drone-rescue",
@@ -113,7 +116,8 @@
       "source_name": "iTWire, Jun 30, 2026",
       "site": "itwire.com",
       "og_title": "AI-assisted drone helps rescue lost Kosciuszko hikers in NSW first",
-      "og_image": ""
+      "og_image": "",
+      "card": true
     },
     {
       "key": "anyang-ai-emergency-care",
@@ -134,7 +138,8 @@
       "source_name": "Scientific Reports, Jul 6, 2026",
       "site": "nature.com",
       "og_title": "Implementation of an ai-enabled multimodal emergency care system is associated with improved sudden cardiac death rescue outcomes in anyang",
-      "og_image": ""
+      "og_image": "",
+      "card": true
     }
   ]
 }
