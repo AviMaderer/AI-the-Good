@@ -1,5 +1,5 @@
 date,edition,key,institution,theme,source
-2026-09-14,,,RWJBarnabas Health/Rutgers Epic Deterioration Index,sepsis-alerts,
+2026-09-14,2026-10-29,rwjbarnabas-ai-deterioration,RWJBarnabas Health/Rutgers Epic Deterioration Index,deterioration-alerts,https://www.rutgershealth.org/news/rwjbarnabas-health-and-rutgers-researchers-find-ai-tool-helps-detect-patients-risk-earlier
 2026-09-14,,,Google Flood Hub,flood-forecasting,
 2026-09-14,2026-10-22,frnsw-ai-drone-rescue,Fire and Rescue NSW AI drone hiker rescue,search-and-rescue-drones,https://itwire.com/business-it-news/business-technology/ai-assisted-drone-helps-rescue-lost-kosciuszko-hikers-in-nsw-first
 2026-09-14,,,UCLA Health bioprinted tumor organoid AI,cancer-drug-testing,
@@ -9,7 +9,7 @@ date,edition,key,institution,theme,source
 2026-09-14,,,PlantVillage crop disease app,crop-disease-detection,
 2026-09-14,,,Imperial College London/Google/NHS breast cancer AI second reader,breast-cancer-second-reader,
 2026-09-14,,,Google DeepMind SL2T sign language,sign-language-translation,
-2026-09-14,,,UC Davis/BrainGate2 speech BCI,brain-computer-interface,
+2026-09-14,2026-10-29,ucdavis-braingate-home-bci,UC Davis/BrainGate2 speech BCI,brain-computer-interface,https://health.ucdavis.edu/awards/about/brain-computer-interface-enables-independent-accurate-communication-for-man-living-with-als/2026/06
 2026-09-14,,,Digital Green/Microsoft Research India Farmer.Chat,farmer-advisory,
 2026-09-14,,,Synapxe/NUS/SNEC SELENA+,diabetic-eye-screening,
 2026-09-14,,,El Salvador AprendES tutoring,ai-tutoring,

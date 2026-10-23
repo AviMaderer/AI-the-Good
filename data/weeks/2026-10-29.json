@@ -1,0 +1,53 @@
+{
+  "edition": "2026-10-29",
+  "intro": {
+    "options": [],
+    "final": null
+  },
+  "stories": [
+    {
+      "key": "rwjbarnabas-ai-deterioration",
+      "added": "2026-10-23",
+      "tag": "Hospital care",
+      "theme": "deterioration-alerts",
+      "institution": "RWJBarnabas Health / Rutgers Robert Wood Johnson Medical School, Epic Deterioration Index rapid response",
+      "teaser": "AI alerts cut deaths among high-risk patients at 11 hospitals",
+      "headline": "AI early warnings cut deaths among high-risk patients from 23.1% to 18.6%",
+      "why": "Before-and-after study of 23,132 high-risk patients at 11 hospitals, NEJM AI",
+      "bullet": "Deaths fell from 23.1% to 18.6% for high-risk patients, with AI alerts",
+      "texts": [
+        "At 11 RWJBarnabas Health hospitals in New Jersey, an AI tool checks each patient's health record every 15 minutes and alerts the rapid response team when someone is at highest risk of a sudden decline.\n\nAmong 23,132 high-risk patients, deaths fell from 23.1% to 18.6% after it was introduced. The study is in NEJM AI.\n\n#AIforGood",
+        "When a hospital patient starts to decline, every minute counts. RWJBarnabas Health and Rutgers paired an AI early-warning score with rapid response teams across 11 hospitals.\n\nRapid response visits for high-risk patients rose from 25.3% of stays to 37.5%, without a jump in ICU transfers. Deaths among those patients fell from 23.1% to 18.6%.\n\n#AIforGood",
+        "What if the care team came before the crisis? At 11 New Jersey hospitals, AI alerts sent rapid response teams to the patients most at risk of sudden decline.\n\nThe risk-adjusted odds of dying in hospital fell by 18%. As one of the study's leaders put it, the benefit came from \"the partnership around the algorithm.\"\n\n#AIforGood"
+      ],
+      "source": "https://www.rutgershealth.org/news/rwjbarnabas-health-and-rutgers-researchers-find-ai-tool-helps-detect-patients-risk-earlier",
+      "source_name": "Rutgers Health, Jul 28, 2026",
+      "site": "rutgershealth.org",
+      "og_title": "RWJBarnabas Health and Rutgers Researchers Find AI Tool Helps Detect Patients at Risk Earlier",
+      "og_image": "https://www.rutgershealth.org/sites/default/files/styles/16x9_full_default_1x/public/rwjuh_officialcampus_scaled_0087.jpg?h=63721363&itok=UV0pLtHq",
+      "card": false
+    },
+    {
+      "key": "ucdavis-braingate-home-bci",
+      "added": "2026-10-23",
+      "tag": "Accessibility",
+      "theme": "brain-computer-interface",
+      "institution": "UC Davis Health BrainGate2 speech BCI, with Brown University and Mass General Brigham",
+      "teaser": "A man with ALS talks and works at home through a brain implant",
+      "headline": "Brain implant let a man with ALS communicate nearly 2 million words at home",
+      "why": "BrainGate2 clinical trial, one participant over nearly two years, Nature Medicine",
+      "bullet": "Nearly 2 million words at home, for a man with ALS using a brain implant",
+      "texts": [
+        "Casey Harrell lives with severe paralysis from ALS. Through a brain-computer interface from UC Davis Health, he has used his home computer for more than 3,800 hours over nearly two years.\n\nHe communicated close to 2 million words at an average of 56 words per minute, and rated 92% of his sentences accurate or mostly correct.\n\n#AIforGood",
+        "For years, brain-computer interfaces lived in research labs. Casey Harrell, a man with ALS in the BrainGate2 trial, now uses one at home on a near-daily basis, without researcher support.\n\nHe sends emails and messages, browses the internet, stays in touch with family and keeps working, sometimes for more than 12 hours straight. The results are in Nature Medicine.\n\n#AIforGood",
+        "What would you say if you got your voice back? Casey Harrell, who has ALS, has communicated 183,000 sentences through a brain implant from UC Davis Health, with over 99% word accuracy in controlled testing.\n\nIn his words, it lets him communicate \"more in my natural way\" than any other technology he has tried.\n\n#AIforGood"
+      ],
+      "source": "https://health.ucdavis.edu/awards/about/brain-computer-interface-enables-independent-accurate-communication-for-man-living-with-als/2026/06",
+      "source_name": "UC Davis Health, Jun 15, 2026",
+      "site": "health.ucdavis.edu",
+      "og_title": "Brain-computer interface enables independent, accurate communication for man living with ALS",
+      "og_image": "https://health.ucdavis.edu/media-resources/contenthub/health-news/2026/6/body/bci-casey-computer-widebody.jpg",
+      "card": false
+    }
+  ]
+}
