@@ -48,6 +48,28 @@
       "og_title": "Brain-computer interface enables independent, accurate communication for man living with ALS",
       "og_image": "https://health.ucdavis.edu/media-resources/contenthub/health-news/2026/6/body/bci-casey-computer-widebody.jpg",
       "card": false
+    },
+    {
+      "key": "wuhan-union-gps-lung",
+      "added": "2026-10-26",
+      "tag": "Lung care",
+      "theme": "lung-biopsy-navigation",
+      "institution": "Union Hospital, Tongji Medical College (Huazhong University of Science and Technology), GPS-Lung navigation system",
+      "teaser": "AI guidance makes lung biopsies safer, with fewer collapsed lungs",
+      "headline": "AI navigation nearly halved collapsed lungs during lung biopsies in a trial",
+      "why": "Randomized trial of 220 patients at Wuhan Union Hospital sites, npj Digital Medicine",
+      "bullet": "Collapsed lungs nearly halved, from 23.9% to 12.7%, with AI-guided biopsies",
+      "texts": [
+        "Doctors at Union Hospital in Wuhan tested GPS-Lung, a generative AI navigation system for CT-guided lung nodule biopsies, in a randomized trial.\n\nWith the AI, a collapsed lung (pneumothorax) happened in 12.7% of procedures, against 23.9% with standard guidance. Procedures were shorter and needed fewer needle punctures. The results are in npj Digital Medicine.\n\n#AIforGood",
+        "A lung biopsy is often the only way to know whether a nodule is cancer, but each extra needle pass adds risk. In a randomized trial in Wuhan, an AI navigation system cut punctures from 2.5 to 2.0 on average.\n\nOperations took about three minutes less, radiation exposure fell, and collapsed lungs nearly halved.\n\n#AIforGood",
+        "What if a biopsy needle found its target on the first try more often? Doctors at Union Hospital in Wuhan compared AI-guided lung biopsies with standard CT guidance in 220 patients.\n\nWith the AI, the rate of collapsed lungs fell from 23.9% to 12.7%, with less radiation and shorter procedures.\n\n#AIforGood"
+      ],
+      "source": "https://www.nature.com/articles/s41746-026-03355-1",
+      "source_name": "npj Digital Medicine, Oct 21, 2026",
+      "site": "nature.com",
+      "og_title": "A Generative AI-powered navigation system for precision CBCT-guided lung biopsies: a randomized controlled trial",
+      "og_image": "",
+      "card": false
     }
   ]
 }

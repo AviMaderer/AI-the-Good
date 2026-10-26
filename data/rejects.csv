@@ -1,7 +1,4 @@
 date,title_or_url,reason
-2026-10-11,Johns Hopkins autonomous AI diabetic retinopathy screening and eye-care follow-up,Repeat: Johns Hopkins Wilmer diabetic-eye AI already in log (2026-09-22); exploratory analysis
-2026-10-11,Danish AI-assisted diabetic retinopathy screening validation in primary care,Accuracy validation only (183 patients); no deployment outcomes
-2026-10-11,AI fracture detection in emergency radiography (reviews),Reviews and retrospective accuracy only; no new deployment outcome
 2026-10-12,Google AMIE / Beth Israel Deaconess urgent care study (The Lancet),Vendor research prototype; 98-patient feasibility study
 2026-10-12,npj Digit Med: AI opportunistic osteoporosis screening on chest radiographs (Korea),Retrospective validation; savings simulated
 2026-10-12,npj Digit Med: DeepAD infant motion screening for cerebral palsy (China),Retrospective model validation on archived videos
@@ -89,3 +86,9 @@ date,title_or_url,reason
 2026-10-25,UT Southwestern AI ER triage bias study (Newsweek),Warning study on records; no deployment benefit
 2026-10-25,Supportiv hybrid AI suicide detection (J Clin Med Mar 2026; carry-over),All authors from the vendor; published Mar 3 2026; outside window
 2026-10-25,Sri Lanka ML poverty maps (arXiv 2609.23805),Preprint; no households reached or outcome measured
+2026-10-26,Penn epilepsy LLM comanagement (Nature Medicine Oct 13 2026),13-patient research study; did not alter care; prototype
+2026-10-26,npj Digit Med: multi-site commercial AI pulmonary embolism detection (Oct 21 2026),Detection performance only; no patient outcome
+2026-10-26,Flourish AI well-being app RCT (Cachia et al.),Preprint Nov 2025; outside window; vendor authors; waitlist control
+2026-10-26,NEJM AI AI-INFOCARE previsit summaries RCT (Oct 15 2026),Could not verify results: NEJM AI blocked; only protocol available
+2026-10-26,Lancet Digital Health: AI advice reliance crossover experiment (Oct 23 2026),Experiment on clinician reliance; no patient outcome
+2026-10-26,Tracy Police AI non-emergency dispatch (ttownmedia),Rollout only; no measured outcome
