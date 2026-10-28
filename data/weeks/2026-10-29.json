@@ -70,6 +70,28 @@
       "og_title": "A Generative AI-powered navigation system for precision CBCT-guided lung biopsies: a randomized controlled trial",
       "og_image": "",
       "card": false
+    },
+    {
+      "key": "lshtm-tanzania-ai-eye-screening",
+      "added": "2026-10-28",
+      "tag": "Eye care",
+      "theme": "diabetic-eye-screening",
+      "institution": "London School of Hygiene & Tropical Medicine / Kilimanjaro Christian Medical Centre, AI diabetic eye screening (Tanzania)",
+      "teaser": "On-the-spot AI eye results nearly doubled follow-up care in Tanzania",
+      "headline": "AI eye screening nearly doubled specialist follow-up for people with diabetes",
+      "why": "Randomised trial of 2,378 people at 24 hospitals in Tanzania, The Lancet Global Health",
+      "bullet": "Nearly twice as many reached eye care, 35.9% vs 18.2%, with AI screening",
+      "texts": [
+        "In northern Tanzania, people with diabetes screened for eye disease usually waited weeks for a result by phone. In a randomised trial at 24 hospitals, AI gave the result on the spot, with face-to-face counselling.\n\nAmong those who needed specialist care, 35.9% reached the eye clinic within eight weeks, against 18.2% with standard screening.\n\n#AIforGood",
+        "Diabetic eye disease can be treated, but only if people get to a specialist. A trial led by the London School of Hygiene & Tropical Medicine and Kilimanjaro Christian Medical Centre tested AI screening with an instant result.\n\nPeople who needed referral were nearly twice as likely to attend the eye clinic within eight weeks. The results are in The Lancet Global Health.\n\n#AIforGood",
+        "What changes when a screening result comes on the spot instead of weeks later? In a trial of 2,378 people with diabetes in Tanzania, on-the-spot AI results and a conversation with a health worker before leaving made the difference.\n\nFollow-up at the specialist eye clinic rose from 18.2% to 35.9%.\n\n#AIforGood"
+      ],
+      "source": "https://doi.org/10.1016/j.langlo.2026.104062",
+      "source_name": "The Lancet Global Health, Oct 12, 2026",
+      "site": "thelancet.com",
+      "og_title": "Artificial intelligence-supported diabetic retinopathy screening in Tanzania: a randomised controlled trial",
+      "og_image": "",
+      "card": false
     }
   ]
 }
