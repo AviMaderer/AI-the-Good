@@ -1,7 +1,33 @@
 {
   "edition": "2026-10-29",
   "intro": {
-    "options": [],
+    "options": [
+      {
+        "angle": "pattern",
+        "headline": "AI THAT GETS PEOPLE TO CARE SOONER",
+        "text": "Look at what the stories below have in common: reaching people in time. In Tanzania, people with diabetes were nearly twice as likely to get to an eye specialist. In New Jersey, AI alerts sent rapid response teams to patients at risk earlier, and deaths fell. In Wuhan, lung biopsies became safer. And a man with ALS got his words back. In each case, people stayed in charge, and AI helped them act sooner."
+      },
+      {
+        "angle": "purpose",
+        "headline": "CARE THAT REACHES PEOPLE",
+        "text": "Purpose in health care is simple: get the right care to the right person in time. This edition shows AI helping with exactly that. An on-the-spot eye screening result that gets people to a specialist. An alert that brings a rapid response team to a bedside. A safer path for a biopsy needle. A brain implant that lets a man with ALS keep working and talking to his family."
+      },
+      {
+        "angle": "question",
+        "headline": "WHAT IF THE HELP CAME SOONER?",
+        "text": "What changes when help arrives earlier? In Tanzania, an instant AI eye screening result nearly doubled the number of people who reached specialist care. At 11 New Jersey hospitals, earlier alerts came with fewer deaths among high-risk patients. Here are four stories, each with real numbers, of AI helping people get care sooner and more safely."
+      },
+      {
+        "angle": "one-liner",
+        "headline": "SOONER, SAFER, HEARD",
+        "text": "Four stories, four measured results: more people with diabetes reaching eye care in Tanzania, fewer deaths among high-risk patients in New Jersey, safer lung biopsies in Wuhan, and a man with ALS communicating nearly 2 million words from home. AI helping, people in charge."
+      },
+      {
+        "angle": "doom-vs-evidence",
+        "headline": "LESS FEAR, MORE FOLLOW-UP",
+        "text": "The loudest AI stories are about what might go wrong. The quieter ones are about what is already going right, and they come with data. Two randomised trials, a study across 11 hospitals and nearly two years of daily home use: AI helping people reach eye care, survive a hospital stay, get a safer biopsy and speak again."
+      }
+    ],
     "final": null
   },
   "stories": [
@@ -25,7 +51,7 @@
       "site": "rutgershealth.org",
       "og_title": "RWJBarnabas Health and Rutgers Researchers Find AI Tool Helps Detect Patients at Risk Earlier",
       "og_image": "https://www.rutgershealth.org/sites/default/files/styles/16x9_full_default_1x/public/rwjuh_officialcampus_scaled_0087.jpg?h=63721363&itok=UV0pLtHq",
-      "card": false
+      "card": true
     },
     {
       "key": "ucdavis-braingate-home-bci",
@@ -47,7 +73,7 @@
       "site": "health.ucdavis.edu",
       "og_title": "Brain-computer interface enables independent, accurate communication for man living with ALS",
       "og_image": "https://health.ucdavis.edu/media-resources/contenthub/health-news/2026/6/body/bci-casey-computer-widebody.jpg",
-      "card": false
+      "card": true
     },
     {
       "key": "wuhan-union-gps-lung",
@@ -69,7 +95,7 @@
       "site": "nature.com",
       "og_title": "A Generative AI-powered navigation system for precision CBCT-guided lung biopsies: a randomized controlled trial",
       "og_image": "",
-      "card": false
+      "card": true
     },
     {
       "key": "lshtm-tanzania-ai-eye-screening",
@@ -91,7 +117,7 @@
       "site": "thelancet.com",
       "og_title": "Artificial intelligence-supported diabetic retinopathy screening in Tanzania: a randomised controlled trial",
       "og_image": "",
-      "card": false
+      "card": true
     }
   ]
 }
