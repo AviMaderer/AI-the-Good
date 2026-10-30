@@ -1,7 +1,4 @@
 date,title_or_url,reason
-2026-10-15,UVA / Nihon Kohden CoMET deterioration analytics RCT (Sci Rep),Null primary outcome; published Feb 2026; vendor co-authors
-2026-10-15,PDC30 AI-enhanced psychoeducation for dementia caregivers (Am J Geriatr Psychiatry),Published Jan 2026; outside window
-2026-10-15,Tucuvi LOLA heart-failure voice agent study,Non-randomized; company-promoted
 2026-10-16,Nature Medicine comment: scaling clinical AI to over a million patients screened (Google et al.),Vendor-authored comment; only a reach figure visible; paywalled
 2026-10-16,Nature Medicine comment: AI-agent eye clinic in China (Tsinghua),Comment with no outcome numbers available
 2026-10-16,Anika Puri ElSa AI poaching detection tool,Student prototype; no deployed outcome
@@ -69,3 +66,8 @@ date,title_or_url,reason
 2026-10-29,Gwangmyeong AI ventilation fine-dust pilot (Asia Business Daily Apr 2026),Small city-reported pilot; Apr 24 2026 outside window
 2026-10-29,Binti child welfare licensing figures,Vendor-reported figures
 2026-10-29,Anthropic: AI agents and expert judgment,AI-industry research; not an application outcome
+2026-10-30,Eedi / Google DeepMind AI tutor RCT (The 74 Oct 29 2026),No gain on standardized maths test; run by the tool's developer
+2026-10-30,Respiratory outbreak early-warning system (Nat Commun May 2026),Prediction accuracy only; no measured public health outcome
+2026-10-30,UF multimodal clinical AI design study (Oct 26 2026),Modeling study; not deployed
+2026-10-30,FiN nature-based loneliness trial (News-Medical),Not an AI intervention
+2026-10-30,AI surgery value article (Innovation News Network),Commentary; no measured outcome
