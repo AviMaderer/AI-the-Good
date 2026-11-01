@@ -1,6 +1,4 @@
 date,title_or_url,reason
-2026-10-17,Flourish AI well-being app RCT (NEJM AI Jul 22 2026),Lead authors are Flourish Science employees; mental-health outcomes null; modest self-reported effects
-2026-10-17,BBC: blind users and Meta AI glasses,Personal accounts; no measured outcomes
 2026-10-18,MD Anderson AI immune-cell migration tool (research roundup),Lab research tool; no deployed outcome
 2026-10-18,Doctronic urgent-care treatment-plan consistency study,Vendor blog; agreement metric only
 2026-10-19,Zuckerberg San Francisco General Epic readmission model (heart failure),Program results from 2024; outside window; figures inconsistent across sources
@@ -72,3 +70,8 @@ date,title_or_url,reason
 2026-10-31,GiveDirectly / Google FloodHub anticipatory cash (Nigeria),Published Jun 2025 about 2024 floods; outside window; self-reported outcomes
 2026-10-31,Cairn Surgical breast cancer locator RCT (Business Wire),Vendor release; device not AI
 2026-10-31,Meta / CNIB AI glasses partnership,Partnership announcement; no measured outcome
+2026-11-01,Mayo Clinic AI ED admission prediction (Nat Commun May 12 2026),Primary outcome (discharges per day) null; only 12-minute secondary LOS change
+2026-11-01,Imperial / Google NHS breast screening AI second reader (Nature Cancer; carry-over),Published Mar 10 2026; outside window; Google author
+2026-11-01,Lancet Global Health AI cervical precancer tool in five African countries,Diagnostic accuracy study; Jan 2026; outside window
+2026-11-01,Google Gemini school tutoring studies (Pillitteri),Test scores did not improve; vendor studies
+2026-11-01,Imperial College AI humour-coaching chatbot (Medical Daily),Uncontrolled pilot; randomized trial still running
