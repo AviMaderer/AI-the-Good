@@ -1,0 +1,31 @@
+{
+  "edition": "2026-11-05",
+  "intro": {
+    "options": [],
+    "final": null
+  },
+  "stories": [
+    {
+      "key": "nup-mr-ai-missed-referrals",
+      "added": "2026-11-02",
+      "tag": "Patient safety",
+      "theme": "missed-referral-detection",
+      "institution": "National University Polyclinics / National University Health System, MR-AI missed-referral safety system (Singapore)",
+      "teaser": "AI catches specialist referrals that slipped through the cracks",
+      "headline": "AI raised detection of missed specialist referrals sevenfold in Singapore",
+      "why": "Quasi-experimental study at seven primary care clinics in Singapore, npj Digital Medicine",
+      "bullet": "Sevenfold more missed referrals caught, as AI read 25,000 notes a week",
+      "texts": [
+        "When a doctor's notes say a patient needs a specialist but no referral is ordered, that patient can fall through the cracks. At seven National University Polyclinics in Singapore, an AI safety system scanned about 25,000 consultation notes a week for exactly that gap.\n\nIt raised weekly detection of missed referrals an estimated sevenfold. The study is in npj Digital Medicine.\n\n#AIforGood",
+        "Missed referrals are a quiet patient-safety problem. Singapore's National University Polyclinics use MR-AI to flag consultation notes that mention a referral with no matching order.\n\nOf 428 flags, clinicians confirmed 225 missed referrals, and patients reported 31 more. The system was 99.9% specific, with an estimated 41 hours of staff time saved.\n\n#AIforGood",
+        "What happens to the referral a doctor meant to make but didn't? In seven Singapore polyclinics, an AI system looked for it, reading about 25,000 notes a week and flagging gaps for clinicians to check.\n\nDetection of missed specialist referrals rose an estimated sevenfold, with 256 cases found.\n\n#AIforGood"
+      ],
+      "source": "https://www.nature.com/articles/s41746-026-03444-1",
+      "source_name": "npj Digital Medicine, Oct 30, 2026",
+      "site": "nature.com",
+      "og_title": "Accuracy and impact of an AI safety system for missed specialist referrals in primary care",
+      "og_image": "",
+      "card": false
+    }
+  ]
+}
