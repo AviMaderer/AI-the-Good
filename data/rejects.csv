@@ -1,11 +1,4 @@
 date,title_or_url,reason
-2026-10-21,Mitchell School District / Amira Learning reading tutor,60-student summer pilot; headline figures are vendor claims; independent RCT not yet run
-2026-10-21,TomorrowNow Suitable Planting Window (Kenya),Single company anecdote; no measured outcomes
-2026-10-21,Harvard SEAS Mobilio navigation app (Nat Biomed Eng Aug 2026),Experimental prototype tested with 14 participants
-2026-10-21,Be My Eyes Foundation,Reach figures only; 2026 studies are critical or qualitative
-2026-10-21,IRC aprendIA / Signpost (Nigeria),Reach and projections only; no measured learning or outcome data
-2026-10-21,ITC MAARS / Krishi Mitra crop advisory,Outcome figures are the company's own pilot estimates
-2026-10-21,Norfolk E911 AI non-emergency line (WTKR),Call volumes only; no before/after wait or response times; article undated
 2026-10-22,TRIAD framework (Google Alert),Framework/proposal only; no deployed outcome
 2026-10-22,Armenia leopard AI monitoring (Google Alert),Monitoring description; no measured outcome
 2026-10-22,Atlanta 911 baby delivery (Google Alert),Dispatcher story; AI role not measured
@@ -84,3 +77,8 @@ date,title_or_url,reason
 2026-11-04,Heartflow PCI Navigator P4 trial (TCT 2026 press release),Vendor release; CT-guided PCI matched IVUS (non-inferiority); AI role is vendor framing
 2026-11-04,OM1 healthcare foundation model validation (Business Wire),Vendor validation; no patient outcomes
 2026-11-04,AI-enabled remote monitoring readmissions (Int J Med Inform),Could not verify; ScienceDirect blocked; date unclear
+2026-11-05,Goblins AI maths tutor in Deer Valley (Accelerate / EdWorkingPapers Oct 2026),Observational dose-response comparison; self-selection; authors say it cannot show causation
+2026-11-05,Fortell Spatial AI hearing aid preference trial (Int J Audiol 2026),20-participant preference study; vendor device
+2026-11-05,AI heart MRI ejection fraction vs survival (EurekAlert Nov 2 2026),Observational prognostic accuracy; not a deployment
+2026-11-05,IRC Signpost reach figures (Rest of World),Reach only; no measured outcome (rejected 10-21)
+2026-11-05,APHA posters: AI for homelessness research,Conference posters; no measured outcome
