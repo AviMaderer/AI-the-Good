@@ -28,7 +28,12 @@
         "text": "From ambulances to MRI machines to mountain rescues, the AI in these stories saves minutes where minutes matter most."
       }
     ],
-    "final": null
+    "final": {
+      "headline": "AI THAT GIVES BACK TIME",
+      "text": "Look at what the stories below have in common: time. Ambulances in Anyang arriving three minutes sooner. MRI scans at Kaiser Permanente 15 minutes shorter, with waits cut by up to 60%. Two lost hikers found in under five hours. Rangers sorting wildlife images in two months instead of six. In each case people stayed in charge, and AI gave them time back.",
+      "angle": "pattern",
+      "committed_at": "2026-11-06T13:37:40.501Z"
+    }
   },
   "stories": [
     {
