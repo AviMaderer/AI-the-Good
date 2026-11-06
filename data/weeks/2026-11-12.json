@@ -1,5 +1,5 @@
 {
-  "edition": "2026-11-05",
+  "edition": "2026-11-12",
   "intro": {
     "options": [],
     "final": null
@@ -24,6 +24,28 @@
       "source_name": "npj Digital Medicine, Oct 30, 2026",
       "site": "nature.com",
       "og_title": "Accuracy and impact of an AI safety system for missed specialist referrals in primary care",
+      "og_image": "",
+      "card": false
+    },
+    {
+      "key": "son-llatzer-bialert-sepsis",
+      "added": "2026-11-06",
+      "tag": "Sepsis care",
+      "theme": "sepsis-alerts",
+      "institution": "Hospital Son Llàtzer (Palma, Spain), BIAlert-Sepsis AI alert",
+      "teaser": "An AI sepsis alert in Mallorca meant fewer ICU stays and lower costs",
+      "headline": "AI sepsis alerts cut ICU admissions and costs at a Spanish hospital",
+      "why": "Before-and-after study of 8,039 sepsis patients, PLOS Global Public Health",
+      "bullet": "Fewer septic patients needed intensive care, 30.4% vs 34.4%, with AI alerts",
+      "texts": [
+        "At Hospital Son Llàtzer in Palma, Spain, an AI model called BIAlert-Sepsis has flagged patients at risk of sepsis since 2019. Researchers compared 8,039 septic patients before and after it went live.\n\nICU admissions fell from 34.4% to 30.4%, hospital stays got shorter, and the average cost per admission dropped from 26,517 to 24,630 euros.\n\n#AIforGood",
+        "Sepsis moves fast, and catching it early can keep patients out of intensive care. A hospital in Mallorca replaced its rule-based sepsis alert with an AI model.\n\nAfter the switch, fewer septic patients needed the ICU, those who did stayed there for less time, and the hospital estimates savings of about 1,800 euros per patient. The study is in PLOS Global Public Health.\n\n#AIforGood",
+        "What changes when a hospital's sepsis alert gets smarter? At Hospital Son Llàtzer in Spain, an AI model took over from a rule-based system in 2019.\n\nAmong 8,039 patients with sepsis, ICU admissions fell from 34.4% to 30.4%, with shorter stays on the wards and in intensive care.\n\n#AIforGood"
+      ],
+      "source": "https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0006059",
+      "source_name": "PLOS Global Public Health, Aug 31, 2026",
+      "site": "journals.plos.org",
+      "og_title": "Prospective economic evaluation of a predictive artificial intelligence model for sepsis: Effects on hospital costs and return on investment",
       "og_image": "",
       "card": false
     }

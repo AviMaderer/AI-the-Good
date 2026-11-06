@@ -1,12 +1,4 @@
 date,title_or_url,reason
-2026-10-22,TRIAD framework (Google Alert),Framework/proposal only; no deployed outcome
-2026-10-22,Armenia leopard AI monitoring (Google Alert),Monitoring description; no measured outcome
-2026-10-22,Atlanta 911 baby delivery (Google Alert),Dispatcher story; AI role not measured
-2026-10-22,Duke aging care AI (Google Alert),Research plan; no results yet
-2026-10-22,US farmers AI adoption survey (Google Alert),Adoption survey; no outcome data
-2026-10-22,Flood AI forecast accuracy (Google Alert),Model accuracy only; no deployed outcome
-2026-10-22,Halton Police 911 AI training (Google Alert),Training tool; no measured outcome
-2026-10-22,NCLEX AI tutor (Google Alert),Vendor claim; no independent outcome data
 2026-10-23,Penda Health / OpenAI AI Consult 2.0 cluster RCT (Nature Medicine Jun 2026),Null primary outcome (14-day treatment failure); vendor involvement
 2026-10-23,Colonoscopy CADe 685-patient RCT (cited in Frontiers review),Older trial cited in a narrative review; outside window
 2026-10-23,Uzbekistan MedGuard-UZ CDSS RCT (Int J Med Inform Apr 2026),Single-author four-hospital RCT; no institutional release to verify
@@ -82,3 +74,7 @@ date,title_or_url,reason
 2026-11-05,AI heart MRI ejection fraction vs survival (EurekAlert Nov 2 2026),Observational prognostic accuracy; not a deployment
 2026-11-05,IRC Signpost reach figures (Rest of World),Reach only; no measured outcome (rejected 10-21)
 2026-11-05,APHA posters: AI for homelessness research,Conference posters; no measured outcome
+2026-11-06,KITE-CRM AI for cystic renal masses randomized implementation study (eClinicalMedicine Nov 2026),Could not verify: Lancet/ScienceDirect blocked; not in Europe PMC yet; only aggregator coverage. Recheck when indexed
+2026-11-06,Seattle 911 AI use internal report (Seattle Times),Concerns report; no positive outcome
+2026-11-06,Korea University AI large vessel occlusion on non-contrast CT (Sep 2026),Validation and reader study; not deployed
+2026-11-06,CT radiomics model for subarachnoid hemorrhage outcomes (Nov 2026),Prognostic model; not deployed
