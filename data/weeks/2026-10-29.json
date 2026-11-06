@@ -28,7 +28,12 @@
         "text": "The loudest AI stories are about what might go wrong. The quieter ones are about what is already going right, and they come with data. Two randomised trials, a study across 11 hospitals and nearly two years of daily home use: AI helping people reach eye care, survive a hospital stay, get a safer biopsy and speak again."
       }
     ],
-    "final": null
+    "final": {
+      "headline": "AI THAT GETS PEOPLE TO CARE SOONER",
+      "text": "Look at what the stories below have in common: reaching people in time. In Tanzania, people with diabetes were nearly twice as likely to get to an eye specialist. In New Jersey, AI alerts sent rapid response teams to patients at risk earlier, and deaths fell. In Wuhan, lung biopsies became safer. And a man with ALS got his words back. In each case, people stayed in charge, and AI helped them act sooner.",
+      "angle": "pattern",
+      "committed_at": "2026-11-06T13:37:19.312Z"
+    }
   },
   "stories": [
     {
