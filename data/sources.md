@@ -32,7 +32,7 @@ Rules: no more than 2 stories from the same outlet per edition. Prefer free-to-r
 - Mass General Brigham (massgeneralbrigham.org/en/about/newsroom)
 - Kaiser Permanente (about.kaiserpermanente.org)
 - NHS England and NHS trusts (england.nhs.uk/news)
-- Moorfields Eye Hospital (moorfields.nhs.uk/news)
+- Moorfields Eye Hospital (moorfields.nhs.uk/about-us/news-and-blogs/news)
 - Sheba Medical Center ARC (shebaonline.org)
 - Apollo Hospitals (apollohospitals.com)
 
@@ -64,6 +64,13 @@ Rules: no more than 2 stories from the same outlet per edition. Prefer free-to-r
 - Global Fishing Watch (globalfishingwatch.org)
 - FAO (fao.org/newsroom)
 - Mongabay (mongabay.com)
+
+## Public safety and road safety
+- Insurance Institute for Highway Safety (iihs.org/news)
+- National Highway Traffic Safety Administration (nhtsa.gov/press-releases)
+- National Fire Protection Association (nfpa.org)
+- APCO International, emergency communications and 911 (apcointl.org)
+- Vision Zero Network (visionzeronetwork.org)
 
 ## Outlets with named reporting
 - STAT News (statnews.com)

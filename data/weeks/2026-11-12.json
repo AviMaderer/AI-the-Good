@@ -48,6 +48,48 @@
       "og_title": "Prospective economic evaluation of a predictive artificial intelligence model for sepsis: Effects on hospital costs and return on investment",
       "og_image": "",
       "card": false
+    },
+    {
+      "key": "nobi-care-home-falls",
+      "added": "2026-11-06",
+      "tag": "Elder care",
+      "theme": "falls-detection",
+      "institution": "NHS Lancashire and South Cumbria ICB / Lancaster University evaluation of Nobi AI ceiling lamps",
+      "teaser": "AI ceiling lamps in care homes cut falls by about a third",
+      "headline": "AI ceiling lamps in about 80 care homes cut resident falls by about a third",
+      "why": "Two-year evaluation across about 80 care homes by NHS Lancashire and South Cumbria and Lancaster University",
+      "bullet": "32% fewer falls, as AI ceiling lamps watched over care home residents",
+      "texts": [
+        "About 32% fewer falls, and 23% fewer ambulance call-outs.\n\nAcross Lancashire and South Cumbria, around 800 AI ceiling lamps were fitted in about 80 care homes. Lancaster University's evaluation found falls dropped from 1.85 to about 1.28 per resident per month, and staff reached a fallen resident in under 3 minutes, down from 11.\n\n#AIforGood",
+        "For an older person, a fall at night can mean a long wait on the floor before anyone comes.\n\nIn care homes across Lancashire and South Cumbria, AI ceiling lamps now alert staff the moment someone falls. Response times dropped from 11 minutes to under 3, and the playback helps staff spot what caused a fall and prevent the next one.\n\n#AIforGood",
+        "Can a ceiling light keep someone safe?\n\nIn about 80 care homes in the north of England, AI lamps watch for falls and alert staff right away. An independent Lancaster University evaluation found about 32% fewer falls, and ambulance call-outs ending in a hospital trip fell by 24%.\n\n#AIforGood"
+      ],
+      "source": "https://www.lancashireandsouthcumbria.icb.nhs.uk/news-and-media/latest-news/ai-ceiling-light-reduces-falls",
+      "source_name": "NHS Lancashire and South Cumbria ICB, May 13, 2026",
+      "site": "lancashireandsouthcumbria.icb.nhs.uk",
+      "og_title": "AI ceiling light reduces falls",
+      "og_image": ""
+    },
+    {
+      "key": "oak-aila-teacher-time",
+      "added": "2026-11-06",
+      "tag": "Education",
+      "theme": "teacher-workload",
+      "institution": "Oak National Academy Aila, evaluated by NFER for the Education Endowment Foundation",
+      "teaser": "An AI lesson assistant saved teachers 49 minutes a week",
+      "headline": "AI lesson assistant saved primary teachers 49 minutes a week, with no drop in quality",
+      "why": "Randomized trial of 464 teachers in 108 schools, independent NFER evaluation for the EEF",
+      "bullet": "49 minutes a week saved, for teachers planning lessons with an AI assistant",
+      "texts": [
+        "49 minutes a week back for teachers.\n\nIn a randomized trial of 464 primary teachers in 108 English schools, those using Oak National Academy's AI lesson assistant, Aila, spent about 2.5 hours a week preparing lessons, against 3.3 hours without it. Independent reviewers found the lessons were no worse in quality.\n\n#AIforGood",
+        "Lesson planning eats into teachers' evenings.\n\nAn independent trial for the Education Endowment Foundation found that primary teachers using Aila, an AI lesson assistant from Oak National Academy, saved about 49 minutes a week. Teachers newer to the profession, or less confident in a subject, were the most likely to gain.\n\n#AIforGood",
+        "What could a teacher do with an extra 49 minutes a week?\n\nThat is how much time primary teachers saved on lesson preparation with Aila, Oak National Academy's AI assistant, in a randomized trial of 464 teachers. The evaluators gave the evidence a high security rating, and the lessons were no worse in quality.\n\n#AIforGood"
+      ],
+      "source": "https://gsa.uk.com/wp-content/uploads/2026/10/aila-lesson-planning_teacher-choices_evaluation-report.pdf",
+      "source_name": "Education Endowment Foundation evaluation report by NFER, Oct 2026",
+      "site": "gsa.uk.com",
+      "og_title": "Lesson planning using AI lesson assistant, Aila - A Teacher Choices Trial: Evaluation report",
+      "og_image": ""
     }
   ]
 }
