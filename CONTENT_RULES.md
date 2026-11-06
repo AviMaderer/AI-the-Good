@@ -141,4 +141,6 @@ Always put the preview page link at the top. If an earlier edition is still wait
 
 **Every run's email** (including `NOTHING NEW` and release-day emails) has one line counting this run's candidates per domain: how many were checked and how many passed, for each of health, mental health, safety and disaster response, public safety, agriculture, education, environment and conservation, accessibility, poverty and finance, homelessness and social services, elder care and loneliness. Name any domain that got zero candidates. For example: `Candidates checked/passed: health 6/1, mental health 2/0, safety and disaster response 3/0, public safety 0 (none found), ...`
 
+**Every run's email** also has one line on Google Alerts leads: how many leads were read in the alert emails since the last run, and how many of them were checked at their primary source. For example: `Google Alerts: 14 leads read, 3 checked (0 passed)`. If no alert emails arrived, say so.
+
 If anything fails (build or push error), email Avi what happened instead, and do not publish a partial page.
