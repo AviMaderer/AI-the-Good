@@ -33,7 +33,7 @@ jobs:
           pip install playwright
           python -m playwright install --with-deps chromium
 
-      - name: Build changed editions
+      - name: Build changed editions and commit
         env:
           BEFORE: ${{ github.event.before }}
         run: |
@@ -42,26 +42,31 @@ jobs:
           else
             files=$(ls data/weeks/*.json 2>/dev/null || true)
           fi
-          built=0
-          for f in $files; do
-            [ -f "$f" ] || continue
-            python tools/build.py "$f"
-            built=1
-          done
-          [ "$built" = 1 ] || echo "No edition files to build."
-
-      - name: Commit the built site
-        run: |
+          build() {
+            built=0
+            for f in $files; do
+              [ -f "$f" ] || continue
+              python tools/build.py "$f"
+              built=1
+            done
+            [ "$built" = 1 ] || echo "No edition files to build."
+          }
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          if git diff --cached --quiet; then
-            echo "Nothing changed."
-            exit 0
-          fi
-          git commit -m "Build site (${GITHUB_SHA::7})"
-          for i in 1 2 3; do
-            git pull --rebase origin main && git push origin HEAD:main && exit 0
+          build
+          # If another build pushed first (two commits close together), never rebase generated
+          # pages: start again from the latest main and rebuild, so both releases end up built.
+          for i in 1 2 3 4 5; do
+            git add -A
+            if git diff --cached --quiet; then
+              echo "Nothing changed."
+              exit 0
+            fi
+            git commit -q -m "Build site (${GITHUB_SHA::7})"
+            git push origin HEAD:main && exit 0
             sleep $((i * 5))
+            git fetch origin main
+            git reset --hard origin/main
+            build
           done
           exit 1
