@@ -1,12 +1,4 @@
 date,title_or_url,reason
-2026-10-23,Penda Health / OpenAI AI Consult 2.0 cluster RCT (Nature Medicine Jun 2026),Null primary outcome (14-day treatment failure); vendor involvement
-2026-10-23,Colonoscopy CADe 685-patient RCT (cited in Frontiers review),Older trial cited in a narrative review; outside window
-2026-10-23,Uzbekistan MedGuard-UZ CDSS RCT (Int J Med Inform Apr 2026),Single-author four-hospital RCT; no institutional release to verify
-2026-10-23,UW-La Crosse Macro Buddy AI tutor study,Single course of 140 students; coverage from Mar 2026
-2026-10-23,ZSFG heart failure readmission AI (AJMC),Published Mar 2025; outside window
-2026-10-23,OSF HealthCare AI-assisted lung screening (ASCO 2026 abstract 109),Multi-component program; AI effect not isolated
-2026-10-23,El Salvador AprendES AI tutors (PISA for Schools pilot),Government framing; bundled program; AI effect not isolated
-2026-10-23,IIT Madras blind photography workshops (India Today),Not an AI deployment
 2026-10-24,JACC: Heart Failure AI-guided post-discharge monitoring (Oct 2026),Null result: no reduction in rehospitalizations
 2026-10-24,University of Maryland AI course trial (Solutions Review roundup),Reported lower grades; roundup source
 2026-10-24,Audubon: 5 AI bird conservation projects (Summer 2026),Roundup; discovery and monitoring only; no measured outcome for people or habitat
@@ -78,3 +70,5 @@ date,title_or_url,reason
 2026-11-06,Seattle 911 AI use internal report (Seattle Times),Concerns report; no positive outcome
 2026-11-06,Korea University AI large vessel occlusion on non-contrast CT (Sep 2026),Validation and reader study; not deployed
 2026-11-06,CT radiomics model for subarachnoid hemorrhage outcomes (Nov 2026),Prognostic model; not deployed
+2026-11-07,Harvard physics AI tutor (India Today Nov 4 2026; Kestin et al. Sci Rep Jun 2025),Study published Jun 2025; outside 12-month window
+2026-11-07,Las Vegas downtown homelessness outreach (FOX5 Nov 6 2026),Not an AI program

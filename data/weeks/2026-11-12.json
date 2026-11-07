@@ -90,6 +90,28 @@
       "site": "gsa.uk.com",
       "og_title": "Lesson planning using AI lesson assistant, Aila - A Teacher Choices Trial: Evaluation report",
       "og_image": ""
+    },
+    {
+      "key": "geisinger-ml-colonoscopy-outreach",
+      "added": "2026-11-07",
+      "tag": "Cancer screening",
+      "theme": "colorectal-screening",
+      "institution": "Geisinger machine-learning colorectal cancer screening outreach, with University of Hong Kong and Columbia Business School",
+      "teaser": "AI flags who needs a colonoscopy, and a nurse calls them",
+      "headline": "AI-guided colon cancer outreach at Geisinger tied to 43% lower 2-year mortality",
+      "why": "Real-world evaluation against matched controls, Manufacturing & Service Operations Management",
+      "bullet": "Two-year deaths down 43%, as AI flagged patients for colon cancer screening",
+      "texts": [
+        "Since 2019, Geisinger has used a machine learning model that reads routine blood counts, age and sex to flag patients at higher risk of colorectal cancer who are overdue for screening. Nurse coordinators then call them.\n\nFlagged patients were 6% more likely to complete a colonoscopy within three months, and two-year mortality fell 43% relative to similar patients without outreach.\n\n#AIforGood",
+        "Colorectal cancer is one of the most preventable causes of cancer death, if people get screened in time. Geisinger pairs an AI risk model with a phone call from a nurse who explains the test and books it.\n\nCompared with similar patients, those reached were more likely to have a colonoscopy, and their two-year mortality was 43% lower.\n\n#AIforGood",
+        "Who should get the call first? At Geisinger, a machine learning model answers that from blood tests already in the record, and nurses do the rest.\n\nA study in Manufacturing & Service Operations Management found the outreach raised colonoscopy completion and cut two-year mortality by 43% relative to a comparison group.\n\n#AIforGood"
+      ],
+      "source": "https://www.eurekalert.org/news-releases/1135090",
+      "source_name": "INFORMS via EurekAlert, Jul 6, 2026",
+      "site": "eurekalert.org",
+      "og_title": "AI-guided outreach increased cancer screenings and reduced mortality, new study finds",
+      "og_image": "",
+      "card": false
     }
   ]
 }
