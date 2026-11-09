@@ -1,10 +1,4 @@
 date,title_or_url,reason
-2026-10-25,FUSION trial: Heartflow FFRct (ESC 2026 / JACC Aug 28 2026),"Independent sources (ACC) describe CT-derived FFR, not AI; AI framing is the vendor's; outcomes, costs and MACE similar"
-2026-10-25,Pitt AKI predictive alerts with pharmacists RCT (HCPLive),Null result: AI alerts did not reduce kidney events
-2026-10-25,UMD study of AI visual assistance apps for blind users (Tech Xplore),Study finds the apps fall short; no positive outcome
-2026-10-25,UT Southwestern AI ER triage bias study (Newsweek),Warning study on records; no deployment benefit
-2026-10-25,Supportiv hybrid AI suicide detection (J Clin Med Mar 2026; carry-over),All authors from the vendor; published Mar 3 2026; outside window
-2026-10-25,Sri Lanka ML poverty maps (arXiv 2609.23805),Preprint; no households reached or outcome measured
 2026-10-26,Penn epilepsy LLM comanagement (Nature Medicine Oct 13 2026),13-patient research study; did not alter care; prototype
 2026-10-26,npj Digit Med: multi-site commercial AI pulmonary embolism detection (Oct 21 2026),Detection performance only; no patient outcome
 2026-10-26,Flourish AI well-being app RCT (Cachia et al.),Preprint Nov 2025; outside window; vendor authors; waitlist control
@@ -68,3 +62,8 @@ date,title_or_url,reason
 2026-11-08,AI-INFOCARE previsit AI summaries RCT (NEJM AI Oct 15 2026; 2 Minute Medicine Nov 5),Primary effect 0.17 below the trial's prespecified clinical threshold (0.3-0.5); NEJM AI blocked; tool vendor-supplied
 2026-11-08,Cleerly AI-QCT randomized trial (Business Wire Nov 5 2026),Vendor release; results not yet presented (AHA 2026)
 2026-11-08,MANTIS childhood brain tumour survival model (Nature Genetics Nov 2026),Prognostic model; not deployed
+2026-11-09,PARAMOUNT Cleerly AI-QCT plaque-guided care RCT (AHA 2026),Vendor-sponsored; conference only; composite win-ratio driven by diagnostic certainty; full results 2027
+2026-11-09,Rosie AI chatbot for pregnant women and new mothers RCT (JAMA Netw Open Nov 2026),Null result on anxiety and depression
+2026-11-09,Asan Medical Center collaborative AI brain CT worklist deprioritization (npj Digit Med Nov 5 2026),Retrospective validation; not deployed
+2026-11-09,Taiwan AI-ECG alerts for AF identification pragmatic RCT (JAHA),Journal pages blocked; 2025 publication; likely outside 12-month window
+2026-11-09,Peel Police AI call screener (The Pointer),Concerns report; no measured benefit
