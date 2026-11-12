@@ -1,7 +1,33 @@
 {
   "edition": "2026-11-12",
   "intro": {
-    "options": [],
+    "options": [
+      {
+        "angle": "doom-vs-evidence",
+        "headline": "WHAT IS ALREADY GOING RIGHT",
+        "text": "Most AI headlines are about what could go wrong. The stories below are about what has already gone right, and each one comes with a number. In Singapore, AI caught seven times more missed specialist referrals. In north-west England, care homes saw about a third fewer falls. In Spain, fewer sepsis patients needed intensive care. At Geisinger, AI-guided screening outreach was tied to 43% lower two-year mortality. And primary teachers got 49 minutes of planning time back."
+      },
+      {
+        "angle": "purpose",
+        "headline": "MORE ROOM FOR THE HUMAN PART",
+        "text": "Purpose lives in the work only people can do: teaching a child, comforting a resident, calling a patient who needs a test. In these five stories, AI takes on the background work, reading thousands of clinical notes, watching for a fall, drafting a lesson, so people can give their attention where it counts. Nurses still make the calls. Staff still reach the resident. Teachers still teach. AI just helps them get there sooner."
+      },
+      {
+        "angle": "question",
+        "headline": "WHO CATCHES WHAT WE MISS?",
+        "text": "Every system has gaps: a referral that never gets sent, a resident who falls with no one nearby, a patient overdue for screening. In these stories, AI watches those gaps so people can act, with seven times more missed referrals caught in Singapore, about a third fewer care-home falls in England, and fewer sepsis patients in intensive care in Spain. Where in your own work would a second pair of eyes help most?"
+      },
+      {
+        "angle": "one-liner",
+        "headline": "FIVE GAPS, NARROWER",
+        "text": "Five measured results: missed referrals caught in Singapore, fewer care-home falls in England, fewer sepsis patients in intensive care in Spain, lower mortality after AI-guided cancer screening outreach in Pennsylvania, and less time spent on lesson planning for teachers."
+      },
+      {
+        "angle": "pattern",
+        "headline": "CATCHING WHAT SLIPS THROUGH",
+        "text": "The common thread here is the thing that slips through the cracks. A specialist referral written in a note but never sent. A fall in a care home. A patient overdue for colon cancer screening. An early sign of sepsis. In each case AI flagged it and people acted, and the results show up as fewer falls, fewer intensive care stays and lower mortality."
+      }
+    ],
     "final": null
   },
   "stories": [
@@ -25,7 +51,7 @@
       "site": "nature.com",
       "og_title": "Accuracy and impact of an AI safety system for missed specialist referrals in primary care",
       "og_image": "",
-      "card": false
+      "card": true
     },
     {
       "key": "son-llatzer-bialert-sepsis",
@@ -68,7 +94,8 @@
       "source_name": "NHS Lancashire and South Cumbria ICB, May 13, 2026",
       "site": "lancashireandsouthcumbria.icb.nhs.uk",
       "og_title": "AI ceiling light reduces falls",
-      "og_image": ""
+      "og_image": "",
+      "card": true
     },
     {
       "key": "oak-aila-teacher-time",
@@ -89,7 +116,8 @@
       "source_name": "Education Endowment Foundation evaluation report by NFER, Oct 2026",
       "site": "gsa.uk.com",
       "og_title": "Lesson planning using AI lesson assistant, Aila - A Teacher Choices Trial: Evaluation report",
-      "og_image": ""
+      "og_image": "",
+      "card": true
     },
     {
       "key": "geisinger-ml-colonoscopy-outreach",
@@ -111,7 +139,7 @@
       "site": "eurekalert.org",
       "og_title": "AI-guided outreach increased cancer screenings and reduced mortality, new study finds",
       "og_image": "",
-      "card": false
+      "card": true
     }
   ]
 }

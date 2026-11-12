@@ -1,8 +1,4 @@
 date,title_or_url,reason
-2026-10-28,Wadhwani AI farmer and reading-assessment reach figures,Reach counts only; no measured outcome
-2026-10-28,Rwanda LLM silent trial for community health workers (medRxiv),Preprint; models did not outperform health workers
-2026-10-28,TaiRON AI roadkill prediction proposal (Focus Taiwan),Proposal only
-2026-10-28,AI-generated after-visit summaries RCT (61 inpatients),Primary composite outcome not significant
 2026-10-29,Cleveland Clinic Wysa chatbot pilot for cancer distress (Consult QD Oct 26 2026),32-patient pilot; results not yet analysed
 2026-10-29,Ben-Gurion University AI tutor (Israel Defense),Development story; no measured outcome
 2026-10-29,Digital/AI medication tools for older adults (trial review),Review finds no clear benefit
@@ -62,3 +58,4 @@ date,title_or_url,reason
 2026-11-11,NYU Langone AI prediction model (Google Alert Nov 10; NYUTron line),Prediction accuracy only; no patient outcome
 2026-11-11,WWF/FLIR thermal cameras rhino poaching Kenya (The Star Mar 2026),Self-reported by operator; no independent evaluation; old program
 2026-11-11,NHS Sussex GP AI triage pilot 29% fewer phone waits (NHS England Jul 2026),Single-practice pilot announced in rollout release; no formal evaluation
+2026-11-12,AI mental health chatbot RCTs (Therabot NEJM AI; Ukraine anxiety study Jul 2026),Older than window or AI worse than human comparator
