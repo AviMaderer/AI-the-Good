@@ -1,0 +1,30 @@
+{
+  "edition": "2026-11-19",
+  "stories": [
+    {
+      "key": "golden-bridge-stroke-cdss",
+      "added": "2026-11-13",
+      "tag": "Stroke care",
+      "theme": "stroke-secondary-prevention",
+      "institution": "Beijing Tiantan Hospital / China National Clinical Research Center for Neurological Diseases, AI stroke clinical decision support system (GOLDEN BRIDGE II)",
+      "teaser": "AI helps doctors prevent a second stroke",
+      "headline": "AI decision support cut new strokes and other vascular events across 77 Chinese hospitals",
+      "why": "Cluster randomised trial of 21,603 patients at 77 hospitals in China, The BMJ",
+      "bullet": "26% lower risk of new vascular events, with AI stroke care in 77 hospitals",
+      "texts": [
+        "At 77 hospitals across China, 21,603 people with ischaemic stroke were treated either with usual care or with help from an AI decision support system that reads MRI scans, classifies the stroke's cause and recommends prevention treatment.\n\nAfter three months, new vascular events were 2.9% against 3.9%, a 26% lower adjusted risk. The cluster randomised trial is in The BMJ.\n\n#AIforGood",
+        "After a stroke, the next danger is another one. In a trial led by Beijing Tiantan Hospital, an AI system helped doctors at 38 Chinese hospitals choose prevention treatment by reading brain scans and working out what caused each stroke.\n\nTheir patients had fewer new strokes, heart attacks and vascular deaths, and the gap held at 12 months: 4.0% against 5.5%.\n\n#AIforGood",
+        "Can software help doctors prevent a second stroke? A trial at 77 Chinese hospitals tested it with 21,603 patients.\n\nHospitals given an AI system for scan reading, stroke classification and treatment advice scored higher on care quality, 91.4% against 89.8%, and saw fewer new vascular events at three months and at a year.\n\n#AIforGood"
+      ],
+      "source": "https://doi.org/10.1136/bmj-2025-085810",
+      "source_name": "The BMJ, Mar 20, 2026",
+      "site": "bmj.com",
+      "og_title": "Effect of a clinical decision support system on stroke care quality and outcomes in patients with acute ischaemic stroke (GOLDEN BRIDGE II): cluster randomised clinical trial",
+      "og_image": ""
+    }
+  ],
+  "intro": {
+    "options": [],
+    "final": null
+  }
+}
