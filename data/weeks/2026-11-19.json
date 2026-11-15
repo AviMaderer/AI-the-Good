@@ -21,6 +21,27 @@
       "site": "bmj.com",
       "og_title": "Effect of a clinical decision support system on stroke care quality and outcomes in patients with acute ischaemic stroke (GOLDEN BRIDGE II): cluster randomised clinical trial",
       "og_image": ""
+    },
+    {
+      "key": "cu-anschutz-save-o2",
+      "added": "2026-11-15",
+      "tag": "Hospital care",
+      "theme": "oxygen-titration",
+      "institution": "University of Colorado Anschutz Medical Campus (SAVE-O2 AI trial), autonomous oxygen titration with the O2matic PRO100 at four U.S. hospitals",
+      "teaser": "AI keeps hospital patients' oxygen in the safe range",
+      "headline": "AI-controlled oxygen kept hospital patients in their target range 85% of the time, against 63% with standard care",
+      "why": "Randomized trial of 300 adults at four U.S. hospitals, JAMA Internal Medicine",
+      "bullet": "85% of time in the safe oxygen range, as AI adjusted patients' oxygen flow",
+      "texts": [
+        "Oxygen is one of the most common hospital treatments, yet it is still mostly adjusted by hand. In a randomized trial of 300 adults at four U.S. hospitals, led by CU Anschutz, an AI system adjusted the flow on its own.\n\nPatients spent 85% of the time in their target oxygen range, against 63% with standard care. The results are in JAMA Internal Medicine.\n\n#AIforGood",
+        "Too little oxygen harms patients, and so does too much. Nurses and doctors do their best to keep levels right, but readings can change in minutes.\n\nIn the SAVE-O2 trial, an automated system adjusted oxygen in real time for hospitalized adults. Both low and high oxygen levels became less common, staff made fewer manual adjustments, and serious adverse events did not rise.\n\n#AIforGood",
+        "What if a patient's oxygen adjusted itself, second by second? A CU Anschutz-led trial at four U.S. hospitals tested exactly that with 300 adults.\n\nWith the AI system, patients stayed in their target oxygen range 85% of the time, against 63% with clinicians adjusting by hand. The device maker had no role in the study.\n\n#AIforGood"
+      ],
+      "source": "https://news.cuanschutz.edu/news-stories/cu-anschutz-led-trial-finds-ai-system-improves-oxygen-delivery-in-hospital-patients",
+      "source_name": "CU Anschutz, Aug 3, 2026",
+      "site": "news.cuanschutz.edu",
+      "og_title": "CU Anschutz-Led Trial Finds AI System Improves Oxygen Delivery in Hospital Patients",
+      "og_image": "https://news.cuanschutz.edu/hubfs/2026-07_Oxygen%20DeliveryStory.jpg"
     }
   ],
   "intro": {
