@@ -42,6 +42,48 @@
       "site": "news.cuanschutz.edu",
       "og_title": "CU Anschutz-Led Trial Finds AI System Improves Oxygen Delivery in Hospital Patients",
       "og_image": "https://news.cuanschutz.edu/hubfs/2026-07_Oxygen%20DeliveryStory.jpg"
+    },
+    {
+      "key": "changhai-kite-crm-kidney-ct",
+      "added": "2026-11-16",
+      "tag": "Kidney care",
+      "theme": "renal-mass-ct-ai",
+      "institution": "Changhai Hospital, Naval Medical University (Shanghai) with partner hospitals, KITE-CRM AI risk support for cystic renal masses on CT",
+      "teaser": "AI spares patients surgery on harmless kidney lesions",
+      "headline": "AI help with kidney CT scans cut treatment of harmless lesions by more than half in a randomized trial",
+      "why": "Randomized implementation trial of 5,869 adults in China, eClinicalMedicine",
+      "bullet": "Benign lesions treated fell from 40% to 16%, with AI reading kidney CT scans",
+      "texts": [
+        "When a CT scan shows a cyst-like mass in the kidney, doctors must judge whether it might be cancer. In a randomized trial of 5,869 adults led by Changhai Hospital in Shanghai, scans were reported with or without an AI risk tool.\n\nAmong lesions that went on to treatment, 16.4% turned out benign with AI, against 40.3% without it. The study is in eClinicalMedicine.\n\n#AIforGood",
+        "An operation on a kidney lesion that turns out to be harmless carries all the risk and none of the benefit. In a trial led by Changhai Hospital in Shanghai, an AI tool helped doctors judge cystic kidney masses on CT.\n\nFewer than 1 in 100 patients in the AI group were treated for a benign lesion, against about 3.5 in 100 with standard reporting.\n\n#AIforGood",
+        "Can AI spare patients an operation they never needed? A randomized trial in China tested it with 5,869 adults whose CT scans were reported with or without an AI risk tool for cystic kidney masses.\n\nTreatment of harmless lesions fell by more than half: 16.4% of treated lesions were benign with AI, against 40.3% without.\n\n#AIforGood"
+      ],
+      "source": "https://doi.org/10.1016/j.eclinm.2026.104279",
+      "source_name": "eClinicalMedicine, Nov 3, 2026",
+      "site": "thelancet.com",
+      "og_title": "CT-based AI risk support for cystic renal masses: multicenter validation, reader study, and a randomized implementation study",
+      "og_image": ""
+    },
+    {
+      "key": "vumc-aura-autoimmune-triage",
+      "added": "2026-11-16",
+      "tag": "Diagnosis",
+      "theme": "autoimmune-risk-triage",
+      "institution": "Vanderbilt University Medical Center, AURA (AUtoimmune Risk Assessment) model in the electronic health record",
+      "teaser": "AI speeds autoimmune diagnoses for high-risk patients",
+      "headline": "An AI risk model cut the median wait for an autoimmune diagnosis from 138 days to 43 at Vanderbilt",
+      "why": "Pragmatic randomized trial of 2,385 patients with a positive ANA test, NEJM AI",
+      "bullet": "Diagnosis in 43 days instead of 138, as AI flagged high-risk ANA results",
+      "texts": [
+        "A positive ANA blood test can signal lupus or another autoimmune disease, but most people who test positive do not have one. At Vanderbilt University Medical Center, an AI model in the health record scored each patient's risk, and high-risk patients were invited for a fast-track rheumatology visit.\n\nIn a randomized trial of 2,385 patients, median time to diagnosis fell from 138 days to 43.\n\n#AIforGood",
+        "Waiting months for answers about an autoimmune disease means months without the right treatment. Vanderbilt tested a different path: an AI model that spots which patients with a positive ANA test are most at risk, so they can be seen sooner.\n\nIn a two-year randomized trial published in NEJM AI, patients were diagnosed in a median of 43 days, against 138 with usual care.\n\n#AIforGood",
+        "What if the patients most likely to have lupus were seen first? Vanderbilt built an AI risk model into its electronic health record and tested it in a randomized trial of 2,385 people with a positive ANA test.\n\nThose invited for expedited rheumatology care were diagnosed in a median of 43 days, against 138 days in the usual-care group.\n\n#AIforGood"
+      ],
+      "source": "https://doi.org/10.1056/aioa2600112",
+      "source_name": "NEJM AI, Nov 6, 2026",
+      "site": "ai.nejm.org",
+      "og_title": "Randomized Evaluation of an Autoimmune Disease Prediction Model - AURA (AUtoimmune Risk Assessment)",
+      "og_image": ""
     }
   ],
   "intro": {
