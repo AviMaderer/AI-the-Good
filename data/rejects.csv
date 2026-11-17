@@ -1,10 +1,4 @@
 date,title_or_url,reason
-2026-11-02,npj Digit Med: radiographer fracture detection with AI in ED (Oct 27 2026),Net gain of 10 cases in 2496; AI less sensitive than radiographers; no clinical outcomes
-2026-11-02,Nature Medicine EVLF-FM vision-language model (Oct 29 2026),Model development; no patient outcomes
-2026-11-02,npj Digit Med: ambient AI scribe adoption patterns (Oct 26 2026),Adoption patterns only
-2026-11-02,JAMA Netw Open chatbot cancer-risk communication RCT (Oct 7 2026),Could not verify results; JAMA blocked
-2026-11-02,Debrigarh AI camera traps (Financial Express),Feature; no measured outcome
-2026-11-02,Mayo REDMOD pancreatic cancer detection (ScienceDaily Oct 2026),Already in log; not yet in routine care
 2026-11-03,UNDP Pakistan AI early warning case study,Describes potential; no measured outcome
 2026-11-03,Stony Brook AI discharge summaries (npj Digit Med Nov 2026),Clinician preference rating; not deployed
 2026-11-03,Nebraska irrigation scheduling water savings (UNL CropWatch),Not AI; 29-43% figure untraceable
@@ -46,3 +40,5 @@ date,title_or_url,reason
 2026-11-14,Bosma Enterprises/Gather AI drones for blind warehouse workers,Vendor case study from 2024; no independent evaluation
 2026-11-15,Maastricht/ILO GPT-4o physician trial in Indonesia Kenya Netherlands (ILO Working Paper 175),Vignette scores only; no patient outcomes; control denied internet and guidelines
 2026-11-16,LATENT AI-ECG AF notification RCT (Circulation Nov 7 2026; Tri-Service General Hospital),Fragile primary result (P=0.046 on composite incl. pre-AF findings); AF detection itself not significant
+2026-11-17,AI advisory for smallholder farmers RCT Philippines/India (Aouad et al. SSRN Oct 2026),Null effect on yields and costs; working paper
+2026-11-17,AI-integrated ophthalmology competency teaching (Bioengineer.org Nov 2026),Student test scores only; aggregator coverage
