@@ -105,35 +105,18 @@ footer{display:grid;gap:10px;color:var(--muted);font-size:15px}
 footer a{color:var(--ink)}
 </style></head>
 <body><div class="wrap">
-<p class="preview-note">Preview: not released yet. Only people with this link can see it. Choose or edit the intro, then press Commit to release it.</p>
 
-<section class="panel" id="panel" aria-labelledby="panel-h" hidden>
-  <h2 id="panel-h">Your intro</h2>
-  <div class="grp" id="tok">
-    <p class="msg" id="tok-msg" aria-live="polite"></p>
-    <label class="flabel" for="tok-in">GitHub token</label>
-    <input class="field" id="tok-in" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="github_pat_…">
-    <button type="button" class="btn primary" id="tok-save">Paste token</button>
-  </div>
-  <div class="grp" id="edit">
-    <div class="nav">
-      <button type="button" class="btn" id="prev" aria-label="Previous option">&#8249; Previous</button>
-      <span class="pos" id="pos" aria-live="polite"></span>
-      <button type="button" class="btn" id="next" aria-label="Next option">Next &#8250;</button>
-    </div>
-    <label class="flabel" for="in-h"><span>Headline</span><span>saved in capitals</span></label>
-    <input class="field" id="in-h" type="text" autocomplete="off">
-    <label class="flabel" for="in-t"><span>Text</span><span id="count"></span></label>
-    <textarea class="field" id="in-t" rows="8" spellcheck="true"></textarea>
-    <button type="button" class="btn primary" id="commit">Commit intro and release</button>
-    <p class="msg" id="msg" aria-live="polite"></p>
-    <button type="button" class="linkbtn" id="forget">Forget token on this device</button>
-  </div>
-  <div class="grp" id="done">
-    <p class="msg ok">Committed. GitHub is rebuilding the site now; the edition goes live in a few minutes.</p>
-    <a class="linkbtn" id="commit-link" target="_blank" rel="noopener" hidden>View the commit on GitHub</a>
-    <label class="flabel" for="post">Roundup post for Facebook and LinkedIn</label>
-    <textarea class="field" id="post" rows="9" readonly></textarea>
+
+<section class="panel" id="roundup" aria-labelledby="roundup-h" hidden>
+  <h2 id="roundup-h">Roundup post</h2>
+  <div class="grp">
+    <label class="flabel" for="post">For Facebook and LinkedIn</label>
+    <textarea class="field" id="post" rows="9" readonly>WHAT IF EVERY CALL HAD A SECOND OPINION?
+
+Medicine runs on judgment calls. What happens when AI offers a second view? Four randomized trials below give real answers: fewer new strokes and other vascular events across 77 Chinese hospitals, oxygen kept in the safe range far more often, treatment of harmless kidney lesions cut by more than half, and autoimmune diagnoses in 43 days instead of 138. Where would a second opinion help you most?
+
+https://avimaderer.github.io/AI-the-Good/2026-11-19/
+</textarea>
     <div class="actions">
       <button type="button" class="btn primary" id="copy-post">Copy post</button>
       <a class="btn" id="card-dl" href="card.png" download="ai-the-good-2026-11-19.png">Download card.png</a>
@@ -148,13 +131,13 @@ footer a{color:var(--ink)}
   <p class="date">19 November 2026 · 4 stories</p>
   
 </header>
-<section class="intro" aria-label="Intro"><p class="intro-k">Draft intro: not committed yet</p><h2 class="intro-h" id="intro-h">THE RIGHT CARE, AT THE RIGHT TIME</h2><div class="intro-t" id="intro-t"><p>Every story below is a randomized trial, and each one is about a decision. Which prevention treatment to give after a stroke. How much oxygen a patient needs, minute by minute. Whether a kidney lesion needs an operation. Which patients with a positive blood test should see a specialist first. In each case AI helped, and patients got better-matched care: fewer new strokes, steadier oxygen, fewer needless operations and faster diagnoses.</p></div></section>
+<section class="intro" aria-label="Intro"><h2 class="intro-h" id="intro-h">WHAT IF EVERY CALL HAD A SECOND OPINION?</h2><div class="intro-t" id="intro-t"><p>Medicine runs on judgment calls. What happens when AI offers a second view? Four randomized trials below give real answers: fewer new strokes and other vascular events across 77 Chinese hospitals, oxygen kept in the safe range far more often, treatment of harmless kidney lesions cut by more than half, and autoimmune diagnoses in 43 days instead of 138. Where would a second opinion help you most?</p></div></section>
 <details class="heads"><summary>All 4 headlines</summary><ul><li><a href="#golden-bridge-stroke-cdss" class="jump">AI helps doctors prevent a second stroke</a></li><li><a href="#cu-anschutz-save-o2" class="jump">AI keeps hospital patients&#x27; oxygen in the safe range</a></li><li><a href="#changhai-kite-crm-kidney-ct" class="jump">AI spares patients surgery on harmless kidney lesions</a></li><li><a href="#vumc-aura-autoimmune-triage" class="jump">AI speeds autoimmune diagnoses for high-risk patients</a></li></ul></details>
 <p class="sec">The stories</p>
 <div class="list" id="list">
 <details class="story" id="golden-bridge-stroke-cdss" data-key="golden-bridge-stroke-cdss">
   <summary>
-    <span class="top">Stroke care<span class="badge card">On card</span></span>
+    <span class="top">Stroke care</span>
     <h2>AI decision support cut new strokes and other vascular events across 77 Chinese hospitals</h2>
     <p class="why">Cluster randomised trial of 21,603 patients at 77 hospitals in China, The BMJ</p>
     <span class="more-cue">Open to share &#8250;</span>
@@ -195,7 +178,7 @@ footer a{color:var(--ink)}
 </details>
 <details class="story" id="cu-anschutz-save-o2" data-key="cu-anschutz-save-o2">
   <summary>
-    <span class="top">Hospital care<span class="badge card">On card</span></span>
+    <span class="top">Hospital care</span>
     <h2>AI-controlled oxygen kept hospital patients in their target range 85% of the time, against 63% with standard care</h2>
     <p class="why">Randomized trial of 300 adults at four U.S. hospitals, JAMA Internal Medicine</p>
     <span class="more-cue">Open to share &#8250;</span>
@@ -236,7 +219,7 @@ footer a{color:var(--ink)}
 </details>
 <details class="story" id="changhai-kite-crm-kidney-ct" data-key="changhai-kite-crm-kidney-ct">
   <summary>
-    <span class="top">Kidney care<span class="badge card">On card</span></span>
+    <span class="top">Kidney care</span>
     <h2>AI help with kidney CT scans cut treatment of harmless lesions by more than half in a randomized trial</h2>
     <p class="why">Randomized implementation trial of 5,869 adults in China, eClinicalMedicine</p>
     <span class="more-cue">Open to share &#8250;</span>
@@ -277,7 +260,7 @@ footer a{color:var(--ink)}
 </details>
 <details class="story" id="vumc-aura-autoimmune-triage" data-key="vumc-aura-autoimmune-triage">
   <summary>
-    <span class="top">Diagnosis<span class="badge card">On card</span></span>
+    <span class="top">Diagnosis</span>
     <h2>An AI risk model cut the median wait for an autoimmune diagnosis from 138 days to 43 at Vanderbilt</h2>
     <p class="why">Pragmatic randomized trial of 2,385 patients with a positive ANA test, NEJM AI</p>
     <span class="more-cue">Open to share &#8250;</span>
@@ -411,120 +394,18 @@ cards.forEach((card, idx) => {
     await copy(); say('Sharing works on phones. Text copied: download the image and paste the text.');
   });
 });
-const ED = {"date": "2026-11-19", "repo": "AviMaderer/AI-the-Good", "branch": "main", "url": "https://avimaderer.github.io/AI-the-Good/2026-11-19/", "options": [{"angle": "pattern", "headline": "THE RIGHT CARE, AT THE RIGHT TIME", "text": "Every story below is a randomized trial, and each one is about a decision. Which prevention treatment to give after a stroke. How much oxygen a patient needs, minute by minute. Whether a kidney lesion needs an operation. Which patients with a positive blood test should see a specialist first. In each case AI helped, and patients got better-matched care: fewer new strokes, steadier oxygen, fewer needless operations and faster diagnoses."}, {"angle": "question", "headline": "WHAT IF EVERY CALL HAD A SECOND OPINION?", "text": "Medicine runs on judgment calls. What happens when AI offers a second view? Four randomized trials below give real answers: fewer new strokes and other vascular events across 77 Chinese hospitals, oxygen kept in the safe range far more often, treatment of harmless kidney lesions cut by more than half, and autoimmune diagnoses in 43 days instead of 138. Where would a second opinion help you most?"}, {"angle": "purpose", "headline": "HELP THAT SERVES THE HEALER", "text": "Purpose in medicine is the patient in front of you. The trials below show AI serving that purpose rather than replacing it. Doctors still choose the stroke treatment, decide on surgery and see the patient with the worrying blood test. AI sharpens the picture and takes on the constant small adjustments, like keeping oxygen steady, so clinicians can put their attention where it matters most."}, {"angle": "doom-vs-evidence", "headline": "THE EVIDENCE IS IN", "text": "Worries about AI in medicine are loud, and some are fair. The answer is evidence, and the stories below bring it: four randomized trials, more than 30,000 patients in total, each comparing AI-supported care with usual care. The results: fewer new vascular events after stroke, oxygen kept on target, fewer needless kidney operations and faster autoimmune diagnoses."}, {"angle": "one-liner", "headline": "FOUR TRIALS, FOUR GAINS", "text": "Four randomized trials, four measured gains: fewer new strokes and other vascular events in China, steadier oxygen in U.S. hospitals, fewer needless kidney operations in a Shanghai-led trial, and autoimmune diagnoses three times faster at Vanderbilt."}]};
+
 (() => {
+  let token = null; try { token = localStorage.getItem('aitg-gh-token'); } catch {}
+  if (!token) return;
   const $ = id => document.getElementById(id);
-  const TOKEN_KEY = 'aitg-gh-token', DRAFT_KEY = 'aitg-draft-' + ED.date;
-  const ls = { get(k){ try { return localStorage.getItem(k); } catch { return null; } },
-               set(k, v){ try { localStorage.setItem(k, v); return true; } catch { return false; } },
-               del(k){ try { localStorage.removeItem(k); } catch {} } };
-  const opts = ED.options.map(o => ({ angle: o.angle || '', headline: o.headline, text: o.text }));
-  let i = 0;
-  try { const d = JSON.parse(ls.get(DRAFT_KEY) || 'null'); if (d && d.opts && d.opts.length === opts.length) { d.opts.forEach((o, n) => Object.assign(opts[n], { headline: o.headline, text: o.text })); i = Math.min(d.i || 0, opts.length - 1); } } catch {}
-  const tok = $('tok'), edit = $('edit'), done = $('done');
-  const inH = $('in-h'), inT = $('in-t'), msg = $('msg'), tokMsg = $('tok-msg');
-  const say = (el, text, kind) => { el.textContent = text; el.className = 'msg' + (kind ? ' ' + kind : ''); };
-  const words = t => (t.trim().match(/\S+/g) || []).length;
-
-  // Live preview of the intro block above the stories.
-  const showIntro = () => {
-    $('intro-h').textContent = inH.value.trim().toUpperCase();
-    const t = $('intro-t'); t.textContent = '';
-    inT.value.split(/\n\s*\n/).filter(p => p.trim()).forEach(p => { const e = document.createElement('p'); e.textContent = p.trim(); t.appendChild(e); });
-  };
-  const draw = () => {
-    const o = opts[i];
-    $('pos').innerHTML = ''; $('pos').append('Option ' + (i + 1) + ' of ' + opts.length);
-    const b = document.createElement('b'); b.textContent = o.angle.replace(/-/g, ' '); $('pos').appendChild(b);
-    inH.value = o.headline; inT.value = o.text; count(); showIntro();
-  };
-  const count = () => { $('count').textContent = words(inT.value) + ' words'; };
-  // Typing saves the boxes into the current option; Previous/Next only switch options.
-  const save = () => ls.set(DRAFT_KEY, JSON.stringify({ i, opts }));
-  const keep = () => { opts[i].headline = inH.value; opts[i].text = inT.value; save(); };
-  inH.addEventListener('input', () => { keep(); showIntro(); });
-  inT.addEventListener('input', () => { keep(); count(); showIntro(); });
-  $('prev').addEventListener('click', () => { i = (i - 1 + opts.length) % opts.length; save(); draw(); });
-  $('next').addEventListener('click', () => { i = (i + 1) % opts.length; save(); draw(); });
-
-  const mode = (which, note, kind) => {
-    tok.hidden = which !== 'tok'; edit.hidden = which !== 'edit'; done.hidden = which !== 'done';
-    if (which === 'tok') { say(tokMsg, note || 'Paste your GitHub token to choose and commit the intro. It is kept only in this browser.', kind); $('tok-in').value = ''; }
-  };
-
-  // ---- GitHub contents API ----
-  const API = 'https://api.github.com/repos/' + ED.repo + '/contents/data/weeks/' + ED.date + '.json';
-  const b64decode = b => new TextDecoder().decode(Uint8Array.from(atob(b.replace(/\s/g, '')), c => c.charCodeAt(0)));
-  const b64encode = s => { const u = new TextEncoder().encode(s); let bin = ''; for (let k = 0; k < u.length; k += 0x8000) bin += String.fromCharCode(...u.subarray(k, k + 0x8000)); return btoa(bin); };
-  class GHError extends Error { constructor(status, text){ super(text); this.status = status; } }
-  const gh = async (method, body) => {
-    const token = ls.get(TOKEN_KEY);
-    if (!token) throw new GHError(401, 'no token');
-    let r;
-    try {
-      r = await fetch(API + (method === 'GET' ? '?ref=' + enc(ED.branch) : ''), {
-        method, cache: 'no-store',
-        headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28',
-                   ...(body ? { 'Content-Type': 'application/json' } : {}) },
-        body: body ? JSON.stringify(body) : undefined });
-    } catch { throw new GHError(0, 'network'); }
-    let j = {}; try { j = await r.json(); } catch {}
-    if (!r.ok) throw new GHError(r.status, j.message || r.statusText);
-    return j;
-  };
-  const explain = e => {
-    if (e.status === 401) { ls.del(TOKEN_KEY); return ['tok', e.message === 'no token' ? '' : 'GitHub rejected the token: it has expired or been revoked. Paste a new one.', 'err']; }
-    if (e.status === 403) return ['tok', 'GitHub refused (' + e.message + '). The token needs Contents: Read and write on ' + ED.repo + '. Paste a token that has it.', 'err'];
-    if (e.status === 404) return ['tok', 'GitHub could not find data/weeks/' + ED.date + '.json in ' + ED.repo + '. Make sure the token has access to that repository, then paste it again.', 'err'];
-    if (e.status === 0) return ['edit', 'Could not reach GitHub. Check your connection and try again.', 'err'];
-    return ['edit', 'GitHub returned an error (' + e.status + ': ' + e.message + '). Nothing was committed. Try again.', 'err'];
-  };
-  const fail = e => { const [w, text, kind] = explain(e); if (w === 'tok') mode('tok', text, kind); else say(msg, text, kind); };
-
-  $('tok-save').addEventListener('click', async () => {
-    const v = $('tok-in').value.trim();
-    if (!v) { say(tokMsg, 'Paste the token first.', 'err'); return; }
-    if (!ls.set(TOKEN_KEY, v)) { say(tokMsg, 'This browser is blocking local storage, so the token cannot be kept. Allow site data for this page and try again.', 'err'); return; }
-    say(tokMsg, 'Checking the token with GitHub…');
-    try { await gh('GET'); mode('edit'); draw(); say(msg, 'Token saved in this browser.', 'ok'); }
-    catch (e) { fail(e); }
-  });
-  $('tok-in').addEventListener('keydown', e => { if (e.key === 'Enter') $('tok-save').click(); });
-  $('forget').addEventListener('click', () => { ls.del(TOKEN_KEY); mode('tok', 'Token removed from this browser.'); });
-
-  $('commit').addEventListener('click', async () => {
-    const headline = inH.value.trim().toUpperCase(), text = inT.value.trim();
-    if (!headline || !text) { say(msg, 'The headline and the text both need something in them.', 'err'); return; }
-    const btn = $('commit'); btn.disabled = true; say(msg, 'Committing to GitHub…');
-    const final = { headline, text, angle: opts[i].angle, committed_at: new Date().toISOString() };
-    try {
-      let res;
-      for (let attempt = 0; ; attempt++) {
-        const cur = await gh('GET');
-        const data = JSON.parse(b64decode(cur.content));
-        data.intro = data.intro || {}; data.intro.final = final;
-        try {
-          res = await gh('PUT', { message: 'Intro ' + ED.date + ': release', branch: ED.branch, sha: cur.sha,
-                                  content: b64encode(JSON.stringify(data, null, 2) + '\n') });
-          break;
-        } catch (e) { if ((e.status === 409 || e.status === 422) && attempt === 0) continue; throw e; }
-      }
-      ls.del(DRAFT_KEY);
-      const post = headline + '\n\n' + text + '\n\n' + ED.url + '\n';
-      $('post').value = post;
-      const link = $('commit-link'); if (res && res.commit && res.commit.html_url) { link.href = res.commit.html_url; link.hidden = false; }
-      mode('done');
-    } catch (e) { fail(e); }
-    finally { btn.disabled = false; }
-  });
+  $('roundup').hidden = false;
   $('copy-post').addEventListener('click', async () => {
-    const t = $('post'); let ok = false;
+    const t = $('post'), msg = $('done-msg'); let ok = false;
     try { await navigator.clipboard.writeText(t.value); ok = true; } catch { t.select(); try { ok = document.execCommand('copy'); } catch {} }
-    say($('done-msg'), ok ? 'Post copied. Paste it into Facebook or LinkedIn with the card.' : 'Select the text and copy it.', ok ? 'ok' : 'err');
+    msg.textContent = ok ? 'Post copied. Paste it into Facebook or LinkedIn with the card.' : 'Select the text and copy it.';
+    msg.className = 'msg ' + (ok ? 'ok' : 'err');
   });
-
-  $('panel').hidden = false;
-  if (ls.get(TOKEN_KEY)) { mode('edit'); draw(); } else { mode('tok'); showIntro(); draw(); }
 })();
 </script>
 </body></html>
