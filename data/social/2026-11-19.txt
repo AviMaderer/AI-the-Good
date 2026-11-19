@@ -1,5 +1,5 @@
-WHAT IF EVERY CALL HAD A SECOND OPINION?
+THE RIGHT CARE, AT THE RIGHT TIME
 
-Medicine runs on judgment calls. What happens when AI offers a second view? Four randomized trials below give real answers: fewer new strokes and other vascular events across 77 Chinese hospitals, oxygen kept in the safe range far more often, treatment of harmless kidney lesions cut by more than half, and autoimmune diagnoses in 43 days instead of 138. Where would a second opinion help you most?
+Every story below is a randomized trial, and each one is about a decision. Which prevention treatment to give after a stroke. How much oxygen a patient needs, minute by minute. Whether a kidney lesion needs an operation. Which patients with a positive blood test should see a specialist first. In each case AI helped, and patients got better-matched care: fewer new strokes, steadier oxygen, fewer needless operations and faster diagnoses.
 
 https://avimaderer.github.io/AI-the-Good/2026-11-19/
