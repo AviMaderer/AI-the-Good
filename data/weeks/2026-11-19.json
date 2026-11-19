@@ -20,7 +20,8 @@
       "source_name": "The BMJ, Mar 20, 2026",
       "site": "bmj.com",
       "og_title": "Effect of a clinical decision support system on stroke care quality and outcomes in patients with acute ischaemic stroke (GOLDEN BRIDGE II): cluster randomised clinical trial",
-      "og_image": ""
+      "og_image": "",
+      "card": true
     },
     {
       "key": "cu-anschutz-save-o2",
@@ -41,7 +42,8 @@
       "source_name": "CU Anschutz, Aug 3, 2026",
       "site": "news.cuanschutz.edu",
       "og_title": "CU Anschutz-Led Trial Finds AI System Improves Oxygen Delivery in Hospital Patients",
-      "og_image": "https://news.cuanschutz.edu/hubfs/2026-07_Oxygen%20DeliveryStory.jpg"
+      "og_image": "https://news.cuanschutz.edu/hubfs/2026-07_Oxygen%20DeliveryStory.jpg",
+      "card": true
     },
     {
       "key": "changhai-kite-crm-kidney-ct",
@@ -62,7 +64,8 @@
       "source_name": "eClinicalMedicine, Nov 3, 2026",
       "site": "thelancet.com",
       "og_title": "CT-based AI risk support for cystic renal masses: multicenter validation, reader study, and a randomized implementation study",
-      "og_image": ""
+      "og_image": "",
+      "card": true
     },
     {
       "key": "vumc-aura-autoimmune-triage",
@@ -83,11 +86,38 @@
       "source_name": "NEJM AI, Nov 6, 2026",
       "site": "ai.nejm.org",
       "og_title": "Randomized Evaluation of an Autoimmune Disease Prediction Model - AURA (AUtoimmune Risk Assessment)",
-      "og_image": ""
+      "og_image": "",
+      "card": true
     }
   ],
   "intro": {
-    "options": [],
+    "options": [
+      {
+        "angle": "pattern",
+        "headline": "THE RIGHT CARE, AT THE RIGHT TIME",
+        "text": "Every story below is a randomized trial, and each one is about a decision. Which prevention treatment to give after a stroke. How much oxygen a patient needs, minute by minute. Whether a kidney lesion needs an operation. Which patients with a positive blood test should see a specialist first. In each case AI helped, and patients got better-matched care: fewer new strokes, steadier oxygen, fewer needless operations and faster diagnoses."
+      },
+      {
+        "angle": "question",
+        "headline": "WHAT IF EVERY CALL HAD A SECOND OPINION?",
+        "text": "Medicine runs on judgment calls. What happens when AI offers a second view? Four randomized trials below give real answers: fewer new strokes and other vascular events across 77 Chinese hospitals, oxygen kept in the safe range far more often, treatment of harmless kidney lesions cut by more than half, and autoimmune diagnoses in 43 days instead of 138. Where would a second opinion help you most?"
+      },
+      {
+        "angle": "purpose",
+        "headline": "HELP THAT SERVES THE HEALER",
+        "text": "Purpose in medicine is the patient in front of you. The trials below show AI serving that purpose rather than replacing it. Doctors still choose the stroke treatment, decide on surgery and see the patient with the worrying blood test. AI sharpens the picture and takes on the constant small adjustments, like keeping oxygen steady, so clinicians can put their attention where it matters most."
+      },
+      {
+        "angle": "doom-vs-evidence",
+        "headline": "THE EVIDENCE IS IN",
+        "text": "Worries about AI in medicine are loud, and some are fair. The answer is evidence, and the stories below bring it: four randomized trials, more than 30,000 patients in total, each comparing AI-supported care with usual care. The results: fewer new vascular events after stroke, oxygen kept on target, fewer needless kidney operations and faster autoimmune diagnoses."
+      },
+      {
+        "angle": "one-liner",
+        "headline": "FOUR TRIALS, FOUR GAINS",
+        "text": "Four randomized trials, four measured gains: fewer new strokes and other vascular events in China, steadier oxygen in U.S. hospitals, fewer needless kidney operations in a Shanghai-led trial, and autoimmune diagnoses three times faster at Vanderbilt."
+      }
+    ],
     "final": null
   }
 }
