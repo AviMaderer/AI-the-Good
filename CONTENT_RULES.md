@@ -130,7 +130,9 @@ Layout, top to bottom (padding 84 px top, 88 px sides, 76 px bottom):
 3. Run `python tools/build.py data/weeks/<RELEASE_DATE>.json`.
 4. Commit with the message `Edition <RELEASE_DATE>: +N stories` (release-day run: `Ready <RELEASE_DATE>: awaiting intro`) and push to `main`.
 
-When Avi presses Commit on the preview page, a GitHub Actions workflow rebuilds the site. That releases the edition: the main link and the archive switch to it, and the build writes `data/social/<RELEASE_DATE>.txt`, the roundup post ready for Facebook and LinkedIn: the committed all-capital headline, a blank line, the committed intro, a blank line, and the edition page link. The card (`card.png`) goes with it.
+When Avi presses Commit on the preview page, a GitHub Actions workflow rebuilds the site. That releases the edition: the main link and the archive switch to it, and the build writes `data/social/<RELEASE_DATE>.txt`, the roundup post ready for Facebook and LinkedIn: the committed all-capital headline, a blank line, the committed intro, a blank line, then one lead-in line and, on the next line, the edition page link. The card (`card.png`) goes with it.
+
+The lead-in line comes from the list `post_lead_ins` in `data/config.json` (edit the list there). The build picks one at random for each edition, stable for that edition's date and never the line used by the previous released edition. The preview page shows the proposed post with that line, and an "Another line" button cycles through the allowed lines. Commit saves whichever line is showing as `intro.lead_in` in the week file, next to `intro.final`, and the post uses that line. Never write or change `intro.lead_in` yourself.
 
 ## 7. Email Avi (avi.maderer@gmail.com)
 

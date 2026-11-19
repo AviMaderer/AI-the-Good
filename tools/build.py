@@ -81,6 +81,8 @@ def load(edition_file):
     intro.setdefault("final", None)
     for o in intro["options"]:
         assert o.get("headline") and o.get("text"), "each intro option needs a headline and a text"
+    if intro.get("lead_in") is not None:
+        assert isinstance(intro["lead_in"], str) and intro["lead_in"].strip(), "intro.lead_in must be a non-empty line of text"
     if intro["final"] is not None:
         assert intro["final"].get("headline") and intro["final"].get("text"), "intro.final needs a headline and a text"
     n_card = sum(1 for s in ed["stories"] if s.get("card"))
@@ -128,9 +130,36 @@ def nice(d):
 def paras(text):
     return "".join(f"<p>{E(p.strip())}</p>" for p in text.split("\n\n") if p.strip())
 
+_LEAD_CACHE = {}
+
+def lead_in_choices(cfg, date):
+    """The lead-in lines this edition may use: all of them except the previous released edition's."""
+    lines = cfg.get("post_lead_ins") or ["Read all of the stories here:"]
+    earlier = sorted((p.stem for p in (ROOT / "data/weeks").glob("*.json") if p.stem < date), reverse=True)
+    for d in earlier:
+        prev = json.loads((ROOT / "data/weeks" / f"{d}.json").read_text(encoding="utf-8"))
+        if released(prev):
+            prev.setdefault("edition", d)
+            used = lead_in(cfg, prev)
+            return [l for l in lines if l != used] or lines
+    return lines
+
+def lead_in(cfg, ed):
+    """The edition's lead-in line: the one stored at Commit (intro.lead_in), otherwise a random
+    choice that is stable for the edition date and never repeats the previous released edition's."""
+    stored = (ed.get("intro") or {}).get("lead_in")
+    if stored:
+        return stored.strip()
+    date = ed.get("edition") or ed.get("week")
+    if date not in _LEAD_CACHE:
+        choices = lead_in_choices(cfg, date)
+        _LEAD_CACHE[date] = choices[int(hashlib.sha256(date.encode()).hexdigest(), 16) % len(choices)]
+    return _LEAD_CACHE[date]
+
 def social_post(cfg, ed):
+    """The roundup post: headline, blank line, intro, blank line, lead-in line, then the edition link."""
     f = ed["intro"]["final"]
-    return f"{f['headline'].strip()}\n\n{f['text'].strip()}\n\n{cfg['site_url']}{ed['edition']}/\n"
+    return f"{f['headline'].strip()}\n\n{f['text'].strip()}\n\n{lead_in(cfg, ed)}\n{cfg['site_url']}{ed['edition']}/\n"
 
 # ---------- brand pieces ----------
 def mark(size, bg=AMBER, fg=TEAL):
@@ -419,18 +448,23 @@ PANEL_JS = r"""
                set(k, v){ try { localStorage.setItem(k, v); return true; } catch { return false; } },
                del(k){ try { localStorage.removeItem(k); } catch {} } };
   const opts = ED.options.map(o => ({ angle: o.angle || '', headline: o.headline, text: o.text }));
+  const leads = ED.lead_ins; let li = ED.lead_index || 0;
   let i = 0;
-  try { const d = JSON.parse(ls.get(DRAFT_KEY) || 'null'); if (d && d.opts && d.opts.length === opts.length) { d.opts.forEach((o, n) => Object.assign(opts[n], { headline: o.headline, text: o.text })); i = Math.min(d.i || 0, opts.length - 1); } } catch {}
+  try { const d = JSON.parse(ls.get(DRAFT_KEY) || 'null'); if (d && Number.isInteger(d.li) && d.li < leads.length) li = d.li; if (d && d.opts && d.opts.length === opts.length) { d.opts.forEach((o, n) => Object.assign(opts[n], { headline: o.headline, text: o.text })); i = Math.min(d.i || 0, opts.length - 1); } } catch {}
   const tok = $('tok'), edit = $('edit'), done = $('done');
   const inH = $('in-h'), inT = $('in-t'), msg = $('msg'), tokMsg = $('tok-msg');
   const say = (el, text, kind) => { el.textContent = text; el.className = 'msg' + (kind ? ' ' + kind : ''); };
   const words = t => (t.trim().match(/\S+/g) || []).length;
 
   // Live preview of the intro block above the stories.
+  // The proposed roundup post: what data/social/<DATE>.txt will contain after Commit.
+  const postText = () => inH.value.trim().toUpperCase() + '\n\n' + inT.value.trim() + '\n\n' + leads[li] + '\n' + ED.url + '\n';
+  const showPost = () => { $('proposed').value = postText(); };
   const showIntro = () => {
     $('intro-h').textContent = inH.value.trim().toUpperCase();
     const t = $('intro-t'); t.textContent = '';
     inT.value.split(/\n\s*\n/).filter(p => p.trim()).forEach(p => { const e = document.createElement('p'); e.textContent = p.trim(); t.appendChild(e); });
+    showPost();
   };
   const draw = () => {
     const o = opts[i];
@@ -440,12 +474,13 @@ PANEL_JS = r"""
   };
   const count = () => { $('count').textContent = words(inT.value) + ' words'; };
   // Typing saves the boxes into the current option; Previous/Next only switch options.
-  const save = () => ls.set(DRAFT_KEY, JSON.stringify({ i, opts }));
+  const save = () => ls.set(DRAFT_KEY, JSON.stringify({ i, opts, li }));
   const keep = () => { opts[i].headline = inH.value; opts[i].text = inT.value; save(); };
   inH.addEventListener('input', () => { keep(); showIntro(); });
   inT.addEventListener('input', () => { keep(); count(); showIntro(); });
   $('prev').addEventListener('click', () => { i = (i - 1 + opts.length) % opts.length; save(); draw(); });
   $('next').addEventListener('click', () => { i = (i + 1) % opts.length; save(); draw(); });
+  $('next-line').addEventListener('click', () => { li = (li + 1) % leads.length; save(); showPost(); });
 
   const mode = (which, note, kind) => {
     tok.hidden = which !== 'tok'; edit.hidden = which !== 'edit'; done.hidden = which !== 'done';
@@ -497,12 +532,13 @@ PANEL_JS = r"""
     if (!headline || !text) { say(msg, 'The headline and the text both need something in them.', 'err'); return; }
     const btn = $('commit'); btn.disabled = true; say(msg, 'Committing to GitHub…');
     const final = { headline, text, angle: opts[i].angle, committed_at: new Date().toISOString() };
+    const lead = leads[li], post = postText();
     try {
       let res;
       for (let attempt = 0; ; attempt++) {
         const cur = await gh('GET');
         const data = JSON.parse(b64decode(cur.content));
-        data.intro = data.intro || {}; data.intro.final = final;
+        data.intro = data.intro || {}; data.intro.final = final; data.intro.lead_in = lead;
         try {
           res = await gh('PUT', { message: 'Intro ' + ED.date + ': release', branch: ED.branch, sha: cur.sha,
                                   content: b64encode(JSON.stringify(data, null, 2) + '\n') });
@@ -510,7 +546,6 @@ PANEL_JS = r"""
         } catch (e) { if ((e.status === 409 || e.status === 422) && attempt === 0) continue; throw e; }
       }
       ls.del(DRAFT_KEY);
-      const post = headline + '\n\n' + text + '\n\n' + ED.url + '\n';
       $('post').value = post;
       const link = $('commit-link'); if (res && res.commit && res.commit.html_url) { link.href = res.commit.html_url; link.hidden = false; }
       mode('done');
@@ -614,6 +649,8 @@ PANEL_HTML = """
     <input class="field" id="in-h" type="text" autocomplete="off">
     <label class="flabel" for="in-t"><span>Text</span><span id="count"></span></label>
     <textarea class="field" id="in-t" rows="8" spellcheck="true"></textarea>
+    <div class="flabel"><label for="proposed">Roundup post</label><button type="button" class="tool" id="next-line">&#8635; Another line</button></div>
+    <textarea class="field" id="proposed" rows="10" readonly></textarea>
     <button type="button" class="btn primary" id="commit">Commit intro and release</button>
     <p class="msg" id="msg" aria-live="polite"></p>
     <button type="button" class="linkbtn" id="forget">Forget token on this device</button>
@@ -693,8 +730,10 @@ def edition_page(cfg, ed, ded):
         if ed["intro"]["options"]:
             note += ' Choose or edit the intro, then press Commit to release it.</p>'
             panel = PANEL_HTML.replace('download>', f'download="ai-the-good-{date}.png">')
+            leads = lead_in_choices(cfg, date)
             ed_js = {"date": date, "repo": cfg["repo"], "branch": cfg.get("branch", "main"),
-                     "url": f"{cfg['site_url']}{date}/", "options": ed["intro"]["options"]}
+                     "url": f"{cfg['site_url']}{date}/", "options": ed["intro"]["options"],
+                     "lead_ins": leads, "lead_index": leads.index(lead_in(cfg, ed)) if lead_in(cfg, ed) in leads else 0}
             panel_js = f"const ED = {json.dumps(ed_js, ensure_ascii=False)};{PANEL_JS}"
         else:
             note += ' The intro options and the Commit panel appear after the release-day run.</p>'

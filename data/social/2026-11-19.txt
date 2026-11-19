@@ -2,4 +2,5 @@ THE RIGHT CARE, AT THE RIGHT TIME
 
 Every story below is a randomized trial, and each one is about a decision. Which prevention treatment to give after a stroke. How much oxygen a patient needs, minute by minute. Whether a kidney lesion needs an operation. Which patients with a positive blood test should see a specialist first. In each case AI helped, and patients got better-matched care: fewer new strokes, steadier oxygen, fewer needless operations and faster diagnoses.
 
+Delve into this week's stories here:
 https://avimaderer.github.io/AI-the-Good/2026-11-19/
