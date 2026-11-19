@@ -118,6 +118,11 @@
         "text": "Four randomized trials, four measured gains: fewer new strokes and other vascular events in China, steadier oxygen in U.S. hospitals, fewer needless kidney operations in a Shanghai-led trial, and autoimmune diagnoses three times faster at Vanderbilt."
       }
     ],
-    "final": null
+    "final": {
+      "headline": "WHAT IF EVERY CALL HAD A SECOND OPINION?",
+      "text": "Medicine runs on judgment calls. What happens when AI offers a second view? Four randomized trials below give real answers: fewer new strokes and other vascular events across 77 Chinese hospitals, oxygen kept in the safe range far more often, treatment of harmless kidney lesions cut by more than half, and autoimmune diagnoses in 43 days instead of 138. Where would a second opinion help you most?",
+      "angle": "question",
+      "committed_at": "2026-11-19T08:30:45.729Z"
+    }
   }
 }
