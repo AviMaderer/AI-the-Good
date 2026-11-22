@@ -1,6 +1,4 @@
 date,title_or_url,reason
-2026-11-07,Harvard physics AI tutor (India Today Nov 4 2026; Kestin et al. Sci Rep Jun 2025),Study published Jun 2025; outside 12-month window
-2026-11-07,Las Vegas downtown homelessness outreach (FOX5 Nov 6 2026),Not an AI program
 2026-11-08,AI-INFOCARE previsit AI summaries RCT (NEJM AI Oct 15 2026; 2 Minute Medicine Nov 5),Primary effect 0.17 below the trial's prespecified clinical threshold (0.3-0.5); NEJM AI blocked; tool vendor-supplied
 2026-11-08,Cleerly AI-QCT randomized trial (Business Wire Nov 5 2026),Vendor release; results not yet presented (AHA 2026)
 2026-11-08,MANTIS childhood brain tumour survival model (Nature Genetics Nov 2026),Prognostic model; not deployed
@@ -34,3 +32,5 @@ date,title_or_url,reason
 2026-11-21,Johns Hopkins/Sweetch AI diabetes prevention RCT (JAMA Oct 27 2025),Outside 12-month window; non-inferiority vs human coaching
 2026-11-21,PAVE consortium AI cervical screening risk stratification (Lancet OGWH 2026),Risk-prediction accuracy only; no outcome of deployment
 2026-11-21,UCL AI heart MRI measurements predict survival (Lancet Digital Health Nov 2026),Prognostic study; not an intervention
+2026-11-22,Rush AI blood pressure app (J Gen Intern Med Sep 2026),Early result only (20% controlled early); no comparison reported
+2026-11-22,Flinders AWARE_AI wellbeing tool (EurekAlert Nov 8 2026),Feasibility study; no outcome

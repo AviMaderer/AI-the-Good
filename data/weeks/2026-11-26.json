@@ -1,0 +1,30 @@
+{
+  "edition": "2026-11-26",
+  "stories": [
+    {
+      "key": "togo-novissi-ml-cash",
+      "added": "2026-11-22",
+      "tag": "Poverty relief",
+      "theme": "ml-aid-targeting",
+      "institution": "Government of Togo and GiveDirectly, Novissi emergency cash transfers targeted with machine learning (J-PAL researchers Blumenstock, Karlan, Udry and colleagues)",
+      "teaser": "Machine learning finds the families who need cash most",
+      "headline": "Machine learning helped Togo find and pay 138,500 of its most vulnerable people during a crisis",
+      "why": "J-PAL case study of a government program, with a peer-reviewed impact evaluation in the Journal of Development Economics",
+      "bullet": "138,500 vulnerable people reached, as machine learning targeted cash aid",
+      "texts": [
+        "When Covid-19 hit, Togo's government needed to get emergency cash to its poorest people fast, without up-to-date data on who they were. Researchers worked with the government to find them by analyzing survey, mobile phone and satellite data with machine learning.\n\nThe approach helped identify and enroll more than 138,500 vulnerable people for cash transfers.\n\n#AIforGood",
+        "For people living on less than $1.25 a day, a monthly cash transfer can mean more food on the table. In Togo, machine learning helped the government and GiveDirectly find those families quickly.\n\nRecipients ate more food, had better mental health and felt better off economically, a randomized evaluation found.\n\n#AIforGood",
+        "How do you find the poorest households when there is no recent survey to tell you? Togo used machine learning on mobile phone and satellite data.\n\nIt reached more eligible families than targeting by region alone, and the program grew to roughly 820,000 people nationwide. Malawi, Bangladesh and the DRC have since adapted the approach.\n\n#AIforGood"
+      ],
+      "source": "https://www.povertyactionlab.org/case-study/using-machine-learning-and-mobile-phone-data-improve-speed-and-cost-effectiveness-social",
+      "source_name": "J-PAL, Jun 2026",
+      "site": "povertyactionlab.org",
+      "og_title": "Using machine learning and mobile phone data to improve the speed and cost-effectiveness of social protection",
+      "og_image": ""
+    }
+  ],
+  "intro": {
+    "options": [],
+    "final": null
+  }
+}
