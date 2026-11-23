@@ -1,7 +1,4 @@
 date,title_or_url,reason
-2026-11-08,AI-INFOCARE previsit AI summaries RCT (NEJM AI Oct 15 2026; 2 Minute Medicine Nov 5),Primary effect 0.17 below the trial's prespecified clinical threshold (0.3-0.5); NEJM AI blocked; tool vendor-supplied
-2026-11-08,Cleerly AI-QCT randomized trial (Business Wire Nov 5 2026),Vendor release; results not yet presented (AHA 2026)
-2026-11-08,MANTIS childhood brain tumour survival model (Nature Genetics Nov 2026),Prognostic model; not deployed
 2026-11-09,PARAMOUNT Cleerly AI-QCT plaque-guided care RCT (AHA 2026),Vendor-sponsored; conference only; composite win-ratio driven by diagnostic certainty; full results 2027
 2026-11-09,Rosie AI chatbot for pregnant women and new mothers RCT (JAMA Netw Open Nov 2026),Null result on anxiety and depression
 2026-11-09,Asan Medical Center collaborative AI brain CT worklist deprioritization (npj Digit Med Nov 5 2026),Retrospective validation; not deployed
@@ -34,3 +31,4 @@ date,title_or_url,reason
 2026-11-21,UCL AI heart MRI measurements predict survival (Lancet Digital Health Nov 2026),Prognostic study; not an intervention
 2026-11-22,Rush AI blood pressure app (J Gen Intern Med Sep 2026),Early result only (20% controlled early); no comparison reported
 2026-11-22,Flinders AWARE_AI wellbeing tool (EurekAlert Nov 8 2026),Feasibility study; no outcome
+2026-11-23,Northeast Frontier Railway AI intrusion detection system for elephants on tracks (Organiser Oct 2026; NewsOnAir Dec 2025),Railway's own claims of elephants saved; no evaluation; effectiveness contested by conservationists
