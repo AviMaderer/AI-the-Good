@@ -21,6 +21,27 @@
       "site": "povertyactionlab.org",
       "og_title": "Using machine learning and mobile phone data to improve the speed and cost-effectiveness of social protection",
       "og_image": ""
+    },
+    {
+      "key": "lund-masai-mammography",
+      "added": "2026-11-24",
+      "tag": "Cancer screening",
+      "theme": "breast-cancer-screening-ai",
+      "institution": "Lund University (MASAI trial, Sweden), AI-supported mammography screening",
+      "teaser": "AI helps catch more breast cancers and miss fewer",
+      "headline": "AI-supported breast screening found 29% more cancers and had fewer missed cancers in a trial of 106,000 women",
+      "why": "Randomised controlled trial of 106,000 women in Sweden, The Lancet",
+      "bullet": "29% more breast cancers found, as AI supported mammography screening",
+      "texts": [
+        "In Sweden's MASAI trial, 106,000 women were screened for breast cancer either with AI support or with standard double reading by two radiologists.\n\nAI support found 29% more cancers and cut radiologists' screen-reading workload by 44%. Over two years of follow-up there were 82 interval cancers with AI, against 93 without. The results are in The Lancet.\n\n#AIforGood",
+        "Interval cancers are the ones found between screenings, and they tend to be more aggressive. In a Lund University trial of 106,000 women, AI-supported mammography screening led to 12% fewer of them than standard screening.\n\nIt also found 29% more cancers, without more false positives, while radiologists read 44% fewer screens.\n\n#AIforGood",
+        "Can AI help radiologists catch breast cancer earlier and miss fewer cases? A randomised trial of 106,000 women in Sweden says yes.\n\nAI-supported screening detected 29% more cancers and led to 12% fewer interval cancers, with fewer large and aggressive ones among them. Radiologists' reading workload fell by 44%.\n\n#AIforGood"
+      ],
+      "source": "https://www.lunduniversity.lu.se/article/ai-support-breast-cancer-screening-fewer-missed-cancer-cases",
+      "source_name": "Lund University, Jan 30, 2026",
+      "site": "lunduniversity.lu.se",
+      "og_title": "AI support in breast cancer screening: Fewer missed cancer cases",
+      "og_image": ""
     }
   ],
   "intro": {
